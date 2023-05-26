@@ -1,0 +1,36 @@
+{
+    "type": "table",
+    "name": "admin",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_admin": "5",
+    "hash": "785b3a5183121c7642dc53bd6ad74f6e",
+    "nome": "Administrador",
+    "email": "eduardocrispim1@gmail.com",
+    "usuario": "admin",
+    "senha": "03442d1306c56f9433087e8a2693a3cd",
+    "data": "2012-11-21 10:52:31"
+},
+{
+    "cod_admin": "6",
+    "hash": "0b24da0c92ba4bf148b5063fa06e8073",
+    "nome": "Geosfera",
+    "email": "luciana@geosfera.com.br",
+    "usuario": "geosfera",
+    "senha": "3c535a492d1cbd5069bebb6b1f5258fd",
+    "data": "2014-09-10 21:27:47"
+},
+{
+    "cod_admin": "7",
+    "hash": "",
+    "nome": "Admin Dev",
+    "email": "",
+    "usuario": "admindev",
+    "senha": "b74b00c42af777cc759581b8fc8ec511",
+    "data": "2017-06-19 22:18:58"
+}
+]
+
+}

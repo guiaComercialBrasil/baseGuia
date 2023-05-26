@@ -1,0 +1,1438 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+body, header #saudacao {
+    font-family: Arimo, sans-serif
+}
+
+body {
+    color: #222;
+    /*font-size: 62.5%;*/
+	font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1em 15px;
+}
+.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+body, header #saudacao {
+    font-family: Arimo, sans-serif
+}
+
+body {
+    color: #222;
+    /*font-size: 62.5%;*/
+	font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+.relative {
+    position: relative
+}
+
+strong {
+    font-weight: bold;
+}
+
+#messages.mt-1, #messages.my-1 {
+    margin-top: 0!important;
+}
+
+.banner, .banner_g {
+    margin: 30px auto
+}
+
+.banner img, .banner_g img {
+    width: 100%;
+    height: auto
+}
+
+.banner img {
+    max-width: 1003px
+}
+
+header {
+    background: #00B3C7
+}
+
+header #topo {
+    background: #00A5B8;
+    max-height: 35px;
+    z-index: 10
+}
+
+header #topo ul#menu_01 {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+header #topo ul#menu_01 li {
+    list-style: none;
+    margin: 0
+}
+
+header #topo ul#menu_01 li:first-child {
+    border-right: #fff solid 1px;
+    padding-right: 10px
+}
+
+header #topo ul#menu_01 li:last-child {
+    padding-left: 10px
+}
+
+header #topo ul#menu_01 li a:active, header #topo ul#menu_01 li a:link, header #topo ul#menu_01 li a:visited {
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 15px;
+    line-height: 15px
+}
+
+header #topo ul#menu_01 li a:hover {
+    text-decoration: underline
+}
+
+header #topo ul#menu_01 li a.quem_somos {
+    background: url(../images/header/ico-user.png) top left no-repeat;
+    padding-left: 18px
+}
+
+header #topo ul#menu_01 li a.contato {
+    background: url(../images/header/ico-fone.png) top left no-repeat;
+    padding-left: 18px
+}
+
+header #topo a.divulgue {
+    background: #FFC100;
+    color: #2d2c2c;
+    font-size: 12px;
+    position: absolute;
+    right: 95px;
+    top: 22px;
+    padding: 5px 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px
+}
+
+header #topo a.divulgue:hover {
+    opacity: .95
+}
+
+header #topo #menu_social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 10px
+}
+
+header #topo #menu_social li {
+    list-style: none;
+    margin: 5px
+}
+
+header .wrapper.header {
+    background: url(../images/header/bg-header.jpg) top right no-repeat
+}
+
+header #saudacao {
+    color: #fff;
+    font-weight: lighter;
+    left: 105px !important;
+    position: absolute;
+    top: 10px;
+    max-width: 450px;
+    width: auto
+}
+
+header #saudacao > span {
+    display: block
+}
+
+header #saudacao1 {
+    font-size: 17px
+}
+
+header #saudacao2 {
+    font-size: 31px;
+    font-weight: 700
+}
+
+header #nome_guia {
+    background: url(../images/header/point-01.png) top left no-repeat;
+    color: #FFF;
+    font-size: 14px;
+    padding-left: 20px;
+    height: 20px;
+    line-height: 20px
+}
+
+header #nome_guia strong {
+    color: #F5E600;
+    font-size: 16px;
+    font-weight: lighter
+}
+
+header #busca_cidade {
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    right: 0
+}
+
+
+header #busca_cidade select {
+    background: #0096A7;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    line-height: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	max-width: 150px;
+}
+
+header #busca_cidade input {
+    background: #0096A7;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    line-height: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+
+header #busca_cidade input::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+header #busca_cidade input:-ms-input-placeholder {
+    color: #fff
+}
+
+header #busca_cidade input::-ms-input-placeholder {
+    color: #fff
+}
+
+header #busca_cidade input#button-ir{
+	background: #FFC100;
+	color: #2d2c2c;
+	cursor: pointer;
+	width: 25px;
+}
+header #busca_cidade input#button-ir:hover{
+	opacity: 0.75;
+}
+
+@media screen and (max-width: 980px) {
+    header #topo a.divulgue {
+        top: 30px
+    }
+
+    header #topo #menu_social {
+        top: 20px
+    }
+    header #guiacomercialbrasil {
+        top: 10px
+    }
+    header #saudacao {
+        top: 15px;
+        left: 95px !important
+    }
+    header #nome_guia strong, header #saudacao1 {
+        font-size: 15px
+    }
+    header #saudacao2 {
+        font-size: 18px
+    }
+    header #nome_guia {
+        font-size: 14px
+    }
+    header #busca_cidade {
+        position: relative;
+        top: 0
+    }
+    header #busca_cidade input, header #busca_cidade select {
+        margin: 10px;
+        display: block
+    }
+}
+
+#faixa{
+	background: #e9e9e9;
+    height: 40px;
+	overflow:hidden;
+}
+
+#faixa .faixa .explore {
+    width: 100%;
+	padding: 0 10px;
+}
+#faixa .faixa .explore p {
+    color: #393939;
+    font-size: 13px;
+    font-weight: lighter;
+	padding: 2px;
+	float:left;
+}
+#faixa .faixa .explore p strong {
+    font-weight: 700
+}
+#faixa .faixa .explore #area_busca {
+    padding: 0;
+    display: flex;
+	float:left;
+	margin: 0px 10px;
+}
+#faixa .faixa .explore #area_busca input#comercios-servicos {
+    border: none;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 2px 15px;
+    max-width: 400px;
+	min-width: 300px;
+    width: 100%;
+	height: 21px;
+}
+#faixa .faixa .explore #area_busca input#btn-buscar {
+    background: url(../images/header/lupa.png) center no-repeat #F5A103;
+	background-size: auto 70%;
+    border: none;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-left: -2px;
+    text-indent: -99999px;
+    width: 35px;
+	height: 25px;
+}
+@media screen and (max-width: 980px) {
+    #faixa .faixa .explore {
+        width: 100%;
+        margin-bottom: 50px
+    }
+}
+
+footer {
+    background: #00B4C5;
+    color: #fff
+}
+footer ul#menu-rodape {
+    margin: 15px 0;
+    padding: 0;
+    list-style: none
+}
+footer ul#menu-rodape li {
+    display: inline-block;
+    font-size: 13px;
+    list-style: none;
+    border-right: solid 1px #fff;
+    margin-right: 10px
+}
+footer ul#menu-rodape li:last-child {
+    border-right: none
+}
+footer ul#menu-rodape li a:hover {
+    color: #bef7ff
+}
+footer ul#menu-rodape li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px
+}
+footer ul#menu-rodape li a:first-child {
+    margin-left: 0
+}
+footer div.copyright {
+    margin: 15px 0;
+    font-size: 12px
+}
+footer div.copyright div#geosfera {
+    float: right;
+    margin-right: 100px
+}
+footer div.copyright div#geosfera a {
+    text-decoration: none
+}
+footer div.copyright div#geosfera a span {
+    color: #fff;
+    text-transform: uppercase
+}
+footer div.copyright div#geosfera a span strong {
+    color: #92f3ff
+}
+
+.relative {
+    position: relative
+}
+
+header {
+    background: #00B3C7
+}
+
+header #topo {
+    background: #00A5B8;
+    max-height: 35px;
+    z-index: 10
+}
+
+header #topo ul#menu_01 {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+header #topo ul#menu_01 li {
+    list-style: none;
+    margin: 0
+}
+
+header #topo ul#menu_01 li:first-child {
+    border-right: #fff solid 1px;
+    padding-right: 10px
+}
+
+header #topo ul#menu_01 li:last-child {
+    padding-left: 10px
+}
+
+header #topo ul#menu_01 li a:active, header #topo ul#menu_01 li a:link, header #topo ul#menu_01 li a:visited {
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 15px;
+    line-height: 15px
+}
+
+header #topo ul#menu_01 li a:hover {
+    text-decoration: underline
+}
+
+header #topo ul#menu_01 li a.quem_somos {
+    background: url(../images/header/ico-user.png) top left no-repeat;
+    padding-left: 18px
+}
+
+header #topo ul#menu_01 li a.contato {
+    background: url(../images/header/ico-fone.png) top left no-repeat;
+    padding-left: 18px
+}
+
+header #topo a.divulgue {
+    background: #FFC100;
+    color: #2d2c2c;
+    font-size: 12px;
+    position: absolute;
+    right: 95px;
+    top: 22px;
+    padding: 5px 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px
+}
+
+header #topo a.divulgue:hover {
+    opacity: .95
+}
+
+header #topo #menu_social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 10px
+}
+
+header #topo #menu_social li {
+    list-style: none;
+    margin: 5px
+}
+
+header .wrapper.header {
+    background: url(../images/header/bg-header.jpg) top right no-repeat
+}
+
+header #saudacao {
+    color: #fff;
+    font-weight: lighter;
+    left: 105px !important;
+    position: absolute;
+    top: 10px;
+    max-width: 450px;
+    width: auto
+}
+
+header #saudacao > span {
+    display: block
+}
+
+header #saudacao1 {
+    font-size: 17px
+}
+
+header #saudacao2 {
+    font-size: 31px;
+    font-weight: 700
+}
+
+header #nome_guia {
+    background: url(../images/header/point-01.png) top left no-repeat;
+    color: #FFF;
+    font-size: 14px;
+    padding-left: 20px;
+    height: 20px;
+    line-height: 20px
+}
+
+header #nome_guia strong {
+    color: #F5E600;
+    font-size: 16px;
+    font-weight: lighter
+}
+
+header #busca_cidade {
+    color: #FFF;
+    font-size: 11px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 25px;
+    right: 0
+}
+
+
+header #busca_cidade select {
+    background: #0096A7;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    line-height: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+	max-width: 150px;
+}
+
+header #busca_cidade input, button {
+    background: #0096A7;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    line-height: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+
+header #busca_cidade input::placeholder, button::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+header #busca_cidade input:-ms-input-placeholder, button:-ms-input-placeholder {
+    color: #fff
+}
+
+header #busca_cidade input::-ms-input-placeholder, button::-ms-input-placeholder {
+    color: #fff
+}
+
+header #busca_cidade button#button-ir{
+	background: #FFC100;
+	color: #2d2c2c;
+	cursor: pointer;
+	width: 25px;
+}
+header #busca_cidade button#button-ir:hover{
+	opacity: 0.75;
+}
+
+@media screen and (max-width: 980px) {
+    header #topo{
+        background: none;
+        max-height: 0;
+    }
+    header #topo ul#menu_01 {
+        display: none;
+    }
+    header #topo a.divulgue {
+        top: 8px;
+        right: 60px;
+        padding: 5px 10px;
+    }
+    header #topo #menu_social {
+        top: 0px;
+        right: 10px;
+    }
+    header #topo #menu_social li:last-child{
+        display: none;
+    }
+    header #guiacomercialbrasil {
+        top: 15px
+    }
+    header #saudacao {
+        top: 15px;
+        left: 95px !important
+    }
+    header #nome_guia strong, header #saudacao1 {
+        font-size: 15px
+    }
+    header #saudacao2 {
+        font-size: 18px
+    }
+    header #nome_guia {
+        font-size: 14px
+    }
+    header #busca_cidade {
+        position: relative;
+        top: 15px;
+    	text-align: center;
+		padding-bottom: 15px
+    }
+    header #busca_cidade p{
+        display: none;
+    }
+    header #busca_cidade form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    header #busca_cidade form button#button-ir {
+        height: 30px;
+    }
+    header #busca_cidade input, header #busca_cidade select {
+        margin: 0px auto;
+        display: block;
+    }
+}
+
+#faixa{
+	background: #e9e9e9;
+    height: 40px;
+	overflow:hidden;
+}
+
+#faixa .faixa .explore {
+    width: 100%;
+	padding: 0 10px;
+}
+#faixa .faixa .explore p {
+    color: #393939;
+    font-size: 13px;
+    font-weight: lighter;
+	padding: 2px;
+	float:left;
+}
+#faixa .faixa .explore p strong {
+    font-weight: 700
+}
+#faixa .faixa .explore #area_busca {
+    padding: 5px;
+    display: flex;
+    float: left;
+    margin: -5px 0 0 0;
+}
+#faixa .faixa .explore #area_busca input#comercios-servicos {
+    border: none;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 2px 15px;
+    max-width: 400px;
+	min-width: 300px;
+    width: 100%;
+	height: 25px;
+    margin-top: -3px;
+}
+#faixa .faixa .explore #area_busca input#btn-buscar {
+    background: url(../images/header/lupa.png) center no-repeat #F5A103;
+	background-size: auto 70%;
+    border: none;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-left: -2px;
+    text-indent: -99999px;
+    width: 35px;
+	height: 25px;
+	margin-top: -3px;
+}
+@media screen and (max-width: 980px) {
+    #faixa .faixa .explore {
+        width: 100%;
+        margin-bottom: 50px
+    }
+    #faixa .faixa .explore #area_busca input#comercios-servicos {
+        min-width: auto;
+    }
+}
+
+/* Home */
+#main #destaque {
+    background: url(../images/home/img-destaque.jpg) center top;
+    background-size: cover;
+    padding: 40px 0
+}
+#main #destaque .d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+}
+#main #destaque #explore {
+    width: 50%;
+    max-width: 450px
+}
+@media screen and (max-width: 980px) {
+    #main #destaque #explore {
+        width: 100%;
+        margin-bottom: 50px
+    }
+}
+#main #destaque #explore h3 {
+    color: #393939;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0 0 10px
+}
+#main #destaque #explore h3 strong {
+    font-weight: 700
+}
+#main #destaque #explore #area_busca {
+    background-color: rgba(1, 178, 196, .8);
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: flex
+}
+#main #destaque #explore #area_busca input#comercios-servicos {
+    border: none;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%
+}
+#main #destaque #explore #area_busca input#btn-buscar {
+    background: url(../images/home/lupa.png) center no-repeat #F5A103;
+    border: none;
+    cursor: pointer;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-left: -2px;
+    text-indent: -99999px;
+    width: 35px
+}
+@media screen and (max-width: 980px) {
+    #main #destaque #explore #area_busca {
+        width: 80%;
+    }
+}
+#main #destaque #destaque_do_dia {
+    background: #F2A501;
+    padding: 5px;
+    max-width: 317px;
+    text-align: center
+}
+#main #destaque #destaque_do_dia h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 5px;
+    text-transform: uppercase
+}
+#main #destaque #destaque_do_dia p {
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 5px 0
+}
+
+#main #categorias {
+    background: #00B3C7;
+    padding: 10px 0
+}
+#main #categorias ul#menu_categorias_homepage {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden
+}
+#main #categorias ul#menu_categorias_homepage li {
+    display: block;
+    width: 125px;
+    border: 1px solid #8FE7F1;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-bottom: none;
+    border-right: none;
+    text-align: center;
+    padding: 2px 10px;
+    height: 55px;
+	line-height: 15px;
+}
+#main #categorias ul#menu_categorias_homepage li:first-child {
+    border: none
+}
+#main #categorias ul#menu_categorias_homepage li:nth-child(9n) {
+	border-left: none;
+}
+#main #categorias ul#menu_categorias_homepage li.wrapped {
+    border-left: none
+}
+#main #categorias ul#menu_categorias_homepage li a {
+    color: #fff;
+    display: table-cell;
+    font-size: 14px;
+    height: 50px;
+    width: 115px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+}
+#main #categorias ul#menu_categorias_homepage li a:hover {
+    color: #FFDB00
+}
+@media screen and (max-width: 980px){
+	#main #categorias ul#menu_categorias_homepage li,
+	#main #categorias ul#menu_categorias_homepage li:nth-child(9n),
+	#main #categorias ul#menu_categorias_homepage li.wrapped {
+		border: 1px solid #8FE7F1 !important;
+	}
+}
+#main #estabelecimentos_em_destaque h2 {
+    color: #0097D8;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+	margin: 25px 0;
+}
+#main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto
+}
+#main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque li {
+    background: #E8EDF1;
+    max-width: 317px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0
+}
+#main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque li p.categoria {
+    color: #859ea7;
+    font-size: 12px;
+    margin: 15px;
+    font-weight: 700
+}
+#main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque li p.titulo {
+    color: #212121;
+    font-size: 16px;
+    margin: 15px 15px 0;
+    font-weight: 700
+}
+#main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque li p.descricao {
+    color: #212121;
+    font-size: 12px;
+    margin: 0 15px 15px
+}
+@media screen and (max-width: 980px) {
+    #main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque {
+        justify-content: center
+    }
+
+    #main #estabelecimentos_em_destaque ul#lista_estabelecimentos_em_destaque li {
+        margin-right: 10px;
+        margin-left: 10px
+    }
+}
+
+#main #destaques_secundarios.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+#main #destaques_secundarios.d_flex div {
+    margin-right: 20px
+}
+#main #destaques_secundarios.d_flex div:last-child {
+    margin-right: 0
+}
+#main #destaques_secundarios.d_flex div h3 {
+    border-bottom: #E8EDF1 solid 2px;
+    color: #212121;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter
+}
+#main #destaques_secundarios.d_flex div ul.lista {
+    padding: 0 0 0 20px
+}
+#main #destaques_secundarios.d_flex div ul.lista li {
+    list-style-image: url(../imagens/img-li.png);
+    margin: 5px 0
+}
+#main #destaques_secundarios.d_flex div ul.lista li a:active,
+#main #destaques_secundarios.d_flex div ul.lista li a:link,
+#main #destaques_secundarios.d_flex div ul.lista li a:visited {
+    color: #212121;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none
+}
+#main #destaques_secundarios.d_flex div ul.lista li a:hover {
+    text-decoration: underline
+}
+#main #destaques_secundarios.d_flex div ul.lista li a span {
+    font-weight: lighter
+}
+#main #destaques_secundarios.d_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+#main #destaques_secundarios.d_flex div {
+    margin-right: 20px
+}
+#main #destaques_secundarios.d_flex div:last-child {
+    margin-right: 0
+}
+#main #destaques_secundarios.d_flex div h3 {
+    border-bottom: #E8EDF1 solid 2px;
+    color: #212121;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter
+}
+#main #destaques_secundarios.d_flex div ul.lista {
+    padding: 0 0 0 20px
+}
+#main #destaques_secundarios.d_flex div ul.lista li {
+    list-style-image: url(../imagens/img-li.png);
+    margin: 5px 0
+}
+#main #destaques_secundarios.d_flex div ul.lista li a:active,
+#main #destaques_secundarios.d_flex div ul.lista li a:link,
+#main #destaques_secundarios.d_flex div ul.lista li a:visited {
+    color: #212121;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none
+}
+#main #destaques_secundarios.d_flex div ul.lista li a:hover {
+    text-decoration: underline
+}
+#main #destaques_secundarios.d_flex div ul.lista li a span {
+    font-weight: lighter
+}
+
+#main #dicas_do_guia h2 {
+    color: #0097D8;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter
+}
+#main #dicas_do_guia ul#lista_posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0
+}
+#main #dicas_do_guia ul#lista_posts li {
+    list-style: none;
+    max-width: 325px;
+    width: 31%;
+    padding-bottom: 30px;
+    margin: 10px 1% 40px;
+    text-align: center;
+    border-bottom: #dfdfdf solid 6px
+}
+@media screen and (max-width: 980px) {
+    #main #dicas_do_guia ul#lista_posts {
+        justify-content: center
+    }
+    #main #dicas_do_guia ul#lista_posts li {
+        width: 45%;
+        margin: 10px 2.5% 40px
+    }
+}
+@media screen and (max-width: 780px) {
+    #main #dicas_do_guia ul#lista_posts {
+        justify-content: center
+    }
+    #main #dicas_do_guia ul#lista_posts li {
+        width: 90%;
+        margin: 10px 5% 40px
+    }
+}
+#main #dicas_do_guia ul#lista_posts li .post_thumbnail {
+    margin: 0
+}
+#main #dicas_do_guia ul#lista_posts li .post_thumbnail a img{
+    width: 100%;
+	max-width: 295px;
+    height: auto;
+}
+#main #dicas_do_guia ul#lista_posts li .cetegorias {
+    background: #F8A001;
+    display: table;
+    padding: 8px 10px;
+    margin: -16px auto 20px;
+    position: relative
+}
+#main #dicas_do_guia ul#lista_posts li .cetegorias span,
+#main #dicas_do_guia ul#lista_posts li .cetegorias span a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px
+}
+#main #dicas_do_guia ul#lista_posts li .tags a:active,
+#main #dicas_do_guia ul#lista_posts li .tags a:link,
+#main #dicas_do_guia ul#lista_posts li .tags a:visited {
+    color: #6f6f6f;
+    font-size: 12px;
+    text-decoration: underline
+}
+#main #dicas_do_guia ul#lista_posts li .tags a:hover {
+    text-decoration: underline
+}
+#main #dicas_do_guia ul#lista_posts li h2.entry-title {
+    margin: 20px 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+#main #dicas_do_guia ul#lista_posts li h2.entry-title a {
+    color: #161616;
+    text-decoration: none
+}
+#main #dicas_do_guia ul#lista_posts li div.entry-content {
+    margin: 20px auto;
+    width: 90%;
+    font-size: 14px
+}
+#main #dicas_do_guia ul#lista_posts li div.entry-meta {
+    margin: 20px 0
+}
+#main #dicas_do_guia ul#lista_posts li div.entry-meta span, #main #container #dicas_do_guia ul#lista_posts li div.entry-meta span a {
+    color: #6f6f6f;
+    text-decoration: none;
+    font-size: 12px
+}
+#main #dicas_do_guia ul#lista_posts li div.entry-meta span.entry-date {
+    background: url(../imagens/ico-data.png) left 0 no-repeat;
+    padding-left: 15px;
+    margin: 0 5px
+}
+#main #dicas_do_guia ul#lista_posts li div.entry-meta span.author a {
+    background: url(../imagens/ico-autor.png) left 0 no-repeat;
+    padding-left: 15px;
+    margin: 0 5px
+}
+
+#main #cidades_mais_relevantes {
+    background: #F1F1F1
+}
+#main #cidades_mais_relevantes h2 {
+    color: #212121;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase
+}
+#main #cidades_mais_relevantes ul#lista_cidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+	margin: 5px 0;
+}
+#main #cidades_mais_relevantes ul#lista_cidades li {
+    text-align: center;
+    border-right: #dadbdc solid 1px;
+	padding: 5px 10px;
+}
+#main #cidades_mais_relevantes ul#lista_cidades li H3{
+    font-size: 13px;
+}
+#main #cidades_mais_relevantes ul#lista_cidades li:last-child {
+    border: none
+}
+#main #cidades_mais_relevantes ul#lista_cidades li a:active,
+#main #cidades_mais_relevantes ul#lista_cidades li a:link,
+#main #cidades_mais_relevantes ul#lista_cidades li a:visited {
+    color: #212121;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+#main #cidades_mais_relevantes ul#lista_cidades li figure img {
+    height: 90px;
+    width: 90px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px
+}=
+/* Home */
+
+/* Categoria */
+#subcategorias{
+	/* float: right; */
+	width:100%;
+    max-width: 770px;
+    margin-top: 18px;
+}
+#subcategorias #principal {
+    /* float: right;
+    max-width: 720px;
+    margin-top: 18px; */
+}
+h2.title_header{
+    color: #66a592;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#subcategorias ul#listaSubCategorias{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+#subcategorias ul#listaSubCategorias li {
+	background:#f6f6f6;
+	margin:1px;
+	width:32%
+}
+#subcategorias ul#listaSubCategorias li.bg2 {
+	background:#efefef
+}
+#subcategorias ul#listaSubCategorias li a {
+	padding:5px 10px 5px 15px;
+	text-decoration:none
+}
+#subcategorias ul#listaSubCategorias li a{
+    color: #555;
+    font-size: 11px;
+    display: block;
+}
+#subcategorias ul$listaSubCategorias li a:hover {
+	background:url(../imagens/guia/bg/bullet2.png) 5px 9px no-repeat;
+	color:#3eb1c2
+}
+
+#lista_estabelecimentos{
+	list-style: none;
+	margin: 25px auto;
+	padding:0;
+}
+#lista_estabelecimentos ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#lista_estabelecimentos li.titulo-categoria{
+	width:100%;
+}
+#lista_estabelecimentos li.titulo-categoria h4{
+	color: #66a592;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.cartoes ul#lista_estabelecimentos ul{
+	margin-top: 25px;
+	display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao{
+	max-width: 350px;
+	position: relative;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao a.link_imagem {
+    box-shadow: 5px 5px 5px #999;
+    display: block;
+    height: 200px;
+    width: 351px;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao img{
+	box-shadow: 5px 5px 5px #999;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao p.nome{
+	margin-top: 15px;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao p.nome a {
+    color: #555;
+    font-size: 16px;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao p.saiba-mais{
+	position: absolute;
+	bottom: 0;
+    right: 0;
+}
+.cartoes ul#lista_estabelecimentos ul li.cartao p.saiba-mais a{
+    color: #66a592;
+    font-weight: 700;
+	text-decoration: none;
+}
+/* Categoria */
+
+/* Estabelecimento */
+#conteudo {
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#menu_categorias {
+    background: #e1ede9;
+}
+#menu_categorias > span {
+    background: #e9f2ef;
+    color: #66a592;
+}
+#menu_categorias {
+	background:#e5f2cc;
+	border-radius:5px;
+	/*float:left;*/
+	max-width:195px;
+        align-self:stretch;
+}
+#menu_categorias>span{
+	background:#f0f9df;
+	border-radius:5px 5px 0 0;
+	color:#8aad46;
+	display:block;
+	font-size:18px;
+	font-weight:700;
+	padding:10px 15px
+}
+#menu_categorias>span h3 {
+	font-size:18px;
+	font-weight:700;
+}
+#menu_categorias ul {
+	padding:5px 0 10px
+}
+#menu_categorias ul li{
+    list-style: none;
+}
+#menu_categorias ul li a {
+	color:#555;
+	display:block;
+	font-size:11px;
+	line-height:11px;
+	padding:7px 15px
+}
+
+
+section#detalhes {
+    width: 100%;
+    max-width: 725px;
+}
+#breadcrumbs {
+    border-bottom: solid 1px #DDD;
+    font-family: Arimo, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+#logo {
+    float: left;
+    max-width: 350px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+#descricao {
+    float: left;
+    width: 100%;
+    max-width: 350px;
+    margin-right: 15px;
+}
+
+/* Resultado da Busca */
+.wrapper legend{
+	color: #66a592;
+	font-weight: 700;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* Estabelecimento */
+
+footer {
+    background: #00B4C5;
+    color: #fff
+}
+footer ul#menu-rodape {
+    margin: 15px 0;
+    padding: 0;
+    list-style: none
+}
+footer ul#menu-rodape li {
+    display: inline-block;
+    font-size: 13px;
+    list-style: none;
+    border-right: solid 1px #fff;
+    margin-right: 10px
+}
+footer ul#menu-rodape li:last-child {
+    border-right: none
+}
+footer ul#menu-rodape li a:hover {
+    color: #bef7ff
+}
+footer ul#menu-rodape li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px
+}
+footer ul#menu-rodape li a:first-child {
+    margin-left: 0
+}
+footer div.copyright {
+    margin: 15px 0;
+    font-size: 12px
+}
+footer div.copyright div#geosfera {
+    float: right;
+    margin-right: 100px
+}
+footer div.copyright div#geosfera a {
+    text-decoration: none
+}
+footer div.copyright div#geosfera a span {
+    color: #fff;
+    text-transform: uppercase
+}
+footer div.copyright div#geosfera a span strong {
+    color: #92f3ff
+}
+
+.ui-helper-hidden-accessible {
+    display:none;
+}
+
+
+.ui-menu  {
+    background: transparent;
+    border: none;
+}
+
+.ui-widget.ui-widget-content {
+    border: none;
+    margin:5px;
+}
+
+
+.ui-menu-item-wrapper {
+    background:#007989;
+    font-size:0.8rem;
+    border-radius:10px;
+    margin:5px;
+    color:#fff;
+}
+
+.ui-menu-item-wrapper:hover{
+    background:#F2C00A;
+    border-radius:10px;
+    margin:5px;
+}
+
+/* Busca cidades topo*/
+ul#ui-id-1 {
+    background: #007989;
+}
+.ui-menu-item-wrapper:hover {
+    background: #F2C00A;
+    border-radius: 10px;
+	border: none;
+    margin: 0px;
+}
+.ui-menu-item-wrapper {
+    background: #007989;
+    margin: 0;
+}
+.ui-menu-item-wrapper:hover {
+    border: none!important;
+}
+

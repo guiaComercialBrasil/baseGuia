@@ -1,0 +1,67 @@
+{% load bootstrap4 %}
+{% load static %}
+{% load thumbnail %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% bootstrap_css %}
+    {% bootstrap_javascript jquery='full' %}
+
+    <title>{% block title %} Guia Comercial Brasil {% endblock title %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/starability-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui-1.12.1.custom/jquery-ui.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui-1.12.1.custom/jquery-ui.theme.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'lightbox/css/lightbox.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}"/>
+
+    {% if object.imagens_divulgacao.imagem_cartao %}
+    <!-- Facebook Open Graph -->
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:site_name" content="Guia Comercial Brasil - Estabelecimento - {{object.nome}}"/>
+    <meta property="og:title" content="{{object}}"/>
+    <meta property="og:url" content="{{ request.build_absolute_uri }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content=" {{object.descricao}}"/>
+    <meta property="og:image" content="https://guiacomercialbrasil.com.br{% thumbnail object.imagens_divulgacao.imagem_cartao "500x300" as im %}/{{im.url}}{% endthumbnail %}"/>
+    <!-- Facebook Open Graph -->
+    {% else %}
+    <!-- Facebook Open Graph -->
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:site_name" content="Guia Comercial Brasil"/>
+    <meta property="og:title" content="Guia Comercial Brasil"/>
+    <meta property="og:url" content="{{ request.build_absolute_uri }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="Bem-vindo ao Guia Comercial Brasil, sua ferramenta de busca de prestadores de serviços e comércios em todo o Brasil"/>
+    <meta property="og:image" content=""/><!-- adicionar imagem aqui -->
+    <!-- Facebook Open Graph -->
+    {% endif %}
+
+</head>
+<body>
+
+    {% include 'header.html' %}
+
+	<div id="main">
+
+        <div id="messages" style="position:absolute; z-index:999; width: 100%">{% bootstrap_messages %}</div>
+	
+    	{% block content %}
+    	{% endblock content %}
+
+    </div><!-- #main -->
+
+    {% include 'footer.html' %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+	<script type='text/javascript' src="{% static 'lightbox/js/lightbox.js' %}"></script>
+    {% block script %}
+    {% endblock script %}
+</body>
+
+</html>

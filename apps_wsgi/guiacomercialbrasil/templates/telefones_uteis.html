@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load customize %}
+
+{% block title %}Guia Comercial Brasil{% endblock title %}
+
+{% block content %}
+
+<style>
+h1.titulo{
+    color: #66a592;
+	font-size: 18px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 5px;
+	margin: 25px auto;
+}
+#lista_telefones_uteis{
+	height: auto;
+	display:block;
+}
+#lista_telefones_uteis ul{
+    list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+#lista_telefones_uteis ul li{
+	background: #efefef;
+	font-size: 14px;
+	margin: 2px;
+	width: 32.5%;
+	padding: 10px;
+}
+@media screen and (max-width: 980px){
+	#lista_telefones_uteis ul li{
+		width: 47%;
+	}
+}
+@media screen and (max-width: 680px){
+	#lista_telefones_uteis ul li{
+		width: 95%;
+	}
+}
+#lista_telefones_uteis ul li h2{
+    color: #66a592;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+</style>
+<div class="wrapper">
+
+    {% customization %}
+
+        <h1 class="titulo">Telefones úteis</h1>
+
+        <div>
+        {{ context_var|safe }}
+        {% autoescape off %}
+            {{ custom.primary }}
+        {% endautoescape %}
+        </div>
+
+        <div>
+        {{ context_var|safe }}
+        {% autoescape off %}
+            {{ custom.secondary }}
+        {% endautoescape %} 
+        </div>
+
+    {% endcustomization %}
+
+</div><!-- .wrapper -->
+
+{% endblock content %}

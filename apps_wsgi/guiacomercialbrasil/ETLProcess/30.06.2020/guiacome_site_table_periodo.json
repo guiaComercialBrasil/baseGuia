@@ -1,0 +1,25 @@
+,{
+    "type": "table",
+    "name": "periodo",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "nome": "Mensal",
+    "valor": "1"
+},
+{
+    "nome": "Bimestral",
+    "valor": "2"
+},
+{
+    "nome": "Trimestral",
+    "valor": "3"
+},
+{
+    "nome": "Semestral",
+    "valor": "6"
+}
+]
+
+}

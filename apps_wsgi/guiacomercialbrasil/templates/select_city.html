@@ -1,0 +1,71 @@
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ cidade_form.estado }}
+    {{ cidade_form.cidade }}
+    <button id="button-ir" alt="Ir">Ir</button>
+</form>
+
+
+<script>
+
+    function string_to_slug (str) {
+        str = str.replace(/^\s+|\s+$/g, ''); // trim
+        str = str.toLowerCase();
+
+        // remove accents, swap ñ for n, etc
+        var from = "àáäâãèéëêìíïîòóöôõùúüûñç·/_,:;";
+        var to   = "aaaaaeeeeiiiiooooouuuunc------";
+        for (var i=0, l=from.length ; i<l ; i++) {
+            str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+        }
+
+        str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+            .replace(/\s+/g, '-') // collapse whitespace and replace by -
+            .replace(/-+/g, '-'); // collapse dashes
+
+        return str;
+    }
+
+    $(document).ready(function(){
+
+        $("#button-ir").on("click", function(e){
+            e.preventDefault();
+            var cidades = sessionStorage.getItem("cidades").split(",");
+            var cidade = $("#id_cidade").val();
+            var estado = $("#id_estado").val();
+
+            if (cidades.includes(cidade)) {
+                window.location.replace("{% url 'change_city_slugified' city='slugcidade' %}".replace("slugcidade", string_to_slug(cidade)))
+            } else {
+                window.alert("Cidade " + cidade + " não registrada para o estado de " + estado + ".");
+            }
+
+        })
+
+        $( "#id_cidade" ).autocomplete({
+            source: function(request, response){
+                var estado = $("#id_estado").val();
+
+                $.ajax({
+                    url: "{% url 'ajax_autocomplete_city' %}",
+                    dataType: "json",
+                    data: {
+                      term: request.term,
+                      estado: estado
+                    },
+                    success: function(data) {
+                        sessionStorage.setItem("cidades", data);
+                        response(data);
+                    },
+                    error: function(e){
+                        console.log(e)
+                    }
+                });
+            },
+            select: function(event, ui){
+                console.log(ui)
+            },
+            //minLength: 1,
+        });
+    });
+</script>

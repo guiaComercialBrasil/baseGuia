@@ -1,0 +1,575 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load static %}
+{% load thumbnail %}
+{% load in_city %}
+
+{% block title %}Estabelecimento - {{object.nome}}{% endblock title %}
+
+{% block content %}
+
+<style>
+#breadcrumbs ul{
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	 padding: 0;
+}
+#breadcrumbs ul li{
+	list-style: none;
+	color: #66a592;
+    font-size: 18px;
+    font-weight: 700;
+	margin-bottom: 5px;
+	display: none;
+}
+#breadcrumbs ul li:first-child,
+#breadcrumbs ul li.local{
+	display: block;
+}
+#breadcrumbs ul li a{
+	color: #66a592;
+    font-size: 18px;
+    font-weight: 700;
+}
+#dados{
+    float: right;
+    width: 100%;
+    max-width: 350px;
+}
+#dados h1{
+	color: #ee9215;
+	font-size: 25px;
+}
+#avalie_2 {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#avalie_2 legend{
+	font-size: 14px;
+}
+button.btn.btn-primary.boost {
+	background: #66a592 url(../static/images/estabelecimento/ico_impulsionamento.png) 230px 5px no-repeat!important;
+	border: none;
+    color: #ffffff;
+	padding-right: 45px
+}
+
+#descricao{
+	margin: 20px 0;
+}
+#descricao h3{
+	color: #ee9215;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mapa p.como_chegar{
+	background: url(../static/images/estabelecimento/pointer.png) no-repeat;
+	color: #66a592;
+    margin-bottom: 10px;
+    padding-left: 20px;
+	font-weight: bold;
+}
+#galeria ul{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -2px;
+    /*justify-content: space-between;*/
+}
+#galeria ul li{
+    margin: 4px 2px;
+}
+#galeria ul li a img{
+    border: 1px solid #ddd;
+    width: auto;
+    height: 50px;
+}
+@media screen and (max-width: 980px){
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	#main{
+		width:95%;
+		margin: 0 2.5%
+	}
+	#menu_categorias {
+		display: none;
+	}
+	/*#menu_categorias {
+		max-width: 100%;
+		width: 100%;
+	}
+	#menu_categorias ul{
+		text-align:center;
+		padding: 5px 0 0 0;
+	}
+	#menu_categorias ul li {
+		width: fit-content;
+		display: inline-block;
+	}
+	#menu_categorias ul li a {
+		padding: 5px 10px;
+	}*/
+	#dados{
+		float: left;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+</style>
+{% comment %}
+<!--
+<h1>{{object}}</h1>
+
+{% for categoria in object.categoria.all %}
+    {% if forloop.first %}
+        <ul>
+    {% endif %}
+    {% if not categoria.categoria_pai %}
+        <li><a href="{% url 'estab_categoria' categoria.slug %}">{{categoria}}</a></li>
+    {% else %}
+        <li><a href="{% url 'estab_categoria' categoria.categoria_pai.slug %}">{{categoria.categoria_pai}}</a> > <a href="{% url 'estab_categoria' categoria.slug %}">{{categoria}}</a></li>
+    {% endif %}
+    {% if forloop.last %}
+        </ul>
+    {% endif %}
+{% endfor %}
+-->
+
+<!--<p><b>Endereço Comercial:</b> {{object.endereco_comercial}} ({{object.endereco_comercial.latitude}}, {{object.endereco_comercial.longitude}})</p>
+<p><b>Endereço Fiscal:</b> {{object.endereco_fiscal}} ({{object.endereco_fiscal.latitude}}, {{object.endereco_fiscal.longitude}})</p>
+<p><b>Destaque:</b> {{object.status_destaque}}</p>
+<p><b>Impulsionamentos:</b> {{object.impulsionamento}}</p>
+<p><b>Dados Divulgação:</b> {{object.dados_divulgacao}}</p>
+<p><b>Imagens Divulgação:</b> {{object.imagens_divulgacao.imagem_cartao}}</p>
+<p><b>Telefone Contato 1:</b> {{object.telefone_contato_1}}</p>
+<p><b>Telefone Contato 2:</b> {{object.telefone_contato_2}}</p>
+<p><b>Email Contato:</b> {{object.email_contato}}</p>-->
+
+<!-- THUMBNAIL -->
+<!--{% thumbnail object.imagens_divulgacao.imagem_cartao "350x200" as im %}
+    <img src="{{im.url}}">
+{% empty %}
+    <h1>Imagem Não Encontrada</h1>
+{% endthumbnail %}-->
+<!-- IMPULSIONAMENTO -->
+<!--{% include 'buttons/boost.html' with slug=object.slug  %}-->
+<!-- NOTA -->
+<!--{% include 'buttons/rate.html' with slug=object.slug nota_anterior=nota_anterior %}-->
+{% endcomment %}
+<div id="conteudo">
+    <nav id="menu_categorias" class="pie">
+        <span class="pie">
+            <h3>Categorias</h3>
+        </span>
+        <ul>
+            {% for categoria in categorias|dictsort:"nome" %}
+                {% if categoria|in_city:request.session.cidade %}
+                    <li><a href="{% url 'estab_categoria' categoria.slug %}" title="{{categoria}}" class="clickCategoria">{{categoria}}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+		<!-- FEED -->
+        <style>
+		#feed_blog_sidebar{
+			padding: 15px;
+			font-size: 11px;
+		}
+		#feed_blog_sidebar h3 {
+			font-size: 18px;
+			margin-bottom: 0;
+		}
+		#feed_blog_sidebar h3 a:link,
+		#feed_blog_sidebar h3 a:active,
+		#feed_blog_sidebar h3 a:visited{
+			color: #0097D8;
+		}
+		#feed_blog_sidebar .post{
+			margin-bottom: 0;
+		}
+		#feed_blog_sidebar p{
+			margin: 0;
+		}
+		#feed_blog_sidebar p.titulo{
+			text-transform: uppercase;
+			color: #555;
+		}
+		#feed_blog_sidebar a:link,
+		#feed_blog_sidebar a:active,
+		#feed_blog_sidebar a:visited{
+			color: #555;
+			text-decoration: none;
+		}
+		@media screen and (max-width: 980px){
+			#feed_blog_sidebar{
+				display: none;
+			}
+		}
+		</style>
+
+		{% include 'blogfeed.html' %}
+
+        <!-- FEED -->
+        
+    </nav><!-- #menu_categorias -->
+
+    <section id="detalhes">
+	{% if object.endereco_comercial.cidade.id != request.session.cidade %}
+            <div id="messages" class="mt-1">
+                <div class="alert alert-info alert-dismissable">
+	            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&#215;</button>
+                    Este estabelecimento está cadastrado em <a href="{% url 'change_city' object.endereco_comercial.cidade.id %}">{{object.endereco_comercial.cidade}}</a>.
+                </div>
+            </div>
+	{% endif %}	
+        <div id="breadcrumbs">
+            {% for categoria in object.categoria.all %}
+                {% if forloop.first %}
+                    <ul>
+                {% endif %}
+                {% if not categoria.categoria_pai %}
+                    <!--<li><a href="{% url 'estab_categoria' categoria.slug %}">{{categoria}}</a></li>-->
+                {% else %}
+                    <li><!--<a href="{% url 'estab_categoria' categoria.categoria_pai.slug %}">{{categoria.categoria_pai}}</a> > --><a href="{% url 'estab_categoria' categoria.slug %}"> {{categoria}} </a></li>
+                {% endif %}
+                {% if forloop.last %}
+                	<li class="local">&nbsp; &raquo; <strong>{{object}}</strong> em {{object.endereco_comercial.cidade}}</li>
+                    </ul>
+                {% endif %}
+            {% endfor %}
+{% comment %}
+            <!--
+            <a href="" title="">
+                <h2>[Categoria]</h2>
+            </a>
+
+            <span class="separador">></span>
+
+            <a href="" title="">
+                <h2>[Sub Categoria]</h2>
+            </a>
+
+            <span class="separador">></span>
+
+            <a href="#" title="" class="atual">
+                <h1>{{object}}</h1>
+            </a>
+
+            em {{request.session.cidade_nome}}-->
+{% endcomment %}
+        </div>
+
+        <section id="logo">
+            <!-- THUMBNAIL -->
+            {% thumbnail object.imagens_divulgacao.imagem_cartao "350x200" as im %}
+            <img id="img_cartao" src="../{{im.url}}" alt=""  title="" height="200" width="350">
+            {% empty %}
+                {% thumbnail object.categoria.first.categoria_pai.imagem "350x200" as im2 %}
+                    <img id="img_cartao" src="/{{im2.url}}" alt=""  title="" height="200" width="350">
+                {% endthumbnail %}
+            {% endthumbnail %}
+            <!-- THUMBNAIL -->
+
+            <div id="galeria">
+                <ul>
+                    {% if object.imagens_divulgacao.imagem_1 %}
+                        <li>
+                            <a href="/{{object.imagens_divulgacao.imagem_1.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_1.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% if object.imagens_divulgacao.imagem_2 %}
+                        <li>
+                            <a href="/{{object.imagens_divulgacao.imagem_2.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_2.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% if object.imagens_divulgacao.imagem_3 %}
+                        <li>
+                            <a href="/{{object.imagens_divulgacao.imagem_3.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_3.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                        </li>
+                    {% endif %}
+                    <br/>
+                    {% if object.imagens_divulgacao.imagem_4 %}
+                        <li>
+                            <a href="/{{object.imagens_divulgacao.imagem_4.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_4.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                        </li>
+                    {% endif %}
+                    {% if object.imagens_divulgacao.imagem_5 %}
+                        <li>
+                            <a href="/{{object.imagens_divulgacao.imagem_5.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_5.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+
+{% comment %}
+
+            <div id="galeria">
+                <ul>
+                    {% if object.imagens_divulgacao.imagem_1 %}
+                        <li>
+                            <!-- THUMBNAIL -->
+                            <a href="/{{object.imagens_divulgacao.imagem_1.url}}" data-lightbox='imgs'>
+                                <img src="/{{object.imagens_divulgacao.imagem_1.url}}" alt=""  title="" height="50" width="100">
+                            </a>
+                            <!-- THUMBNAIL -->
+                        </li>
+                    {% endif %}
+
+                    {% if object.imagens_divulgacao.imagem_2 %}
+                        <li>
+                            <!-- THUMBNAIL -->
+                            {% thumbnail object.imagens_divulgacao.imagem_2 "100x50" as img2 %}
+                                {% thumbnail object.imagens_divulgacao.imagem_2 "1000x500" as img2g %}
+                                <a href="../{{img2g.url}}" data-lightbox='imgs'>
+                                {% endthumbnail %}
+                                    <img src="../{{img2.url}}" alt=""  title="" height="50" width="">
+                                </a>
+                            {% empty %}
+                                <p>Imagem Não Encontrada</p>
+                            {% endthumbnail %}
+                            <!-- THUMBNAIL -->
+                        </li>
+                    {% endif %}
+
+                    {% if object.imagens_divulgacao.imagem_3 %}
+                        <li>
+                            <!-- THUMBNAIL -->
+                            {% thumbnail object.imagens_divulgacao.imagem_3 "100x50" as img3 %}
+                                {% thumbnail object.imagens_divulgacao.imagem_3 "1000x500" as img3g %}
+                                <a href="../{{img3g.url}}" data-lightbox='imgs'>
+                                {% endthumbnail %}
+                                    <img src="../{{img3.url}}" alt=""  title="" height="50" width="">
+                                </a>
+                            {% empty %}
+                                <p>Imagem Não Encontrada</p>
+                            {% endthumbnail %}
+                            <!-- THUMBNAIL -->
+                        </li>
+                    {% endif %}
+
+                    {% if object.imagens_divulgacao.imagem_4 %}
+                        <li>
+                            <!-- THUMBNAIL -->
+                            {% thumbnail object.imagens_divulgacao.imagem_4 "100x50" as img4 %}
+                                {% thumbnail object.imagens_divulgacao.imagem_4 "1000x500" as img4g %}
+                                <a href="../{{img4g.url}}" data-lightbox='imgs'>
+                                {% endthumbnail %}
+                                    <img src="../{{img4.url}}" alt=""  title="" height="50" width="">
+                                </a>
+                            {% empty %}
+                                <p>Imagem Não Encontrada</p>
+                            {% endthumbnail %}
+                            <!-- THUMBNAIL -->
+                        </li>
+                    {% endif %}
+
+                    {% if object.imagens_divulgacao.imagem_5 %}
+                        <li>
+                            <!-- THUMBNAIL -->
+                            {% thumbnail object.imagens_divulgacao.imagem_5 "100x50" as img5 %}
+                                {% thumbnail object.imagens_divulgacao.imagem_5 "1000x500" as img5g %}
+                                <a href="../{{img5g.url}}" data-lightbox='imgs'>
+                                {% endthumbnail %}
+                                    <img src="../{{img5.url}}" alt=""  title="" height="50" width="">
+                                </a>
+                            {% empty %}
+                                <p>Imagem Não Encontrada</p>
+                            {% endthumbnail %}
+                            <!-- THUMBNAIL -->
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+{% endcomment %}
+        </section>
+
+        <section id="dados">
+            <h1>{{object}}</h1>
+
+            <div class="phone">
+            	<!--
+                <a class="phone__icon" target="_blank" href="">
+                    <img style="width: 20px; height: 20px;" src="arquivos\imagens\whatsapp.png">
+                </a>
+                <a target="_blank" class="phone__number" href="">
+                    [telefone]
+                </a>-->
+
+                {% if object.telefone_contato_1 %}
+                <p><b>Telefone:</b>
+                <!--<a class="phone__icon" target="_blank" href="{{object.telefone_contato_1}}">
+                    <img src="{% static 'images/estabelecimento/whatsapp.png' %}">
+                </a>-->
+                <a target="_blank" class="phone__number" href="tel:{{object.telefone_contato_1}}">
+                    {{object.telefone_contato_1}}
+                </a></p>
+                <!--<p><b>Telefone Contato 1:</b> {{object.telefone_contato_1}}</p>-->
+                {% endif %}
+
+                {% if object.dados_divulgacao.whatsapp %}
+                <p><b>Whatsapp:</b>
+                <a target="_blank" class="phone__number" href="https://api.whatsapp.com/send?phone=55{{object.telefone_contato_2}}">
+                    <img src="{% static '../static/images/estabelecimento/whatsapp.png' %}"> {{object.dados_divulgacao.whatsapp}}
+                </a></p>
+                <!--<p><b>Telefone Contato 2:</b> {{object.telefone_contato_2}}</p>-->
+                {% endif %}
+
+            </div>
+            
+            {% if object.email_contato %}
+            <p><b>E-mail:</b>{{object.email_contato}}</p>
+            {% endif %}
+
+            <!--<p>Visualizações: [Visualizações]</p>-->
+
+			{% if object.dados_divulgacao.site %}
+            <p>
+                <b>Site: </b> <a href="{{object.dados_divulgacao.site}}" target='_blank'>{{object.dados_divulgacao.site}}</a>
+            </p>
+            {% endif %}
+            {% if object.endereco_comercial.logradouro %}
+            <p>
+                <b>Endereço:</b> {{object.endereco_comercial}}
+            </p>
+            {% endif %}
+
+            {% if object.dados_divulgacao.instagram or object.dados_divugacao.facebook or object.dados_divulgacao.twitter or object.dados_divulgacao.linkedin %}
+            <p>
+                <b>Redes Sociais:</b>
+                <nav>
+                    {% if object.dados_divulgacao.instagram %}
+                    	<a href="{{object.dados_divulgacao.instagram}}" target='_blank'><img src="{% static '../static/images/estabelecimento/ico-instagram.png' %}"></a>
+                    {% endif %}
+
+                    {% if object.dados_divulgacao.facebook %}
+                    	<a href="{{object.dados_divulgacao.facebook}}" target='_blank'><img src="{% static '../static/images/estabelecimento/ico-facebook.png' %}"></a>
+               	    {% endif %}
+
+                    {% if object.dados_divulgacao.twitter %}
+                    	<a href="{{object.dados_divulgacao.twitter}}" target='_blank'><img src="{% static '../static/images/estabelecimento/ico-twitter.png' %}"></a>
+                	{% endif %}
+
+                    {% if object.dados_divulgacao.linkedin %}
+                    	<a href="{{object.dados_divulgacao.linkedin}}" target='_blank'><img src="{% static '../static/images/estabelecimento/ico-linkedin.png' %}"></a>
+                	{% endif %}
+                </nav>
+
+            </p>
+            {% endif %}
+
+            <div id="avalie">
+                {% include 'buttons/boost.html' with slug=object.slug  %}
+                <p>{{object.impulsionamento}} impulsionamentos</p>
+            </div>
+
+            <div id="avalie_2">
+            	<p><b>Avalie o estabelecimento</b></p>
+                {% include 'buttons/rate.html' with slug=object.slug nota_anterior=nota_anterior %}
+                <p>Avaliação média: {{object.nota}} - {{object.nota_estabelecimento.count}} avaliações</p>
+            </div>
+            
+            <div id="facebook_like">
+            	<div class="fb-like fb_iframe_widget" data-href="" data-layout="button_count" data-action="like"
+                         data-show-faces="false" data-share="true" fb-xfbml-state="rendered"
+                         fb-iframe-plugin-query="action=like&amp;app_id=443084876119036&amp;container_width=350&amp;href={{ request.build_absolute_uri }}&amp;layout=button_count&amp;locale=pt_BR&amp;sdk=joey&amp;share=true&amp;show_faces=false">
+                <span style="vertical-align: bottom; width: 170px; height: 20px;"><iframe name="f77f235ba2f484"
+                                                                                          width="1000px" height="1000px"
+                                                                                          frameborder="0"
+                                                                                          allowtransparency="true"
+                                                                                          allowfullscreen="true"
+                                                                                          scrolling="no"
+                                                                                          allow="encrypted-media"
+                                                                                          title="fb:like Facebook Social Plugin"
+                                                                                          src="https://web.facebook.com/v3.0/plugins/like.php?action=like&amp;app_id=443084876119036&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Df2a1072f88e704c%26domain%3Dwww.guiacomercialbrasil.com.br%26origin%3Dhttps%253A%252F%252Fwww.guiacomercialbrasil.com.br%252Ff3adce0838771%26relation%3Dparent.parent&amp;container_width=350&amp;href={{ request.build_absolute_uri }}&amp;layout=button_count&amp;locale=pt_BR&amp;sdk=joey&amp;share=true&amp;show_faces=false"
+                                                                                          style="border: none; visibility: visible; width: 170px; height: 20px;"
+                                                                                          class=""></iframe></span>
+                    </div>
+            </div><!-- #facebook_like -->
+
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fguiacomercialbrasil%2F&amp;tabs&amp;width=372&amp;height=154&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=583477475102370"
+                    width="100%" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowtransparency="true"></iframe>
+
+
+        </section><!-- #dados -->
+
+        {% if object.descricao %}
+        <article id="descricao">
+        	<h3>Descrição</h3>
+            {{ context_var|safe }}
+            {% autoescape off %}
+                {{object.descricao}}
+            {% endautoescape %}
+        </article>
+        {% endif %}
+
+        <section id="mapa">
+            <!--[mapa]: {{object.endereco_comercial.latitude}}, {{object.endereco_comercial.longitude}}-->
+
+            <div style="overflow:hidden;width:100%;position:relative;max-width:350px;"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=300&amp;hl=pt-BR&amp;q={{object.endereco_comercial}}&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+
+            <p class="como_chegar">
+                Veja no mapa como chegar
+                <small>(Localização aproximada)</small>
+            </p>
+
+        </section><!-- #mapa -->
+
+        <div class="clear"></div>
+
+        <div id="facebook_comentarios">
+            <style>
+			#fbcomments, .fb-comments, .fb-comments iframe[style], .fb-comments span {
+			  	width: 100% !important;
+			}
+            </style>
+            <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid_desktop"
+                         data-href="{{ request.build_absolute_uri }}"
+                         data-width="100%" data-numposts="5" data-mobile="true" fb-xfbml-state="rendered"
+                         fb-iframe-plugin-query="app_id=443084876119036&amp;container_width=720&amp;height=100&amp;href={{ request.build_absolute_uri }}&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v3.0&amp;width=720">
+                <span style="vertical-align: bottom; width: 720px; height: 300px;"><iframe name="f228f77df1f0c9"
+                                                                                           width="100%" height="100px"
+                                                                                           frameborder="0"
+                                                                                           allowtransparency="true"
+                                                                                           allowfullscreen="true"
+                                                                                           scrolling="no"
+                                                                                           allow="encrypted-media"
+                                                                                           title="fb:comments Facebook Social Plugin"
+                                                                                           src="https://web.facebook.com/v3.0/plugins/comments.php?app_id=443084876119036&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2Fvy-MhgbfL4v.js%3Fversion%3D44%23cb%3Dfa7fd44e2126b4%26domain%3Dwww.guiacomercialbrasil.com.br%26origin%3Dhttps%253A%252F%252Fwww.guiacomercialbrasil.com.br%252Ff3adce0838771%26relation%3Dparent.parent&amp;container_width=720&amp;height=100&amp;href={{ request.build_absolute_uri }}&amp;locale=pt_BR&amp;numposts=5&amp;sdk=joey&amp;version=v3.0&amp;width=720"
+                                                                                           style="border: none; visibility: visible; width: 720px; height: 300px;"
+                                                                                           class=""></iframe></span>
+                    </div>
+            
+        </div><!-- #facebook_comentarios -->
+
+    </section>
+    <!--</section>-->
+</div>
+
+
+
+
+{% endblock content %}
+
+<!-- INCLUSÃO DE SCRIPT PARA IMPULSIONAMENTO E NOTA -->
+{% block script %}
+<script src="{% static 'js/boostnrate.js' %}"></script>
+{% endblock script %}

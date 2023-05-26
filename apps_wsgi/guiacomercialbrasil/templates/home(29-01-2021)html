@@ -1,0 +1,153 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load thumbnail %}
+{% load blogfeed %}
+{% load makelist %}
+{% load in_city %}
+
+{% static 'images/home/exemplo-banner_2.jpg' %}
+
+
+{% block title %}Guia Comercial Brasil{% endblock title %}
+
+{% block content %}
+    <div id="destaque">
+        <div class="wrapper d_flex">
+            <div id="explore">
+                <h3><strong>Explore</strong> {{cidade}}</h3>
+                {% include 'busca.html' %}
+            </div>
+
+
+            {% if top_impulsionamentos_dia.estabelecimento.imagens_divulgacao.imagem_cartao %}
+                <div id="destaque_do_dia">
+                    <h3><strong>Destaque</strong> do dia</h3>
+                    <a href="./estabelecimento/{{top_impulsionamentos_dia.estabelecimento.slug}}" title="{{top_impulsionamentos_dia.estabelecimento}}">
+                        <!--<img src="{{top_impulsionamentos_dia.estabelecimento.imagens_divulgacao.imagem_cartao.url}}" alt="" title="{{top_impulsionamentos_dia.estabelecimento}}" height="" width="">-->
+                        <!-- THUMBNAIL -->
+                        {% thumbnail top_impulsionamentos_dia.estabelecimento.imagens_divulgacao.imagem_cartao "350x200" as im %}
+                        <img id="img_cartao" src="{{im.url}}" alt=""  title="" height="170" width="300">
+                        {% empty %}
+                        <p>erro</p>
+                        {% endthumbnail %}
+                        <!-- THUMBNAIL -->
+                    </a>
+                    <p><strong>{{top_impulsionamentos_dia.estabelecimento}}</strong></p>
+                    <p>{{top_impulsionamentos_dia.total}} Impulsionamentos Hoje</p>
+                </div>
+            {% endif %}
+        </div>
+    </div><!-- #destaque -->
+
+    <div id="categorias">
+        <div class="wrapper">
+            <ul id="menu_categorias_homepage">
+                {% for categoria in categorias|dictsort:"nome" %}
+                    {% if categoria|in_city:cidade %}
+                        <li><a href="{% url 'estab_categoria' categoria.slug %}" title="{{categoria}}">{{categoria}}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul id="menu_categorias_homepage">
+        </div>
+    </div><!-- #categorias -->
+
+    <div class="wrapper">
+        <div id="estabelecimentos_em_destaque">
+            <h2>Estabelecimentos <strong>em destaque</strong></h2>
+                <ul id="lista_estabelecimentos_em_destaque">
+                    {% for estabelecimento in destaques %}
+                        <li>
+                            <a href="{% url 'estabelecimento' estabelecimento.slug %}">
+                            <!-- THUMBNAIL -->
+                                {% thumbnail estabelecimento.imagens_divulgacao.imagem_cartao "350x200" as im %}
+                                <img id="img_cartao" src="{{im.url}}" alt=""  title="" height="180" width="317">
+                                {% empty %}
+                                <p>Imagem Não Encontrada</p>
+                                {% endthumbnail %}
+                                <!-- THUMBNAIL -->
+                            </a>
+                            {% if estabelecimento.categoria.all %} <p class="categoria">{{estabelecimento.categoria.all|makelist:";"}}</p> {% endif %}
+                            {% if estabelecimento %} <p class="titulo">{{estabelecimento}}</p> {% endif %}
+                            {% if estabelecimento.descricao %} <p class="descricao">{{estabelecimento.descricao|safe|truncatewords_html:25}}</p> {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+        </div>
+
+        <div id="destaques_secundarios" class="d_flex">
+
+               <div>
+                   <h3>Estabelecimentos <strong>mais impulsionados</strong></h3>
+                   <ul class="lista">
+                        {% for estabelecimento in top_impulsionamentos %}
+                            <li>
+                                <a href="./estabelecimento/{{estabelecimento.slug}}" title="{{estabelecimento}}">
+                                    {{estabelecimento}} <span>{{estabelecimento.impulsionamento}}</span>
+                                </a>
+                            </li>
+                        {% endfor %}
+                   </ul>
+               </div>
+
+               <div>
+                   <h3>Últimas <strong>empresas cadastradas</strong></h3>
+
+                   <ul class="lista">
+
+                        {% for estabelecimento in top_recente %}
+                            <li>
+                                <a href="./estabelecimento/{{estabelecimento.slug}}" title="{{estabelecimento}}">
+                                    {{estabelecimento}}
+                                </a>
+                            </li>
+                        {% endfor %}
+
+                   </ul>
+               </div>
+
+           <!--<div class="banner">
+               <a href="" title="">
+                   <img src="{% static 'images/home/exemplo-banner_3.jpg' %}" alt="" title="Guia Comercial Brasil" height="" width="">
+               </a>
+           </div>-->
+
+       </div>
+
+    </div>
+
+    <div class="banner_g">
+        <a href="./contato/" title="Divulgue seu negócio!">
+            <img src="{% static 'images/home/exemplo-banner_2.jpg' %}" alt="Guia Comercial Brasil" title="" height="" width="">
+        </a>
+    </div>
+
+    <!-- Blog -->
+        {% include 'blogfeed.html' %}
+    <!-- Blog -->
+
+    <div id="cidades_mais_relevantes">
+        <div class="wrapper">
+            <h2>Cidades <strong>mais relevantes</strong></h2>
+            {% for cidade in top_cidades %}
+                {% if forloop.first %}<ul id="lista_cidades">{% endif %}
+                <li>
+                    <figure>
+                        <a href="{% url 'change_city' cidade.id %}" title="{{cidade.cidade}}" >
+                            {% with cidade.cidade|slugify|add:'.jpg' as slug_cidade %}
+                                {% with 'images/home/cidades/'|add:slug_cidade as image_cidade %}
+                                    <img src="{% static image_cidade %}" alt="{{cidade.cidade}}" title="{{cidade.cidade}}" height="" width="">
+                                {% endwith%}
+                            {% endwith %}
+                        </a>
+                    </figure>
+                    <a href="{% url 'change_city' cidade.id %}" title="{{cidade.cidade}}">
+                        <h3>{{cidade.cidade}}</h3>
+                    </a>
+                </li>
+                {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+
+{% endblock content %}

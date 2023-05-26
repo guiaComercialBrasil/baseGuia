@@ -1,0 +1,68 @@
+{% templatetag openblock %} if request.resolver_match.url_name == 'home' {% templatetag closeblock %}
+    <div id="dicas_do_guia" class="wrapper">
+        <h2><strong>Dicas do Guia</strong></h2>
+        <ul id="lista_posts">
+            {% for post in feed %}
+            <li>
+                <figure class="post_thumbnail">
+                    <a href="{{post.link}}" title="{{post.title}}">
+                        {{post.thumbnail | safe}}
+                    </a>
+                </figure>
+                <div class="cetegorias">
+                    <span class="cat-links">
+                    {% for categoria in post.categorias %}
+                        {% if not forloop.last %}
+                            <a href="https://blog.guiacomercialbrasil.com.br/categoria/{{ categoria | slugify }}/" rel="category tag">{{categoria}}</a>,
+                        {% else %}
+                            <a href="https://blog.guiacomercialbrasil.com.br/categoria/{{ categoria | slugify }}/" rel="category tag">{{categoria}}</a>
+                        {% endif %}
+                    {% endfor %}
+                    </span>
+                </div>
+                <div class="tags"></div>
+                <h2 class="entry-title">
+                    <a href="{{post.link}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a>
+                </h2>
+                <div class="entry-content">
+                    {{post.description}}
+                </div><!-- .entry-content -->
+                <div class="entry-meta">
+                    <span class="entry-date">{{post.date}}</span>
+                    <span class="author"> por
+                        <a href="{{post.creator_url}}" title="Veja todos os posts por {{post.creator}}">{{post.creator}}</a>
+                    </span>
+                </div><!-- .entry-meta -->
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% templatetag openblock %} else {% templatetag closeblock %}
+    <div id="feed_blog_sidebar">
+        <h3>
+            <a href="https://blog.guiacomercialbrasil.com.br" target="_blank">
+                <strong>Dicas</strong> do Guia
+            </a>
+        </h3>
+        {% for post in feed|slice:2 %}
+            <br/>
+            <div class="post">
+                <p class="titulo">
+                    <strong>
+                        <a href="{{post.link}}" title="{{post.title}}" target="_blank">
+                            {{post.title}}
+                        </a>
+                    </strong>
+                <br/>
+                </p>
+                <p>
+                    <a href="{{post.link}}" title="{{post.title}}" target="_blank">
+                        {{post.thumbnail_sm | safe}}
+                        {{post.description | truncatewords_html:35}}
+                    </a>
+                </p>
+            </div>
+        {% endfor %}
+    </div>
+
+{% templatetag openblock %} endif {% templatetag closeblock %}

@@ -1,0 +1,389 @@
+{
+    "type": "table",
+    "name": "categoria_cartao",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_categoria_cartao": "1",
+    "categoria": "Abstrato"
+},
+{
+    "cod_categoria_cartao": "96",
+    "categoria": "Academias"
+},
+{
+    "cod_categoria_cartao": "97",
+    "categoria": "Acessórios Automotivos"
+},
+{
+    "cod_categoria_cartao": "98",
+    "categoria": "Açougue"
+},
+{
+    "cod_categoria_cartao": "99",
+    "categoria": "Símbolo Advocacia"
+},
+{
+    "cod_categoria_cartao": "100",
+    "categoria": "Água"
+},
+{
+    "cod_categoria_cartao": "101",
+    "categoria": "Artes Marciais"
+},
+{
+    "cod_categoria_cartao": "102",
+    "categoria": "Artesanato"
+},
+{
+    "cod_categoria_cartao": "103",
+    "categoria": "Artigos Religiosos"
+},
+{
+    "cod_categoria_cartao": "104",
+    "categoria": "Auto Escola"
+},
+{
+    "cod_categoria_cartao": "105",
+    "categoria": "Bebidas"
+},
+{
+    "cod_categoria_cartao": "106",
+    "categoria": "Bolsas e Acessórios"
+},
+{
+    "cod_categoria_cartao": "107",
+    "categoria": "Bomboniere"
+},
+{
+    "cod_categoria_cartao": "108",
+    "categoria": "Borracharias"
+},
+{
+    "cod_categoria_cartao": "109",
+    "categoria": "Brindes"
+},
+{
+    "cod_categoria_cartao": "110",
+    "categoria": "Buffet"
+},
+{
+    "cod_categoria_cartao": "111",
+    "categoria": "Cabeleireiros"
+},
+{
+    "cod_categoria_cartao": "112",
+    "categoria": "Cafeteria"
+},
+{
+    "cod_categoria_cartao": "113",
+    "categoria": "Calçados"
+},
+{
+    "cod_categoria_cartao": "114",
+    "categoria": "Caminhões"
+},
+{
+    "cod_categoria_cartao": "115",
+    "categoria": "Carros Importados"
+},
+{
+    "cod_categoria_cartao": "116",
+    "categoria": "Carrros Nacionais"
+},
+{
+    "cod_categoria_cartao": "117",
+    "categoria": "Celular"
+},
+{
+    "cod_categoria_cartao": "118",
+    "categoria": "Cestas e Presentes"
+},
+{
+    "cod_categoria_cartao": "119",
+    "categoria": "Chaveiro"
+},
+{
+    "cod_categoria_cartao": "120",
+    "categoria": "Churrascaria"
+},
+{
+    "cod_categoria_cartao": "121",
+    "categoria": "Confeitaria"
+},
+{
+    "cod_categoria_cartao": "122",
+    "categoria": "Construção"
+},
+{
+    "cod_categoria_cartao": "123",
+    "categoria": "Contabilidade"
+},
+{
+    "cod_categoria_cartao": "124",
+    "categoria": "Cosméticos"
+},
+{
+    "cod_categoria_cartao": "125",
+    "categoria": "Dança"
+},
+{
+    "cod_categoria_cartao": "126",
+    "categoria": "Educação"
+},
+{
+    "cod_categoria_cartao": "127",
+    "categoria": "Eletrodomésticos"
+},
+{
+    "cod_categoria_cartao": "128",
+    "categoria": "Esportes"
+},
+{
+    "cod_categoria_cartao": "129",
+    "categoria": "Estética"
+},
+{
+    "cod_categoria_cartao": "130",
+    "categoria": "Estofados"
+},
+{
+    "cod_categoria_cartao": "131",
+    "categoria": "Farmácia"
+},
+{
+    "cod_categoria_cartao": "132",
+    "categoria": "Floricultura"
+},
+{
+    "cod_categoria_cartao": "133",
+    "categoria": "Foto"
+},
+{
+    "cod_categoria_cartao": "134",
+    "categoria": "Fundos Diversos"
+},
+{
+    "cod_categoria_cartao": "135",
+    "categoria": "Games"
+},
+{
+    "cod_categoria_cartao": "136",
+    "categoria": "Gás"
+},
+{
+    "cod_categoria_cartao": "137",
+    "categoria": "Gesso e Textura"
+},
+{
+    "cod_categoria_cartao": "138",
+    "categoria": "Gráfica e Comunicação Visual"
+},
+{
+    "cod_categoria_cartao": "139",
+    "categoria": "Guincho"
+},
+{
+    "cod_categoria_cartao": "140",
+    "categoria": "Hortfruti"
+},
+{
+    "cod_categoria_cartao": "141",
+    "categoria": "Imobiliária"
+},
+{
+    "cod_categoria_cartao": "142",
+    "categoria": "Informática"
+},
+{
+    "cod_categoria_cartao": "143",
+    "categoria": "Jardinagem"
+},
+{
+    "cod_categoria_cartao": "144",
+    "categoria": "Jóias"
+},
+{
+    "cod_categoria_cartao": "145",
+    "categoria": "Lanches"
+},
+{
+    "cod_categoria_cartao": "146",
+    "categoria": "Laticínios"
+},
+{
+    "cod_categoria_cartao": "147",
+    "categoria": "Livraria"
+},
+{
+    "cod_categoria_cartao": "148",
+    "categoria": "Madeireiras"
+},
+{
+    "cod_categoria_cartao": "149",
+    "categoria": "Maquiagem"
+},
+{
+    "cod_categoria_cartao": "150",
+    "categoria": "Medicina"
+},
+{
+    "cod_categoria_cartao": "151",
+    "categoria": "Moda Feminina"
+},
+{
+    "cod_categoria_cartao": "152",
+    "categoria": "Moda Infantil"
+},
+{
+    "cod_categoria_cartao": "153",
+    "categoria": "Moda Masculina"
+},
+{
+    "cod_categoria_cartao": "154",
+    "categoria": "Moda Praia e Lingerie"
+},
+{
+    "cod_categoria_cartao": "155",
+    "categoria": "Motos"
+},
+{
+    "cod_categoria_cartao": "156",
+    "categoria": "Móveis"
+},
+{
+    "cod_categoria_cartao": "157",
+    "categoria": "Música"
+},
+{
+    "cod_categoria_cartao": "158",
+    "categoria": "Noivas"
+},
+{
+    "cod_categoria_cartao": "159",
+    "categoria": "Odontologia"
+},
+{
+    "cod_categoria_cartao": "160",
+    "categoria": "Ótica"
+},
+{
+    "cod_categoria_cartao": "161",
+    "categoria": "Padaria"
+},
+{
+    "cod_categoria_cartao": "162",
+    "categoria": "Paisagens"
+},
+{
+    "cod_categoria_cartao": "163",
+    "categoria": "Papelaria"
+},
+{
+    "cod_categoria_cartao": "164",
+    "categoria": "Perfumes"
+},
+{
+    "cod_categoria_cartao": "165",
+    "categoria": "Pet Shop"
+},
+{
+    "cod_categoria_cartao": "166",
+    "categoria": "Pizzaria"
+},
+{
+    "cod_categoria_cartao": "167",
+    "categoria": "Prestação de Serviços"
+},
+{
+    "cod_categoria_cartao": "168",
+    "categoria": "Relógios"
+},
+{
+    "cod_categoria_cartao": "169",
+    "categoria": "Restaurante"
+},
+{
+    "cod_categoria_cartao": "170",
+    "categoria": "Revestimentos e Mármores"
+},
+{
+    "cod_categoria_cartao": "171",
+    "categoria": "Segurança Patrimonial"
+},
+{
+    "cod_categoria_cartao": "172",
+    "categoria": "Serralheria e Esquadrias"
+},
+{
+    "cod_categoria_cartao": "173",
+    "categoria": "Sorvete"
+},
+{
+    "cod_categoria_cartao": "174",
+    "categoria": "Tattoo e Piercing"
+},
+{
+    "cod_categoria_cartao": "175",
+    "categoria": "Táxi"
+},
+{
+    "cod_categoria_cartao": "176",
+    "categoria": "Tecido"
+},
+{
+    "cod_categoria_cartao": "177",
+    "categoria": "Transporte Coletivo"
+},
+{
+    "cod_categoria_cartao": "178",
+    "categoria": "Turismo"
+},
+{
+    "cod_categoria_cartao": "179",
+    "categoria": "Uniformes"
+},
+{
+    "cod_categoria_cartao": "180",
+    "categoria": "Vídeos"
+},
+{
+    "cod_categoria_cartao": "181",
+    "categoria": "Vidraçaria"
+},
+{
+    "cod_categoria_cartao": "185",
+    "categoria": "Símbolos Internet"
+},
+{
+    "cod_categoria_cartao": "186",
+    "categoria": "Símbolos Telefonia"
+},
+{
+    "cod_categoria_cartao": "187",
+    "categoria": "Símbolos Telefones"
+},
+{
+    "cod_categoria_cartao": "188",
+    "categoria": "Símbolos Cartões de Crédito"
+},
+{
+    "cod_categoria_cartao": "189",
+    "categoria": "Símbolos Bancos"
+},
+{
+    "cod_categoria_cartao": "190",
+    "categoria": "Símbolos Automóveis"
+},
+{
+    "cod_categoria_cartao": "191",
+    "categoria": "Advocacia"
+},
+{
+    "cod_categoria_cartao": "192",
+    "categoria": "Símbolos Tarjas"
+}
+]
+
+}

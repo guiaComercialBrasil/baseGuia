@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load customize %}
+
+{% block title %}Guia Comercial Brasil{% endblock title %}
+
+{% block content %}
+
+<style>
+h1.titulo{
+    color: #66a592;
+	font-size: 18px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 5px;
+	margin: 25px auto;
+}
+.wrapper.quem_somos{
+	min-height: 300px;
+}
+</style>
+<div class="wrapper quem_somos">
+
+    {% customization %}
+
+        <h1 class="titulo">Quem Somos</h1>
+
+        <div>
+        {{ context_var|safe }}
+        {% autoescape off %}
+            {{ custom.primary }}
+        {% endautoescape %}
+		</div>
+
+        <!--<h1>Customização Secundária:</h1>-->
+
+        <div>
+        {{ context_var|safe }}
+        {% autoescape off %}
+            {{ custom.secondary }}
+        {% endautoescape %}
+        </div>
+
+    {% endcustomization %}
+
+    <!--<h1>TESTE</h1>-->
+
+</div><!-- .wrapper -->
+
+{% endblock content %}

@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% load thumbnail %}
+{% load in_city %}
+{% load customsort %}
+
+{% block title %}Estabelecimentos - {{categoria}}{% endblock title %}
+
+{% block content %}
+
+<style>
+/* Para Evitar o cache! */
+/* Categoria */
+#subcategorias{
+	/* float: right; */
+	width:100%;
+    max-width: 770px;
+    margin-top: 18px;
+}
+#subcategorias ul#listaSubCategorias li a:active {
+    text-decoration: underline;
+}
+/* Categoria */
+@media screen and (max-width: 980px){
+	#menu_categorias {
+		max-width: 100%;
+		width: 100%;
+        cursor: pointer;
+	}
+    #menu_categorias span{
+        background: url(../static/images/estabelecimento/menu_1.png) 95% 5px no-repeat;
+        background-size: 30px 30px;
+    }
+    #menu_categorias h3{
+        margin-bottom: 0;
+    }
+	#menu_categorias ul{
+		text-align:center;
+		padding: 5px 0 0 0;
+		display: none;
+	}
+	#menu_categorias ul li {
+		width: fit-content;
+		display: inline-block;
+	}
+	#menu_categorias ul li a {
+		padding: 5px 10px;
+	}
+	#subcategorias ul#listaSubCategorias li {
+		width: auto;
+	}
+}
+</style>
+
+<script>
+$(document).ready(function(){
+    if(window.matchMedia('(max-width: 980px)').matches){
+        $("#menu_categorias").on("click", function(){
+            $("#menu_categorias ul").toggle(100);
+        })
+    }
+});
+</script>
+
+<div class="wrapper d_flex">
+
+    <nav id="menu_categorias" class="pie">
+        <span class="pie">
+            <h3>Categorias</h3>
+        </span>
+        <ul>
+            {% for categoria in categorias|customsort:"nome" %}
+                {% if categoria|in_city:request.session.cidade %}
+                    <li><a href="{% url 'estab_categoria' categoria.slug %}" title="{{categoria}}" class="clickCategoria">{{categoria}}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+		<!-- FEED -->
+		<style>
+		#feed_blog_sidebar{
+			padding: 15px;
+			font-size: 11px;
+		}
+		#feed_blog_sidebar h3 {
+			font-size: 18px;
+			margin-bottom: 0px;
+		}
+		#feed_blog_sidebar h3 a:link,
+		#feed_blog_sidebar h3 a:active,
+		#feed_blog_sidebar h3 a:visited{
+			color: #0097D8;
+		}
+		#feed_blog_sidebar .post{
+			margin-bottom: 0px;
+		}
+		#feed_blog_sidebar p{
+			margin: 0;
+		}
+		#feed_blog_sidebar p.titulo{
+			text-transform: uppercase;
+			color: #555;
+		}
+		#feed_blog_sidebar a:link,
+		#feed_blog_sidebar a:active,
+		#feed_blog_sidebar a:visited{
+			color: #555;
+			text-decoration: none;
+		}
+		@media screen and (max-width: 980px){
+			#feed_blog_sidebar{
+				display: none;
+			}
+		}
+		
+        </style>      
+
+		{% include 'blogfeed.html' %}
+
+        <!-- FEED -->
+
+    </nav><!-- #menu_categorias -->
+
+    <div id="subcategorias">
+
+        <section id="principal">
+
+            <section id="subcategorias">
+                <h2 class="title_header" id="tituloCategoriaSelecionada">{{categoria}} em {{request.session.cidade_nome}}</h2>
+                <ul id="listaSubCategorias">
+                    {% for subcategoria in categoria.subcategorias_validas|customsort:"nome" %}
+			{% if subcategoria|in_city:request.session.cidade %}
+                            <li><a href="{% url 'estab_categoria' subcategoria.slug %}" title="{{subcategoria.nome}}" class="clickCategoria">{{subcategoria.nome}}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+
+            <!-- -->
+
+        </section><!-- #principal -->
+
+
+		<section id="estabelecimentos" class="cartoes">
+            <div id="breadcrumbs">
+                {% for categoria in estabelecimento.categoria.all %}
+                    {% if forloop.first %}
+                        <ul>
+                    {% endif %}
+                    {% if not categoria.categoria_pai %}
+                        <li><a href="{% url 'estab_categoria' categoria.slug %}">{{categoria}}</a></li>
+                    {% else %}
+                        <li><a href="{% url 'estab_categoria' categoria.categoria_pai.slug %}">{{categoria.categoria_pai}}</a> > <a href="{% url 'estab_categoria' categoria.slug %}">{{categoria}}</a></li>
+                    {% endif %}
+                    {% if forloop.last %}
+                        </ul>
+                    {% endif %}
+                {% endfor %}
+                <!--em {{request.session.cidade_nome}}-->
+
+            </div>
+
+            <span class="ordenacao">
+                <!--<a href="" style="font-size:12px;">Ordenar por popularidade</a>
+                <a href="" style="font-size:12px;">Ordenar por nome</a>-->
+            </span>
+
+            <ul id="lista_estabelecimentos">
+                <li class="titulo-categoria">
+                    <!--<h4>{{categoria}}</h4> -->
+                    <!--<div class="descricao">Descricao: {{categoria.descrição}}</div>-->
+                </li>
+                {% for estabelecimento in estabelecimentos %}
+                    {% if forloop.first %}
+                        <ul>
+                    {% endif %}
+                            <li class="cartao">
+                                <a href="{% url 'estabelecimento' estabelecimento.slug %}" alt="{{estabelecimento}}" title="{{estabelecimento}}">
+                                    {% thumbnail estabelecimento.imagens_divulgacao.imagem_cartao "350x200" as im %}
+                                    <img id="img_cartao" src="/{{im.url}}" alt=""  title="" height="200" width="350">
+                                    {% empty %}
+                                        {% thumbnail estabelecimento.categoria.first.categoria_pai.imagem "350x200" as im2 %}
+                                            <img id="img_cartao" src="/{{im2.url}}" alt=""  title="" height="200" width="350">
+                                        {% endthumbnail %}
+                                    {% endthumbnail %}
+                                </a>
+                                <p class="nome"><a href="{% url 'estabelecimento' estabelecimento.slug %}" alt="{{estabelecimento}}" title="{{estabelecimento}}">{{estabelecimento}}</a></p>
+                                <!--<p><a href="{% url 'estabelecimento' estabelecimento.slug %}" alt="{{estabelecimento}}" title="{{estabelecimento}}">{{estabelecimento.descricao}}</a></p>-->
+                                <p class="saiba-mais"><a href="{% url 'estabelecimento' estabelecimento.slug %}" alt="{{estabelecimento}}" title="{{estabelecimento}}">Saiba Mais</a></p>
+                                <p class="impulsionamentos">{{estabelecimento.impulsionamento}} impulsionamentos</p>
+                            </li>
+                    {% if forloop.last %}
+                        </ul>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <div class="descricao">{{categoria.descrição|safe}}</div>
+        </section>
+
+    </div>
+
+</div>
+
+<!--<ul>
+    <li>Sub Categorias {{categoria}}</li>
+    {% for subcategoria in categoria.subcategorias_validas %}
+        <li><a href="{% url 'estab_categoria' subcategoria.slug %}" title="{{subcategoria}}" class="clickCategoria">{{subcategoria}}</a></li>
+    {% endfor %}
+</ul>-->
+
+{% endblock content %}

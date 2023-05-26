@@ -1,0 +1,1185 @@
+,{
+    "type": "table",
+    "name": "config",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_config": "1",
+    "grupo": "redes_sociais",
+    "nome": "facebook",
+    "valor": "https:\/\/www.facebook.com\/guiacomercialbrasil\/",
+    "serializado": "0",
+    "data": "2012-11-19 13:15:19"
+},
+{
+    "cod_config": "2",
+    "grupo": "redes_sociais",
+    "nome": "twitter",
+    "valor": "https:\/\/twitter.com\/",
+    "serializado": "0",
+    "data": "2012-11-19 13:15:19"
+},
+{
+    "cod_config": "3",
+    "grupo": "pagina",
+    "nome": "parceiro_introducao",
+    "valor": null,
+    "serializado": "0",
+    "data": "2012-11-19 17:41:03"
+},
+{
+    "cod_config": "4",
+    "grupo": "pagina",
+    "nome": "parceiro_como_funciona",
+    "valor": null,
+    "serializado": "0",
+    "data": "2012-11-19 17:41:03"
+},
+{
+    "cod_config": "5",
+    "grupo": "pagina",
+    "nome": "estabelecimento_introducao",
+    "valor": "<span times=\"\" new=\"\" roman\",\"serif\";=\"\" mso-fareast-font-family:\"times=\"\" roman\";color:black;mso-themecolor:text1;=\"\" mso-fareast-language:pt-br\"=\"\" style=\"font-size: 14.3px;\">O cadastro no&nbsp;<span style=\"font-weight: bold; text-decoration-line: underline;\">GUIA COMERCIAL BRASIL<\/span>&nbsp;é rápido e fácil. Traga mais visibilidade ao seu negócio. Faça seu cadastro preenchendo as informações abaixo, escolha cidade, categoria e classe.<\/span>",
+    "serializado": "0",
+    "data": "2012-11-19 17:41:09"
+},
+{
+    "cod_config": "6",
+    "grupo": "pagina",
+    "nome": "estabelecimento_como_funciona",
+    "valor": "<span times=\"\" new=\"\" roman\",\"serif\";=\"\" mso-fareast-font-family:\"times=\"\" roman\";color:black;mso-themecolor:text1;=\"\" mso-fareast-language:pt-br\"=\"\">Para fazer o cadastro é simples!<\/span><span times=\"\" new=\"\" roman\",\"serif\";mso-fareast-font-family:=\"\" \"times=\"\" roman\";color:black;mso-themecolor:text1;mso-fareast-language:pt-br\"=\"\" style=\"font-size: 12pt;\"><\/span><p class=\"MsoNormal\" style=\"font-size: 14.3px; line-height: 13pt;\"><span times=\"\" new=\"\" roman\",\"serif\";=\"\" mso-fareast-font-family:\"times=\"\" roman\";color:black;mso-themecolor:text1;=\"\" mso-fareast-language:pt-br\"=\"\">Preencha os dados solicitados, dando o maior número possível de informações. Você também poderá enviar ou gerar a imagem de seu anúncio em nossa exclusiva ferramenta de \"Criação de Anúncios\". Poderá escolher fundos, acrescentar fotos, escolher letras, tamanhos e cores. Tudo para maior destaque em seu anúncio.<br><br><span style=\"font-size: 14.3px;\">Certifique-se de que as informações passadas para o anúncio estejam corretas e sejam verdadeiras, uma vez que são de inteira responsabilidade do anunciante.<\/span><\/span><\/p>",
+    "serializado": "0",
+    "data": "2012-11-19 17:41:09"
+},
+{
+    "cod_config": "7",
+    "grupo": "pagina",
+    "nome": "quem_somos",
+    "valor": "<!--[if gte mso 9]><xml>\n <w:WordDocument>\n  <w:View>Normal<\/w:View>\n  <w:Zoom>0<\/w:Zoom>\n  <w:TrackMoves\/>\n  <w:TrackFormatting\/>\n  <w:HyphenationZone>21<\/w:HyphenationZone>\n  <w:PunctuationKerning\/>\n  <w:ValidateAgainstSchemas\/>\n  <w:SaveIfXMLInvalid>false<\/w:SaveIfXMLInvalid>\n  <w:IgnoreMixedContent>false<\/w:IgnoreMixedContent>\n  <w:AlwaysShowPlaceholderText>false<\/w:AlwaysShowPlaceholderText>\n  <w:DoNotPromoteQF\/>\n  <w:LidThemeOther>PT-BR<\/w:LidThemeOther>\n  <w:LidThemeAsian>X-NONE<\/w:LidThemeAsian>\n  <w:LidThemeComplexScript>X-NONE<\/w:LidThemeComplexScript>\n  <w:Compatibility>\n   <w:BreakWrappedTables\/>\n   <w:SnapToGridInCell\/>\n   <w:WrapTextWithPunct\/>\n   <w:UseAsianBreakRules\/>\n   <w:DontGrowAutofit\/>\n   <w:SplitPgBreakAndParaMark\/>\n   <w:DontVertAlignCellWithSp\/>\n   <w:DontBreakConstrainedForcedTables\/>\n   <w:DontVertAlignInTxbx\/>\n   <w:Word11KerningPairs\/>\n   <w:CachedColBalance\/>\n  <\/w:Compatibility>\n  <m:mathPr>\n   <m:mathFont m:val=\"Cambria Math\"\/>\n   <m:brkBin m:val=\"before\"\/>\n   <m:brkBinSub m:val=\"--\"\/>\n   <m:smallFrac m:val=\"off\"\/>\n   <m:dispDef\/>\n   <m:lMargin m:val=\"0\"\/>\n   <m:rMargin m:val=\"0\"\/>\n   <m:defJc m:val=\"centerGroup\"\/>\n   <m:wrapIndent m:val=\"1440\"\/>\n   <m:intLim m:val=\"subSup\"\/>\n   <m:naryLim m:val=\"undOvr\"\/>\n  <\/m:mathPr><\/w:WordDocument>\n<\/xml><![endif]--><!--[if gte mso 9]><xml>\n <w:LatentStyles DefLockedState=\"false\" DefUnhideWhenUsed=\"true\"\n  DefSemiHidden=\"true\" DefQFormat=\"false\" DefPriority=\"99\"\n  LatentStyleCount=\"267\">\n  <w:LsdException Locked=\"false\" Priority=\"0\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Normal\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"heading 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 7\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 8\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 9\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 7\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 8\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 9\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"35\" QFormat=\"true\" Name=\"caption\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"10\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Title\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"1\" Name=\"Default Paragraph Font\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"11\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtitle\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"22\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Strong\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"20\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Emphasis\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"59\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Table Grid\"\/>\n  <w:LsdException Locked=\"false\" UnhideWhenUsed=\"false\" Name=\"Placeholder Text\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"1\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"No Spacing\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" UnhideWhenUsed=\"false\" Name=\"Revision\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"34\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"List Paragraph\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"29\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Quote\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"30\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Quote\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 1\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 2\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 3\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 4\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 5\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light List Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Dark List Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 6\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"19\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtle Emphasis\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"21\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Emphasis\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"31\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtle Reference\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"32\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Reference\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"33\" SemiHidden=\"false\"\n   UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Book Title\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"37\" Name=\"Bibliography\"\/>\n  <w:LsdException Locked=\"false\" Priority=\"39\" QFormat=\"true\" Name=\"TOC Heading\"\/>\n <\/w:LatentStyles>\n<\/xml><![endif]--><!--[if gte mso 10]>\n<style>\n \/* Style Definitions *\/\n table.MsoNormalTable\n\t{mso-style-name:\"Tabela normal\";\n\tmso-tstyle-rowband-size:0;\n\tmso-tstyle-colband-size:0;\n\tmso-style-noshow:yes;\n\tmso-style-priority:99;\n\tmso-style-qformat:yes;\n\tmso-style-parent:\"\";\n\tmso-padding-alt:0cm 5.4pt 0cm 5.4pt;\n\tmso-para-margin-top:0cm;\n\tmso-para-margin-right:0cm;\n\tmso-para-margin-bottom:10.0pt;\n\tmso-para-margin-left:0cm;\n\tline-height:115%;\n\tmso-pagination:widow-orphan;\n\tfont-size:11.0pt;\n\tfont-family:\"Calibri\",\"sans-serif\";\n\tmso-ascii-font-family:Calibri;\n\tmso-ascii-theme-font:minor-latin;\n\tmso-fareast-font-family:\"Times New Roman\";\n\tmso-fareast-theme-font:minor-fareast;\n\tmso-hansi-font-family:Calibri;\n\tmso-hansi-theme-font:minor-latin;\n\tmso-bidi-font-family:\"Times New Roman\";\n\tmso-bidi-theme-font:minor-bidi;}\n<\/style>\n<![endif]-->\n\n<p class=\"MsoNormal\" style=\"line-height:13.0pt\"><span style=\"font-size:12.0pt;\nfont-family:\" times=\"\" new=\"\" roman\",\"serif\";mso-fareast-font-family:\"times=\"\" roman\";=\"\" color:black;mso-themecolor:text1;mso-fareast-language:pt-br\"=\"\"><\/span>O <span style=\"font-weight: bold;\"><span style=\"text-decoration: underline;\">GUIA COMERCIAL BRASIL<\/span> <\/span>é uma eficiente ferramenta de busca e localização de fornecedores em\ndiferentes setores do comércio e serviços.<span style=\"font-size: 12pt; font-weight: bold;\" times=\"\" new=\"\" roman\",\"serif\";mso-fareast-font-family:\"times=\"\" roman\";=\"\" color:black;mso-themecolor:text1;mso-fareast-language:pt-br\"=\"\"><\/span><\/p>\n\n<p class=\"MsoNormal\" style=\"line-height:13.0pt\">Ágil e de fácil acesso e manuseio,\no Guia é um novo mecanismo online de divulgação de produtos e serviços que\npossibilita uma rápida e prática consulta sem custos.<span style=\"font-size:12.0pt;font-family:\" times=\"\" new=\"\" roman\",\"serif\";mso-fareast-font-family:=\"\" \"times=\"\" roman\";color:black;mso-themecolor:text1;mso-fareast-language:pt-br\"=\"\"><\/span><\/p>\n\n",
+    "serializado": "0",
+    "data": "2012-11-19 17:41:13"
+},
+{
+    "cod_config": "8",
+    "grupo": "topo",
+    "nome": "institucional",
+    "valor": "<p class=\"MsoNormal\" style=\"font-size: 14.3px; line-height: 13pt;\">O&nbsp;<span style=\"font-weight: bold;\"><span style=\"text-decoration-line: underline;\">GUIA COMERCIAL BRASIL<\/span>&nbsp;<\/span>é uma eficiente ferramenta de busca e localização de fornecedores em diferentes setores do comércio e serviços.<span times=\"\" new=\"\" roman\",\"serif\";mso-fareast-font-family:\"times=\"\" roman\";=\"\" color:black;mso-themecolor:text1;mso-fareast-language:pt-br\"=\"\" style=\"font-size: 12pt; font-weight: bold;\"><\/span><\/p><p class=\"MsoNormal\" style=\"font-size: 14.3px; line-height: 13pt;\">Ágil e de fácil acesso e manuseio, o Guia é um novo mecanismo online de divulgação de produtos e serviços que possibilita uma rápida e prática consulta sem custos.<\/p>",
+    "serializado": "0",
+    "data": "2012-11-21 15:08:50"
+},
+{
+    "cod_config": "11",
+    "grupo": "metatags",
+    "nome": "descricao",
+    "valor": "O Guia Comercial Brasil tem a proposta de\nser uma eficiente ferramenta de busca e localização de fornecedores em diferentes setores do comércio e serviços. Com um mecanismo ágil e de fácil acesso e manuseio, o Guia é um novo mecanismo online de divulgação de produtos e serviços que possibilita uma rápida e prática consulta sem custos. Você pode ser nosso parceiro e administrar a página do Guia Comercial Brasil em sua cidade ou setor de atuação.\n\nSua página estará ligada ao nosso portal, onde encontrará todos os recursos e ainda facilidades para desenvolver outros produtos associados. Ao se tornar um parceiro do Guia Comercial Brasil, você poderá administrar uma página em sua cidade ou setor de atuação, mediante pagamento de mensalidade aos administradores do portal.\n\nUma vez desenvolvida a parceria, o administrador da página setorial pode negociar os anúncios em sua página de forma independente e sem qualquer interferência dos administradores do portal. No Guia Comercial Brasil você encontra tudo em sua região. Telefones Úteis, Animais e Plantas, Artesanato, Automóveis, Veículos e Serviços, Bebidas e Alimentos, Casa e Decoração, Comunicação e Publicidade, Construção, Reforma e Serviços, Educação e Cultura, Entretenimento, Festas e Eventos, Esporte e Lazer, Informática e Papelaria, Produtos e Variedades, Roupas e Acessórios, Saúde, Estética e beleza, Serviços, Serviços Públicos e Associações.",
+    "serializado": "0",
+    "data": "2012-11-29 16:25:01"
+},
+{
+    "cod_config": "12",
+    "grupo": "notificacoes",
+    "nome": "emails",
+    "valor": "eduardocrispim1@gmail.com",
+    "serializado": "0",
+    "data": "2012-11-29 16:25:01"
+},
+{
+    "cod_config": "13",
+    "grupo": "metatags",
+    "nome": "google",
+    "valor": null,
+    "serializado": "0",
+    "data": "2012-11-29 16:34:05"
+},
+{
+    "cod_config": "18",
+    "grupo": "redes_sociais",
+    "nome": "facebook_7",
+    "valor": null,
+    "serializado": "0",
+    "data": "2013-01-16 16:13:00"
+},
+{
+    "cod_config": "19",
+    "grupo": "redes_sociais",
+    "nome": "twitter_7",
+    "valor": null,
+    "serializado": "0",
+    "data": "2013-01-16 16:13:01"
+},
+{
+    "cod_config": "28",
+    "grupo": "temp",
+    "nome": "cidade_g_12",
+    "valor": "Jarinu",
+    "serializado": "0",
+    "data": "2013-02-14 10:12:17"
+},
+{
+    "cod_config": "29",
+    "grupo": "temp",
+    "nome": "uf_g_12",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2013-02-14 10:12:17"
+},
+{
+    "cod_config": "30",
+    "grupo": "design",
+    "nome": "design_7",
+    "valor": "a5",
+    "serializado": "0",
+    "data": "2013-03-13 10:59:14"
+},
+{
+    "cod_config": "33",
+    "grupo": "design",
+    "nome": "design_19",
+    "valor": "a2",
+    "serializado": "0",
+    "data": "2013-04-25 10:49:30"
+},
+{
+    "cod_config": "34",
+    "grupo": "design",
+    "nome": "design_18",
+    "valor": "a3",
+    "serializado": "0",
+    "data": "2013-04-25 10:49:40"
+},
+{
+    "cod_config": "37",
+    "grupo": "temp",
+    "nome": "cidade_16",
+    "valor": "São Paulo",
+    "serializado": "0",
+    "data": "2013-05-31 17:14:37"
+},
+{
+    "cod_config": "38",
+    "grupo": "temp",
+    "nome": "uf_16",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2013-05-31 17:14:37"
+},
+{
+    "cod_config": "41",
+    "grupo": "design",
+    "nome": "design_47",
+    "valor": "a7",
+    "serializado": "0",
+    "data": "2013-06-08 17:01:17"
+},
+{
+    "cod_config": "42",
+    "grupo": "temp",
+    "nome": "cidade_18",
+    "valor": "Porto Alegre",
+    "serializado": "0",
+    "data": "2013-07-20 17:23:32"
+},
+{
+    "cod_config": "43",
+    "grupo": "temp",
+    "nome": "uf_18",
+    "valor": "RS",
+    "serializado": "0",
+    "data": "2013-07-20 17:23:32"
+},
+{
+    "cod_config": "44",
+    "grupo": "temp",
+    "nome": "cidade_19",
+    "valor": "Sorocaba",
+    "serializado": "0",
+    "data": "2013-10-16 22:44:24"
+},
+{
+    "cod_config": "45",
+    "grupo": "temp",
+    "nome": "uf_19",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2013-10-16 22:44:24"
+},
+{
+    "cod_config": "46",
+    "grupo": "design",
+    "nome": "design_53",
+    "valor": "a10",
+    "serializado": "0",
+    "data": "2014-01-16 11:53:55"
+},
+{
+    "cod_config": "47",
+    "grupo": "temp",
+    "nome": "cidade_21",
+    "valor": "Franco Da Rocha",
+    "serializado": "0",
+    "data": "2014-02-04 14:35:42"
+},
+{
+    "cod_config": "48",
+    "grupo": "temp",
+    "nome": "uf_21",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2014-02-04 14:35:42"
+},
+{
+    "cod_config": "49",
+    "grupo": "temp",
+    "nome": "cidade_27",
+    "valor": "Jundiai",
+    "serializado": "0",
+    "data": "2014-03-29 22:33:21"
+},
+{
+    "cod_config": "50",
+    "grupo": "temp",
+    "nome": "uf_27",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2014-03-29 22:33:21"
+},
+{
+    "cod_config": "51",
+    "grupo": "temp",
+    "nome": "cidade_28",
+    "valor": "Araguaína",
+    "serializado": "0",
+    "data": "2014-07-03 16:03:22"
+},
+{
+    "cod_config": "52",
+    "grupo": "temp",
+    "nome": "uf_28",
+    "valor": "TO",
+    "serializado": "0",
+    "data": "2014-07-03 16:03:22"
+},
+{
+    "cod_config": "53",
+    "grupo": "temp",
+    "nome": "cidade_29",
+    "valor": "Mirassol",
+    "serializado": "0",
+    "data": "2014-07-17 20:55:18"
+},
+{
+    "cod_config": "54",
+    "grupo": "temp",
+    "nome": "uf_29",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2014-07-17 20:55:18"
+},
+{
+    "cod_config": "56",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_7",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-08-07 21:56:44"
+},
+{
+    "cod_config": "57",
+    "grupo": "redes_sociais",
+    "nome": "facebook_expires_7",
+    "valor": "07\/10\/14",
+    "serializado": "0",
+    "data": "2014-08-07 21:56:44"
+},
+{
+    "cod_config": "58",
+    "grupo": "redes_sociais",
+    "nome": "facebook_18",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-10-30 09:38:41"
+},
+{
+    "cod_config": "59",
+    "grupo": "redes_sociais",
+    "nome": "twitter_18",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-10-30 09:38:41"
+},
+{
+    "cod_config": "60",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_18",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-10-30 09:38:41"
+},
+{
+    "cod_config": "61",
+    "grupo": "design",
+    "nome": "design_62",
+    "valor": "a3",
+    "serializado": "0",
+    "data": "2014-11-25 16:28:49"
+},
+{
+    "cod_config": "62",
+    "grupo": "redes_sociais",
+    "nome": "facebook_62",
+    "valor": "https:\/\/www.facebook.com\/guiacomercialsaosebastiao",
+    "serializado": "0",
+    "data": "2014-11-26 21:59:24"
+},
+{
+    "cod_config": "63",
+    "grupo": "redes_sociais",
+    "nome": "twitter_62",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-11-26 21:59:24"
+},
+{
+    "cod_config": "64",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_62",
+    "valor": null,
+    "serializado": "0",
+    "data": "2014-11-26 21:59:24"
+},
+{
+    "cod_config": "65",
+    "grupo": "design",
+    "nome": "design_64",
+    "valor": "a3",
+    "serializado": "0",
+    "data": "2015-01-27 17:52:34"
+},
+{
+    "cod_config": "66",
+    "grupo": "temp",
+    "nome": "cidade_38",
+    "valor": "monteiro",
+    "serializado": "0",
+    "data": "2015-04-24 10:01:23"
+},
+{
+    "cod_config": "67",
+    "grupo": "temp",
+    "nome": "uf_38",
+    "valor": "PB",
+    "serializado": "0",
+    "data": "2015-04-24 10:01:23"
+},
+{
+    "cod_config": "68",
+    "grupo": "temp",
+    "nome": "cidade_39",
+    "valor": "caieiras",
+    "serializado": "0",
+    "data": "2015-05-25 16:25:14"
+},
+{
+    "cod_config": "69",
+    "grupo": "temp",
+    "nome": "uf_39",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2015-05-25 16:25:14"
+},
+{
+    "cod_config": "70",
+    "grupo": "temp",
+    "nome": "cidade_40",
+    "valor": "Curitiba",
+    "serializado": "0",
+    "data": "2015-06-22 14:10:29"
+},
+{
+    "cod_config": "71",
+    "grupo": "temp",
+    "nome": "uf_40",
+    "valor": "PR",
+    "serializado": "0",
+    "data": "2015-06-22 14:10:29"
+},
+{
+    "cod_config": "72",
+    "grupo": "temp",
+    "nome": "cidade_41",
+    "valor": "guariba",
+    "serializado": "0",
+    "data": "2015-07-01 21:29:13"
+},
+{
+    "cod_config": "73",
+    "grupo": "temp",
+    "nome": "uf_41",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2015-07-01 21:29:13"
+},
+{
+    "cod_config": "76",
+    "grupo": "redes_sociais",
+    "nome": "facebook_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-08-13 22:55:12"
+},
+{
+    "cod_config": "77",
+    "grupo": "redes_sociais",
+    "nome": "twitter_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-08-13 22:55:12"
+},
+{
+    "cod_config": "78",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-08-13 22:55:12"
+},
+{
+    "cod_config": "79",
+    "grupo": "periodo",
+    "nome": "datainicio_7",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-10 10:13:41"
+},
+{
+    "cod_config": "80",
+    "grupo": "periodo",
+    "nome": "datafim_7",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-10 10:13:41"
+},
+{
+    "cod_config": "81",
+    "grupo": "periodo",
+    "nome": "datainicio_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-10 21:16:02"
+},
+{
+    "cod_config": "82",
+    "grupo": "periodo",
+    "nome": "datafim_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-10 21:16:03"
+},
+{
+    "cod_config": "83",
+    "grupo": "temp",
+    "nome": "cidade_44",
+    "valor": "Jd Mairi",
+    "serializado": "0",
+    "data": "2015-09-16 12:34:11"
+},
+{
+    "cod_config": "84",
+    "grupo": "temp",
+    "nome": "uf_44",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2015-09-16 12:34:11"
+},
+{
+    "cod_config": "85",
+    "grupo": "design",
+    "nome": "design_71",
+    "valor": "a3",
+    "serializado": "0",
+    "data": "2015-09-22 19:34:09"
+},
+{
+    "cod_config": "86",
+    "grupo": "periodo",
+    "nome": "datainicio_18",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-25 10:34:05"
+},
+{
+    "cod_config": "87",
+    "grupo": "periodo",
+    "nome": "datafim_18",
+    "valor": null,
+    "serializado": "0",
+    "data": "2015-09-25 10:34:05"
+},
+{
+    "cod_config": "88",
+    "grupo": "temp",
+    "nome": "cidade_45",
+    "valor": "Estreito",
+    "serializado": "0",
+    "data": "2015-10-03 16:25:39"
+},
+{
+    "cod_config": "89",
+    "grupo": "temp",
+    "nome": "uf_45",
+    "valor": "MA",
+    "serializado": "0",
+    "data": "2015-10-03 16:25:39"
+},
+{
+    "cod_config": "90",
+    "grupo": "temp",
+    "nome": "cidade_46",
+    "valor": "Maringá",
+    "serializado": "0",
+    "data": "2015-10-29 21:29:23"
+},
+{
+    "cod_config": "91",
+    "grupo": "temp",
+    "nome": "uf_46",
+    "valor": "PR",
+    "serializado": "0",
+    "data": "2015-10-29 21:29:23"
+},
+{
+    "cod_config": "92",
+    "grupo": "temp",
+    "nome": "cidade_47",
+    "valor": "GUARULHOS",
+    "serializado": "0",
+    "data": "2015-11-13 16:48:43"
+},
+{
+    "cod_config": "93",
+    "grupo": "temp",
+    "nome": "uf_47",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2015-11-13 16:48:43"
+},
+{
+    "cod_config": "96",
+    "grupo": "temp",
+    "nome": "cidade_49",
+    "valor": "Sorocaba",
+    "serializado": "0",
+    "data": "2016-02-01 17:33:09"
+},
+{
+    "cod_config": "97",
+    "grupo": "temp",
+    "nome": "uf_49",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-02-01 17:33:09"
+},
+{
+    "cod_config": "98",
+    "grupo": "design",
+    "nome": "design_48",
+    "valor": "a7",
+    "serializado": "0",
+    "data": "2016-05-11 19:34:47"
+},
+{
+    "cod_config": "99",
+    "grupo": "periodo",
+    "nome": "datainicio_48",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-05-13 04:54:57"
+},
+{
+    "cod_config": "100",
+    "grupo": "periodo",
+    "nome": "datafim_48",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-05-13 04:54:57"
+},
+{
+    "cod_config": "101",
+    "grupo": "redes_sociais",
+    "nome": "facebook_48",
+    "valor": "facebook.com\/frpromotor45025271",
+    "serializado": "0",
+    "data": "2016-05-13 04:54:57"
+},
+{
+    "cod_config": "102",
+    "grupo": "redes_sociais",
+    "nome": "twitter_48",
+    "valor": "https:\/\/twitter.com\/rctrepresentac1",
+    "serializado": "0",
+    "data": "2016-05-13 04:54:57"
+},
+{
+    "cod_config": "103",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_48",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-05-13 04:54:57"
+},
+{
+    "cod_config": "104",
+    "grupo": "temp",
+    "nome": "cidade_51",
+    "valor": "Visconde do Rio Branco",
+    "serializado": "0",
+    "data": "2016-05-17 22:40:36"
+},
+{
+    "cod_config": "105",
+    "grupo": "temp",
+    "nome": "uf_51",
+    "valor": "MG",
+    "serializado": "0",
+    "data": "2016-05-17 22:40:36"
+},
+{
+    "cod_config": "106",
+    "grupo": "design",
+    "nome": "design_77",
+    "valor": "a9",
+    "serializado": "0",
+    "data": "2016-06-01 16:56:32"
+},
+{
+    "cod_config": "107",
+    "grupo": "design",
+    "nome": "design_69",
+    "valor": "a3",
+    "serializado": "0",
+    "data": "2016-06-01 18:39:25"
+},
+{
+    "cod_config": "108",
+    "grupo": "temp",
+    "nome": "cidade_52",
+    "valor": "São Paulo",
+    "serializado": "0",
+    "data": "2016-06-06 15:15:49"
+},
+{
+    "cod_config": "109",
+    "grupo": "temp",
+    "nome": "uf_52",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-06-06 15:15:49"
+},
+{
+    "cod_config": "110",
+    "grupo": "design",
+    "nome": "design_82",
+    "valor": "a9",
+    "serializado": "0",
+    "data": "2016-06-09 21:59:31"
+},
+{
+    "cod_config": "111",
+    "grupo": "periodo",
+    "nome": "datainicio_82",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-06-09 22:05:19"
+},
+{
+    "cod_config": "112",
+    "grupo": "periodo",
+    "nome": "datafim_82",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-06-09 22:05:19"
+},
+{
+    "cod_config": "113",
+    "grupo": "redes_sociais",
+    "nome": "facebook_82",
+    "valor": "www.facebook.com\/jose.crispim.336",
+    "serializado": "0",
+    "data": "2016-06-09 22:05:19"
+},
+{
+    "cod_config": "114",
+    "grupo": "redes_sociais",
+    "nome": "twitter_82",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-06-09 22:05:19"
+},
+{
+    "cod_config": "115",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_82",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-06-09 22:05:19"
+},
+{
+    "cod_config": "116",
+    "grupo": "google",
+    "nome": "analytics_7",
+    "valor": "UA-81699782-2",
+    "serializado": "0",
+    "data": "2016-08-01 23:11:42"
+},
+{
+    "cod_config": "117",
+    "grupo": "periodo",
+    "nome": "datainicio_69",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "118",
+    "grupo": "periodo",
+    "nome": "datafim_69",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "119",
+    "grupo": "redes_sociais",
+    "nome": "facebook_69",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "120",
+    "grupo": "redes_sociais",
+    "nome": "twitter_69",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "121",
+    "grupo": "redes_sociais",
+    "nome": "facebook_token_69",
+    "valor": null,
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "122",
+    "grupo": "google",
+    "nome": "analytics_69",
+    "valor": "UA-80843147-1",
+    "serializado": "0",
+    "data": "2016-08-02 11:46:59"
+},
+{
+    "cod_config": "123",
+    "grupo": "temp",
+    "nome": "cidade_54",
+    "valor": "Santa luzia",
+    "serializado": "0",
+    "data": "2016-08-08 11:43:24"
+},
+{
+    "cod_config": "124",
+    "grupo": "temp",
+    "nome": "uf_54",
+    "valor": "MG",
+    "serializado": "0",
+    "data": "2016-08-08 11:43:24"
+},
+{
+    "cod_config": "125",
+    "grupo": "temp",
+    "nome": "cidade_56",
+    "valor": "MAIRIPORÃ",
+    "serializado": "0",
+    "data": "2016-08-20 23:14:21"
+},
+{
+    "cod_config": "126",
+    "grupo": "temp",
+    "nome": "uf_56",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-08-20 23:14:21"
+},
+{
+    "cod_config": "127",
+    "grupo": "temp",
+    "nome": "cidade_57",
+    "valor": "Goiânia",
+    "serializado": "0",
+    "data": "2016-08-27 22:01:12"
+},
+{
+    "cod_config": "128",
+    "grupo": "temp",
+    "nome": "uf_57",
+    "valor": "GO",
+    "serializado": "0",
+    "data": "2016-08-27 22:01:12"
+},
+{
+    "cod_config": "129",
+    "grupo": "temp",
+    "nome": "cidade_58",
+    "valor": "Itajaí",
+    "serializado": "0",
+    "data": "2016-10-21 22:11:09"
+},
+{
+    "cod_config": "130",
+    "grupo": "temp",
+    "nome": "uf_58",
+    "valor": "SC",
+    "serializado": "0",
+    "data": "2016-10-21 22:11:09"
+},
+{
+    "cod_config": "131",
+    "grupo": "temp",
+    "nome": "cidade_59",
+    "valor": "São Paulo",
+    "serializado": "0",
+    "data": "2016-10-27 18:57:47"
+},
+{
+    "cod_config": "132",
+    "grupo": "temp",
+    "nome": "uf_59",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-10-27 18:57:47"
+},
+{
+    "cod_config": "133",
+    "grupo": "temp",
+    "nome": "cidade_60",
+    "valor": "Paulinia",
+    "serializado": "0",
+    "data": "2016-12-10 09:46:27"
+},
+{
+    "cod_config": "134",
+    "grupo": "temp",
+    "nome": "uf_60",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-12-10 09:46:27"
+},
+{
+    "cod_config": "135",
+    "grupo": "temp",
+    "nome": "cidade_61",
+    "valor": "Mairiporã",
+    "serializado": "0",
+    "data": "2016-12-11 19:58:55"
+},
+{
+    "cod_config": "136",
+    "grupo": "temp",
+    "nome": "uf_61",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2016-12-11 19:58:55"
+},
+{
+    "cod_config": "137",
+    "grupo": "temp",
+    "nome": "cidade_62",
+    "valor": "Tietê",
+    "serializado": "0",
+    "data": "2017-01-09 00:47:29"
+},
+{
+    "cod_config": "138",
+    "grupo": "temp",
+    "nome": "uf_62",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-01-09 00:47:29"
+},
+{
+    "cod_config": "139",
+    "grupo": "temp",
+    "nome": "cidade_63",
+    "valor": "Mairiporã",
+    "serializado": "0",
+    "data": "2017-01-12 18:14:34"
+},
+{
+    "cod_config": "140",
+    "grupo": "temp",
+    "nome": "uf_63",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-01-12 18:14:34"
+},
+{
+    "cod_config": "141",
+    "grupo": "temp",
+    "nome": "cidade_64",
+    "valor": "Ceilândia",
+    "serializado": "0",
+    "data": "2017-01-15 04:18:36"
+},
+{
+    "cod_config": "142",
+    "grupo": "temp",
+    "nome": "uf_64",
+    "valor": "DF",
+    "serializado": "0",
+    "data": "2017-01-15 04:18:36"
+},
+{
+    "cod_config": "143",
+    "grupo": "temp",
+    "nome": "cidade_65",
+    "valor": "VILA VELHA",
+    "serializado": "0",
+    "data": "2017-01-17 22:48:10"
+},
+{
+    "cod_config": "144",
+    "grupo": "temp",
+    "nome": "uf_65",
+    "valor": "ES",
+    "serializado": "0",
+    "data": "2017-01-17 22:48:10"
+},
+{
+    "cod_config": "145",
+    "grupo": "temp",
+    "nome": "cidade_66",
+    "valor": "Ourinhos",
+    "serializado": "0",
+    "data": "2017-03-03 01:59:28"
+},
+{
+    "cod_config": "146",
+    "grupo": "temp",
+    "nome": "uf_66",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-03-03 01:59:28"
+},
+{
+    "cod_config": "147",
+    "grupo": "temp",
+    "nome": "cidade_67",
+    "valor": "Paripueira",
+    "serializado": "0",
+    "data": "2017-03-14 12:10:34"
+},
+{
+    "cod_config": "148",
+    "grupo": "temp",
+    "nome": "uf_67",
+    "valor": "AL",
+    "serializado": "0",
+    "data": "2017-03-14 12:10:34"
+},
+{
+    "cod_config": "149",
+    "grupo": "temp",
+    "nome": "cidade_68",
+    "valor": "MOSSORÓ",
+    "serializado": "0",
+    "data": "2017-03-21 13:46:25"
+},
+{
+    "cod_config": "150",
+    "grupo": "temp",
+    "nome": "uf_68",
+    "valor": "RN",
+    "serializado": "0",
+    "data": "2017-03-21 13:46:25"
+},
+{
+    "cod_config": "151",
+    "grupo": "temp",
+    "nome": "cidade_69",
+    "valor": "Ji-Paraná",
+    "serializado": "0",
+    "data": "2017-04-01 11:53:37"
+},
+{
+    "cod_config": "152",
+    "grupo": "temp",
+    "nome": "uf_69",
+    "valor": "RO",
+    "serializado": "0",
+    "data": "2017-04-01 11:53:37"
+},
+{
+    "cod_config": "153",
+    "grupo": "temp",
+    "nome": "cidade_70",
+    "valor": "Mirassol",
+    "serializado": "0",
+    "data": "2017-04-04 15:22:00"
+},
+{
+    "cod_config": "154",
+    "grupo": "temp",
+    "nome": "uf_70",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-04-04 15:22:00"
+},
+{
+    "cod_config": "155",
+    "grupo": "temp",
+    "nome": "cidade_71",
+    "valor": "Ourinhos",
+    "serializado": "0",
+    "data": "2017-04-15 21:13:50"
+},
+{
+    "cod_config": "156",
+    "grupo": "temp",
+    "nome": "uf_71",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-04-15 21:13:50"
+},
+{
+    "cod_config": "157",
+    "grupo": "google",
+    "nome": "analytics_19",
+    "valor": null,
+    "serializado": "0",
+    "data": "2017-04-25 15:01:11"
+},
+{
+    "cod_config": "158",
+    "grupo": "temp",
+    "nome": "cidade_72",
+    "valor": "Belo Horizonte",
+    "serializado": "0",
+    "data": "2017-05-01 14:56:40"
+},
+{
+    "cod_config": "159",
+    "grupo": "temp",
+    "nome": "uf_72",
+    "valor": "MG",
+    "serializado": "0",
+    "data": "2017-05-01 14:56:40"
+},
+{
+    "cod_config": "160",
+    "grupo": "temp",
+    "nome": "cidade_73",
+    "valor": "MAIRIPORA",
+    "serializado": "0",
+    "data": "2017-05-22 14:09:56"
+},
+{
+    "cod_config": "161",
+    "grupo": "temp",
+    "nome": "uf_73",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-05-22 14:09:56"
+},
+{
+    "cod_config": "162",
+    "grupo": "temp",
+    "nome": "cidade_74",
+    "valor": "Barueri",
+    "serializado": "0",
+    "data": "2017-05-30 22:27:22"
+},
+{
+    "cod_config": "163",
+    "grupo": "temp",
+    "nome": "uf_74",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-05-30 22:27:22"
+},
+{
+    "cod_config": "164",
+    "grupo": "temp",
+    "nome": "cidade_75",
+    "valor": "\\vila Velha",
+    "serializado": "0",
+    "data": "2017-06-09 15:49:53"
+},
+{
+    "cod_config": "165",
+    "grupo": "temp",
+    "nome": "uf_75",
+    "valor": "ES",
+    "serializado": "0",
+    "data": "2017-06-09 15:49:53"
+},
+{
+    "cod_config": "166",
+    "grupo": "temp",
+    "nome": "cidade_76",
+    "valor": "Sao Paulo",
+    "serializado": "0",
+    "data": "2017-06-14 11:59:13"
+},
+{
+    "cod_config": "167",
+    "grupo": "temp",
+    "nome": "uf_76",
+    "valor": "SP",
+    "serializado": "0",
+    "data": "2017-06-14 11:59:13"
+},
+{
+    "cod_config": "168",
+    "grupo": "valor_excedente",
+    "nome": "valor_categoria",
+    "valor": "7.50",
+    "serializado": "0",
+    "data": "2017-06-19 22:20:03"
+},
+{
+    "cod_config": "169",
+    "grupo": "valor_excedente",
+    "nome": "valor_cidade",
+    "valor": "7.50",
+    "serializado": "0",
+    "data": "2017-06-19 22:20:03"
+},
+{
+    "cod_config": "170",
+    "grupo": "pagamento",
+    "nome": "periodo",
+    "valor": "1",
+    "serializado": "0",
+    "data": "2017-06-19 22:20:04"
+},
+{
+    "cod_config": "171",
+    "grupo": "pagamento",
+    "nome": "valor_padrao",
+    "valor": "15.00",
+    "serializado": "0",
+    "data": "2017-06-19 22:20:05"
+},
+{
+    "cod_config": "172",
+    "grupo": "design",
+    "nome": "design_295",
+    "valor": "a2",
+    "serializado": "0",
+    "data": "2017-06-20 16:20:13"
+}
+]
+
+}

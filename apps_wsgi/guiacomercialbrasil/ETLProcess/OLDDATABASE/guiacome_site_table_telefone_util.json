@@ -1,0 +1,891 @@
+,{
+    "type": "table",
+    "name": "telefone_util",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_telefone_util": "21",
+    "cod_guia": "7",
+    "nome": "Agenda de Cartões",
+    "telefone": "4604-3313",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "22",
+    "cod_guia": "7",
+    "nome": "Água e Esgoto",
+    "telefone": "195",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "23",
+    "cod_guia": "7",
+    "nome": "Associação Comercial",
+    "telefone": "4419-0922 \/ 4419-2642",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "24",
+    "cod_guia": "7",
+    "nome": "Auto Pista Fernão Dias",
+    "telefone": "0800-2830381",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "25",
+    "cod_guia": "7",
+    "nome": "Biblioteca",
+    "telefone": "4419-4287",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "26",
+    "cod_guia": "7",
+    "nome": "Bombeiros",
+    "telefone": "193",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "27",
+    "cod_guia": "7",
+    "nome": "Câmara Municipal",
+    "telefone": "4419-0800",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "28",
+    "cod_guia": "7",
+    "nome": "Cartório Eleitoral",
+    "telefone": "4604-2836 \/ 4419-2651",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "29",
+    "cod_guia": "7",
+    "nome": "Casa da Agricultura",
+    "telefone": "4604-2545",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "30",
+    "cod_guia": "7",
+    "nome": "Delegacia Mairiporã",
+    "telefone": "4604-2230",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "31",
+    "cod_guia": "7",
+    "nome": "Delegacia Terra Preta",
+    "telefone": "4486-1947",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "32",
+    "cod_guia": "7",
+    "nome": "Energia Elétrica",
+    "telefone": "0800-7010102",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "33",
+    "cod_guia": "7",
+    "nome": "Hospital e Maternidade",
+    "telefone": "4419-4422",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "34",
+    "cod_guia": "7",
+    "nome": "OAB",
+    "telefone": "4604-2621",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "35",
+    "cod_guia": "7",
+    "nome": "Polícia",
+    "telefone": "190",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "36",
+    "cod_guia": "7",
+    "nome": "Polícia Rodoviária Federal",
+    "telefone": "2485-8978",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "37",
+    "cod_guia": "7",
+    "nome": "Prefeitura",
+    "telefone": "4419-8000",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "38",
+    "cod_guia": "7",
+    "nome": "Pronto Socorro",
+    "telefone": "4604-2390",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "39",
+    "cod_guia": "7",
+    "nome": "Sub-Prefeitura Terra Preta",
+    "telefone": "4486-1950",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "40",
+    "cod_guia": "7",
+    "nome": "UBS Mairiporã",
+    "telefone": "4419-7101",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "41",
+    "cod_guia": "7",
+    "nome": "UBS Terra Preta",
+    "telefone": "4486-1554",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "42",
+    "cod_guia": "7",
+    "nome": "Correios - Centro de Distribuição",
+    "telefone": "4419-0753",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "43",
+    "cod_guia": "7",
+    "nome": "Adm Municipal na Serra",
+    "telefone": "4485-5730",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "44",
+    "cod_guia": "7",
+    "nome": "Vigilância Sanitária",
+    "telefone": "4419-2300",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "45",
+    "cod_guia": "7",
+    "nome": "Banco do Povo",
+    "telefone": "4604-2830",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "46",
+    "cod_guia": "7",
+    "nome": "Casa da Mulher",
+    "telefone": "4419-6758",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "47",
+    "cod_guia": "7",
+    "nome": "Cemitério Central",
+    "telefone": "4604-2512",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "48",
+    "cod_guia": "7",
+    "nome": "Cemitério Terra Preta",
+    "telefone": "4818-8883",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "49",
+    "cod_guia": "7",
+    "nome": "CIESP Terra Preta",
+    "telefone": "4486-2677",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "50",
+    "cod_guia": "7",
+    "nome": "Ciretran",
+    "telefone": "4419-3883",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "51",
+    "cod_guia": "7",
+    "nome": "Conselho Tutelar",
+    "telefone": "4604-2345",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "52",
+    "cod_guia": "7",
+    "nome": "ETM - Empresa Transp. Mairiporã",
+    "telefone": "0800-7721234",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "53",
+    "cod_guia": "7",
+    "nome": "Fórum",
+    "telefone": "4419-0553",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "54",
+    "cod_guia": "7",
+    "nome": "Gabinete Prefeito",
+    "telefone": "4419-8056",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "55",
+    "cod_guia": "7",
+    "nome": "Gabinete Vice-Prefeito",
+    "telefone": "4419-8024",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "56",
+    "cod_guia": "7",
+    "nome": "Junta do Serviço Militar",
+    "telefone": "4604-3565",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "57",
+    "cod_guia": "7",
+    "nome": "Ministério do Trabalho",
+    "telefone": "4419-2088",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "58",
+    "cod_guia": "7",
+    "nome": "Passe Escolar",
+    "telefone": "4419-6606",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "59",
+    "cod_guia": "7",
+    "nome": "P.A.T.",
+    "telefone": "4604-5252",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "60",
+    "cod_guia": "7",
+    "nome": "PSF Fernão Dias",
+    "telefone": "4419-2177",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "61",
+    "cod_guia": "7",
+    "nome": "PSF Vila Machado",
+    "telefone": "4482-1277",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "62",
+    "cod_guia": "7",
+    "nome": "Rodoviária",
+    "telefone": "4604-3622",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "63",
+    "cod_guia": "7",
+    "nome": "SEBRAE",
+    "telefone": "4419-5790",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "64",
+    "cod_guia": "7",
+    "nome": "SENAI Terra Preta",
+    "telefone": "4486-1997",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "65",
+    "cod_guia": "7",
+    "nome": "Trânsito",
+    "telefone": "4419-2321",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "66",
+    "cod_guia": "7",
+    "nome": "Vigilância Epidemiológica",
+    "telefone": "4419-2254",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "70",
+    "cod_guia": "18",
+    "nome": "ACIA - ASSOCIAÇÃO COMERCAIL",
+    "telefone": "(11) 4411-0086 \/ 4411-0711",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "71",
+    "cod_guia": "18",
+    "nome": "ASA - ASSISTÊNCIA SOCIAL ATIBAIA",
+    "telefone": "(11) 4412-7278",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "72",
+    "cod_guia": "18",
+    "nome": "AVA - ASSOCIAÇÃO VIDANIMAL",
+    "telefone": "(11) 4413-5671",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "73",
+    "cod_guia": "18",
+    "nome": "BOMBEIROS",
+    "telefone": "193 \/ (11) 4412-6262 \/ 4418-2041 \/ 4412-7378",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "74",
+    "cod_guia": "18",
+    "nome": "CÂMARA MUNICIPAL",
+    "telefone": "(11) 2119-1100",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "75",
+    "cod_guia": "18",
+    "nome": "CARTÓRIO ELEITORAL",
+    "telefone": "(11) 4412-6136",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "76",
+    "cod_guia": "18",
+    "nome": "CEA - CENTRO EMPRESARIAL ATIBAIA",
+    "telefone": "(11) 2119-1320",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "77",
+    "cod_guia": "18",
+    "nome": "CENTRO DE SAÚDE",
+    "telefone": "(11) 4414-2107",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "78",
+    "cod_guia": "18",
+    "nome": "COMDECON - COMISSÃO MUNICIPAL DE DEFESA DO CONSUMIDOR",
+    "telefone": "156 \/ (11) 4414-3160",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "79",
+    "cod_guia": "18",
+    "nome": "AUTOPISTA FERNÃO DIAS",
+    "telefone": "0800-283-0381",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "80",
+    "cod_guia": "18",
+    "nome": "SAAE – SANEAMENTO AMBIENTAL DE ATIBAIA",
+    "telefone": "(11) 4414-3500 \/ EMERGÊNCIA 0800-112-190",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "81",
+    "cod_guia": "18",
+    "nome": "DEFESA CIVIL",
+    "telefone": "(11) 4414-0500 \/  (EMERGÊNCIA - 199)",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "82",
+    "cod_guia": "18",
+    "nome": "CARTÓRIO DE REGISTRO CIVIL",
+    "telefone": "(11) 4411-3102",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "83",
+    "cod_guia": "18",
+    "nome": "CARTÓRIO DE NOTAS E PROTESTOS (1º CARTÓRIO)",
+    "telefone": "(11) 4411-7411",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "84",
+    "cod_guia": "18",
+    "nome": "CARTÓRIO DE NOTAS E PROTESTOS (2º CARTÓRIO)",
+    "telefone": "(11) 4402-2222",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "85",
+    "cod_guia": "18",
+    "nome": "CARTÓRIO DE REGISTRO DE IMÓVEIS",
+    "telefone": "(11) 4414-5550 - NOVO ENDEREÇO:RUA CASTRO FAFE, 255 - 2º ANDAR - CENTRO",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "86",
+    "cod_guia": "18",
+    "nome": "SANTA CASA",
+    "telefone": "(11) 4412-3059",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "87",
+    "cod_guia": "18",
+    "nome": "RODOVIÁRIA",
+    "telefone": "(11) 4411-0215",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "88",
+    "cod_guia": "18",
+    "nome": "FÓRUM  ATIBAIA (TRIBUNAL DE JUSTIÇA DE SÃO PAULO)",
+    "telefone": "(11) 4412-9688 \/ 4412-9144",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "89",
+    "cod_guia": "18",
+    "nome": "FÓRUM TRABALHISTA - TRT- 15ª REGIÃO",
+    "telefone": "(11) 4413-0232 \/ 4413-0915",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "90",
+    "cod_guia": "18",
+    "nome": "PREFEITURA MUNICIPAL",
+    "telefone": "(11) 4414-2000",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "91",
+    "cod_guia": "18",
+    "nome": "POLÍCIA AMBIENTAL",
+    "telefone": "(11) 4412-7613",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "92",
+    "cod_guia": "18",
+    "nome": "SECRETARIA DE TURISMO",
+    "telefone": "(11) 4414-3187 \/ 4414-2007 \/ 4414-2055",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "93",
+    "cod_guia": "18",
+    "nome": "POLÍCIA MILITAR (EMERGÊNCIA)",
+    "telefone": "190",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "94",
+    "cod_guia": "18",
+    "nome": "SECRETARIA DE SAÚDE - VIGILÂNCIA SANITÁRIA",
+    "telefone": "(11) 4414-2220 \/ 4414-3350 (DENÚNCIAS)",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "95",
+    "cod_guia": "18",
+    "nome": "OAB - ATIBAIA - JUSTIÇA GRATUITA",
+    "telefone": "(11) 4412-6479 \/ 4411-2502 \/ 4413-0100",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "96",
+    "cod_guia": "18",
+    "nome": "ELEKTRO - ENERGIA ELÉTRICA",
+    "telefone": "0800-701-0102",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "97",
+    "cod_guia": "18",
+    "nome": "DISQUE DENÚNCIA",
+    "telefone": "181",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "98",
+    "cod_guia": "18",
+    "nome": "CORREIOS",
+    "telefone": "0800-725-0100",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "99",
+    "cod_guia": "18",
+    "nome": "DELEGACIA DE POLÍCIA",
+    "telefone": "(11) 4412-7714 \/ 4412-9511 \/ 4412 3615",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "100",
+    "cod_guia": "18",
+    "nome": "POLÍCIA RODOVIÁRIA FEDERAL",
+    "telefone": "(11) 4412-3116",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "101",
+    "cod_guia": "18",
+    "nome": "POLÍCIA RODOVIÁRIA ESTADUAL (ROD.DOM PEDRO)",
+    "telefone": "(11) 4411-0264",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "102",
+    "cod_guia": "18",
+    "nome": "RODOVIA DOM PEDRO I - CONCESSIONÁRIA ROTA DAS BANDEIRAS",
+    "telefone": "0800-770-8070",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "103",
+    "cod_guia": "18",
+    "nome": "PAT - POSTO DE ATENDIMENTO AO TRABALHADOR",
+    "telefone": "(11) 4414-2167 \/ 4414-2047",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "104",
+    "cod_guia": "18",
+    "nome": "MINISTÉRIO DE TRABALHO - ATIBAIA",
+    "telefone": "(11) 4412-6399",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "105",
+    "cod_guia": "18",
+    "nome": "INSS",
+    "telefone": "(11) 4412-1387",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "106",
+    "cod_guia": "18",
+    "nome": "RODOVIA FERNÃO DIAS - CONCESSIONÁRIA AUTOPISTA",
+    "telefone": "0800-283-0381",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "107",
+    "cod_guia": "18",
+    "nome": "CONSELHO TUTELAR",
+    "telefone": "(11) 4402-1930",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "142",
+    "cod_guia": "19",
+    "nome": "Banco Bradesco",
+    "telefone": "3232-0050",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "143",
+    "cod_guia": "19",
+    "nome": "Banco do Brasil (Rua.Cav. Angelo Sestini)",
+    "telefone": "4443-5790",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "144",
+    "cod_guia": "19",
+    "nome": "Banco Itaú",
+    "telefone": "4443-0285",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "145",
+    "cod_guia": "19",
+    "nome": "Banco Santander",
+    "telefone": "4443-1450",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "146",
+    "cod_guia": "19",
+    "nome": "Bombeiros",
+    "telefone": "4449-3327",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "147",
+    "cod_guia": "19",
+    "nome": "Caixa Econômica Federal (Rua. Azevedo Soares)",
+    "telefone": "4443-7986",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "148",
+    "cod_guia": "19",
+    "nome": "Câmara Municipal",
+    "telefone": "4449-1444",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "149",
+    "cod_guia": "19",
+    "nome": "Cartório Eleitoral",
+    "telefone": "4449-4544",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "150",
+    "cod_guia": "19",
+    "nome": "Cemitério \/ Funerária Municipal",
+    "telefone": "4443-7333",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "151",
+    "cod_guia": "19",
+    "nome": "Ciretran",
+    "telefone": "4811-6000",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "152",
+    "cod_guia": "19",
+    "nome": "CPTM - Estação Franco da Rocha",
+    "telefone": "4443-6355 \/ 4449-3647",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "153",
+    "cod_guia": "19",
+    "nome": "CPTM - Estação Baltazar Fidelis (Paradinha)",
+    "telefone": "4811-4566 \/ 4449-3764",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "154",
+    "cod_guia": "19",
+    "nome": "Correio (Estrada do Governo)",
+    "telefone": "4449-3159",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "155",
+    "cod_guia": "19",
+    "nome": "Correio (Av. Expedicionários)",
+    "telefone": "4449-3554 \/ 4443-0096",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "156",
+    "cod_guia": "19",
+    "nome": "Correio (Av. Sete de Setembro)",
+    "telefone": "4443-0823",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "157",
+    "cod_guia": "19",
+    "nome": "Defesa Civil",
+    "telefone": "156 \/ 4444-3737",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "158",
+    "cod_guia": "19",
+    "nome": "Elektro",
+    "telefone": "4449-3458",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "159",
+    "cod_guia": "19",
+    "nome": "Fórum",
+    "telefone": "4449-2269",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "161",
+    "cod_guia": "19",
+    "nome": "Guarda Civil Municipal",
+    "telefone": "4443-7644",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "162",
+    "cod_guia": "19",
+    "nome": "Hospital do Juquery",
+    "telefone": "4449-5111",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "163",
+    "cod_guia": "19",
+    "nome": "Hospital Estadual Dr. Albano Franco da Rocha",
+    "telefone": "3336-8200",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "164",
+    "cod_guia": "19",
+    "nome": "IML",
+    "telefone": "4811-3839",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "165",
+    "cod_guia": "19",
+    "nome": "Junta Militar",
+    "telefone": "4443-7899",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "166",
+    "cod_guia": "19",
+    "nome": "PAT",
+    "telefone": "4444-1444",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "167",
+    "cod_guia": "19",
+    "nome": "PROCON",
+    "telefone": "4444-3358",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "168",
+    "cod_guia": "19",
+    "nome": "Polícia Militar (Emergência) – 190 26º Batalhão",
+    "telefone": "4449-3848",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "169",
+    "cod_guia": "19",
+    "nome": "Ponto de Taxi nº 01 (Cav. Angelo Sestini)",
+    "telefone": "4449-3786",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "170",
+    "cod_guia": "19",
+    "nome": "Ponto de Taxi nº 02 (Praça Caieiras)",
+    "telefone": "4449-3797",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "171",
+    "cod_guia": "19",
+    "nome": "Ponto de Taxi nº 08 (Av. dos Coqueiros)",
+    "telefone": "4449-5076",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "172",
+    "cod_guia": "19",
+    "nome": "Receita Federal",
+    "telefone": "4449-2656",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "173",
+    "cod_guia": "19",
+    "nome": "Sabesp",
+    "telefone": "4444-4222",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "174",
+    "cod_guia": "19",
+    "nome": "Terwan Iluminação Pública",
+    "telefone": "0800 726 2111",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "175",
+    "cod_guia": "19",
+    "nome": "Trânsito",
+    "telefone": "4811-3513",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "176",
+    "cod_guia": "19",
+    "nome": "Viação Nossa Cidade",
+    "telefone": "4441-5505",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "177",
+    "cod_guia": "19",
+    "nome": "Guia Comercial Brasil Franco da Rocha",
+    "telefone": "4486-2418",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "178",
+    "cod_guia": "19",
+    "nome": "APAE",
+    "telefone": "4443-5713",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "179",
+    "cod_guia": "19",
+    "nome": "Associação Comercial e Empresarial",
+    "telefone": "4449-4788",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "180",
+    "cod_guia": "19",
+    "nome": "Sindicato dos Empregados do Comércio Franco Rocha",
+    "telefone": "4443-8783",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "181",
+    "cod_guia": "48",
+    "nome": "RCT Representações Comerciais Ltda.-Me",
+    "telefone": "(13) 9.9156-9669",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "187",
+    "cod_guia": "82",
+    "nome": "Água e Esgoto",
+    "telefone": "195",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "188",
+    "cod_guia": "82",
+    "nome": "Câmara Municipal",
+    "telefone": "4419-0800",
+    "cidade": "0"
+},
+{
+    "cod_telefone_util": "189",
+    "cod_guia": "7",
+    "nome": "Tribunal Arbitral de Mairiporã",
+    "telefone": "4604-4782 \/ 99999-7375",
+    "cidade": "0"
+}
+]
+
+}

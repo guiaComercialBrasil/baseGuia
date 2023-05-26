@@ -1,0 +1,599 @@
+﻿cod_categoria;categoria;categoria_pai
+1;Animais e Plantas;NULL
+2;Artesanato;NULL
+3;Automóveis, Veículos e Serviços;NULL
+4;Bebidas e Alimentos;NULL
+5;Casa e Decoração;NULL
+6;Comunicação e Publicidade;NULL
+7;Construção, Reforma e Serviços;NULL
+8;Educação e Cultura;NULL
+9;Entretenimento, Festas e Eventos;NULL
+10;Esporte e Lazer;NULL
+11;Informática e Papelaria;NULL
+12;Produtos e Variedades;NULL
+13;Roupas e Acessórios;NULL
+14;Saúde, Estética e Beleza;NULL
+15;Serviços;NULL
+17;Adestradores;Animais e Plantas
+18;Assistência Técnica Agropecuária;Animais e Plantas
+19;Banho e Tosa;Animais e Plantas
+20;Biólogos e Licenciamento Ambiental;Animais e Plantas
+21;Canil;Animais e Plantas
+22;Cavalos;Animais e Plantas
+23;Clínicas Veterinárias;Animais e Plantas
+24;Gramas;Animais e Plantas
+25;Hotel para Animais;Animais e Plantas
+26;Jardinagem;Animais e Plantas
+27;Paisagismo;Animais e Plantas
+28;Passeio com Cão;Animais e Plantas
+29;Pet-Shop;Animais e Plantas
+30;Plantas;Animais e Plantas
+31;Poda de Árvores;Animais e Plantas
+32;Produtos Agropecuários;Animais e Plantas
+33;Artes Plásticas;Artesanato
+34;Bordados, Crochê e Tricô;Artesanato
+35;Produtos Artesanais;Artesanato
+38;Internet Banda Larga;Informática e Papelaria
+39;Agências de Autos;Automóveis, Veículos e Serviços
+40;Auto Elétricos;Automóveis, Veículos e Serviços
+41;Auto Moto Escolas;Automóveis, Veículos e Serviços
+42;Baterias;Automóveis, Veículos e Serviços
+43;Borracharias;Automóveis, Veículos e Serviços
+44;Câmbios;Automóveis, Veículos e Serviços
+45;Carretos;Automóveis, Veículos e Serviços
+46;Centro Automotivo;Automóveis, Veículos e Serviços
+47;Compressores;Automóveis, Veículos e Serviços
+48;Entregas Rápidas;Automóveis, Veículos e Serviços
+49;Estofamento Automotivo;Automóveis, Veículos e Serviços
+50;Ferramentas Automotivas;Automóveis, Veículos e Serviços
+51;Fretes;Automóveis, Veículos e Serviços
+52;Funilaria e Pintura;Automóveis, Veículos e Serviços
+53;Guinchos;Automóveis, Veículos e Serviços
+54;Insul Film;Automóveis, Veículos e Serviços
+55;Lava Rápido;Automóveis, Veículos e Serviços
+56;Mecânicos;Automóveis, Veículos e Serviços
+57;Posto de Molas;Automóveis, Veículos e Serviços
+58;Oficina de Motos;Automóveis, Veículos e Serviços
+59;Mudanças;Automóveis, Veículos e Serviços
+60;Óleos, Lubrificantes e Filtros;Automóveis, Veículos e Serviços
+61;Peças Automotivas;Automóveis, Veículos e Serviços
+62;Pneus;Automóveis, Veículos e Serviços
+63;Polimento e Cristalização;Automóveis, Veículos e Serviços
+64;Postos de Combustíveis;Automóveis, Veículos e Serviços
+65;Radiadores;Automóveis, Veículos e Serviços
+66;Reparo de Para-Brisa;Automóveis, Veículos e Serviços
+67;Retíficas;Automóveis, Veículos e Serviços
+68;Som Automotivo e Acessórios;Automóveis, Veículos e Serviços
+69;Sucata Automotiva;Automóveis, Veículos e Serviços
+70;Tacógrafos;Automóveis, Veículos e Serviços
+71;Taxistas;Automóveis, Veículos e Serviços
+72;Tintas Automotivas;Automóveis, Veículos e Serviços
+73;Transportes;Automóveis, Veículos e Serviços
+74;Transporte Escolar;Automóveis, Veículos e Serviços
+75;Vidro Automotivo;Automóveis, Veículos e Serviços
+76;Convites;Entretenimento, Festas e Eventos
+77;Decoração;Entretenimento, Festas e Eventos
+78;Açougues;Bebidas e Alimentos
+79;Adegas;Bebidas e Alimentos
+80;Água Mineral;Bebidas e Alimentos
+81;Água Potável;Bebidas e Alimentos
+82;Bares;Bebidas e Alimentos
+83;Cantinas;Bebidas e Alimentos
+84;Cestas de Café da Manhã;Bebidas e Alimentos
+85;Chocolates;Bebidas e Alimentos
+86;Chopp;Bebidas e Alimentos
+87;Cogumelos;Bebidas e Alimentos
+88;Conveniência;Bebidas e Alimentos
+89;Delicatessen;Bebidas e Alimentos
+90;Docerias;Bebidas e Alimentos
+91;Doces e Salgados;Bebidas e Alimentos
+92;Esfihas;Bebidas e Alimentos
+93;Espetinhos e Carnes;Bebidas e Alimentos
+94;Frango Assado;Bebidas e Alimentos
+95;Lanchonetes;Bebidas e Alimentos
+96;Marmitex;Bebidas e Alimentos
+97;Milho e Derivados;Bebidas e Alimentos
+98;Milk Shake;Bebidas e Alimentos
+99;Padarias e Confeitarias;Bebidas e Alimentos
+100;Pastelarias;Bebidas e Alimentos
+101;Peixarias;Bebidas e Alimentos
+102;Pizzarias;Bebidas e Alimentos
+103;Produtos Mineiros;Bebidas e Alimentos
+104;Queijos e doces;Bebidas e Alimentos
+105;Refeições Coletivas;Bebidas e Alimentos
+106;Restaurantes;Bebidas e Alimentos
+107;Varejão;Bebidas e Alimentos
+108;Sorveterias;Bebidas e Alimentos
+109;Supermercados, Mercados e Mercearias;Bebidas e Alimentos
+110;Suplementos Alimentares;Bebidas e Alimentos
+111;Cama, Mesa e Banho;Casa e Decoração
+112;Colchões;Casa e Decoração
+113;Cortinas;Casa e Decoração
+114;Decoração;Casa e Decoração
+115;Estofados;Casa e Decoração
+116;Floriculturas;Casa e Decoração
+117;Lavanderia de Estofados;Casa e Decoração
+118;Marcenarias;Casa e Decoração
+119;Móveis;Casa e Decoração
+120;Móveis Rústicos;Casa e Decoração
+121;Tapeçarias;Casa e Decoração
+122;Artes Gráficas;Comunicação e Publicidade
+123;Assessoria de Comunicação;Comunicação e Publicidade
+124;Blog para Anunciar;Comunicação e Publicidade
+125;Bolsas Promocionais;Comunicação e Publicidade
+126;Brindes;Comunicação e Publicidade
+127;Carro e Moto Som;Comunicação e Publicidade
+128;Comunicação Visual;Comunicação e Publicidade
+129;Convites / Gráficas;Comunicação e Publicidade
+130;Espaços Publicitários;Comunicação e Publicidade
+131;Folhetos / Distribuição;Comunicação e Publicidade
+132;Gráficas;Comunicação e Publicidade
+133;Jornais;Comunicação e Publicidade
+134;Pinturas Especiais;Comunicação e Publicidade
+135;Toldos;Comunicação e Publicidade
+136;Acabamentos;Construção, Reforma e Serviços
+137;Alarmes;Construção, Reforma e Serviços
+138;Andaimes;Construção, Reforma e Serviços
+139;Aquecedores;Construção, Reforma e Serviços
+140;Arquitetura;Construção, Reforma e Serviços
+141;Artefatos de Cimento;Construção, Reforma e Serviços
+142;Automação de Portões;Construção, Reforma e Serviços
+143;Calhas e Rufos;Construção, Reforma e Serviços
+144;Cancelata;Construção, Reforma e Serviços
+145;Carpintarias;Construção, Reforma e Serviços
+146;Churrasqueiras;Construção, Reforma e Serviços
+147;Concreto;Construção, Reforma e Serviços
+148;Construção Civil;Construção, Reforma e Serviços
+149;Desentupidora;Construção, Reforma e Serviços
+150;Elétrica / Eletrônica;Construção, Reforma e Serviços
+151;Eletricistas;Construção, Reforma e Serviços
+152;Engenharia;Construção, Reforma e Serviços
+153;Ferragens Armadas;Construção, Reforma e Serviços
+154;Ferramentas p/ Construção;Construção, Reforma e Serviços
+155;Forros, Gessos e Divisórias;Construção, Reforma e Serviços
+156;Hidráulica;Construção, Reforma e Serviços
+157;Impermeabilizadora;Construção, Reforma e Serviços
+158;Lajes e Ferragens;Construção, Reforma e Serviços
+159;Limpa Fossa;Construção, Reforma e Serviços
+160;Limpeza / Construção;Construção, Reforma e Serviços
+161;Locação de Equipamentos;Construção, Reforma e Serviços
+162;Madeiras;Construção, Reforma e Serviços
+163;Mármore e Granito;Construção, Reforma e Serviços
+164;Materiais de Construção;Construção, Reforma e Serviços
+165;Materiais Elétricos;Construção, Reforma e Serviços
+166;Pedras Decorativas;Construção, Reforma e Serviços
+167;Pintores;Construção, Reforma e Serviços
+168;Piscinas;Construção, Reforma e Serviços
+169;Poços Semi Artesianos;Construção, Reforma e Serviços
+170;Portas e Portões;Construção, Reforma e Serviços
+171;Projetos / Construção;Construção, Reforma e Serviços
+172;Raspagem de Assoalhos;Construção, Reforma e Serviços
+173;Reforma e Manutenção Residencial;Construção, Reforma e Serviços
+174;Remoção de Entulho;Construção, Reforma e Serviços
+175;Serralheiros;Construção, Reforma e Serviços
+176;Serviços Gerais;Construção, Reforma e Serviços
+178;Soldas Especiais;Construção, Reforma e Serviços
+179;Telas e Alambrados;Construção, Reforma e Serviços
+180;Terraplenagem;Construção, Reforma e Serviços
+181;Tintas Imobiliárias;Construção, Reforma e Serviços
+182;Toldos e Coberturas;Construção, Reforma e Serviços
+183;Topografia;Construção, Reforma e Serviços
+184;Vidraçarias;Construção, Reforma e Serviços
+185;Artigos Evangélicos;Educação e Cultura
+186;Artigos Religiosos;Educação e Cultura
+187;Aulas de Idiomas;Educação e Cultura
+188;Aulas de Música;Educação e Cultura
+189;Aulas de Reforço Escolar;Educação e Cultura
+190;Bancas de Jornais;Educação e Cultura
+191;Colégios;Educação e Cultura
+192;Cursos de Idiomas;Educação e Cultura
+193;Cursos Profissional;Educação e Cultura
+194;Educação Infantil;Educação e Cultura
+195;Esoterismo;Educação e Cultura
+196;Faculdades;Educação e Cultura
+197;Igrejas;Educação e Cultura
+198;Livrarias;Educação e Cultura
+199;Psicopedagogia;Educação e Cultura
+200;Aluguel de Artigos para Festas;Entretenimento, Festas e Eventos
+201;Animação de Festas;Entretenimento, Festas e Eventos
+202;Aniversários;Entretenimento, Festas e Eventos
+203;Brinquedos Infláveis;Entretenimento, Festas e Eventos
+204;Buffets;Entretenimento, Festas e Eventos
+205;Casamentos;Entretenimento, Festas e Eventos
+206;Chácaras e Sítios;Entretenimento, Festas e Eventos
+207;Convites e Lembrancinhas;Entretenimento, Festas e Eventos
+208;Decoração de Festas;Entretenimento, Festas e Eventos
+209;DJ;Entretenimento, Festas e Eventos
+210;Bolos, Doces e Salgados;Entretenimento, Festas e Eventos
+211;Artistas;Entretenimento, Festas e Eventos
+212;Artigos para Festas;Entretenimento, Festas e Eventos
+213;Foto e Vídeo;Entretenimento, Festas e Eventos
+214;Filmes e Locadoras;Entretenimento, Festas e Eventos
+215;Fotografia;Entretenimento, Festas e Eventos
+216;Gelo;Entretenimento, Festas e Eventos
+217;Lazer;Entretenimento, Festas e Eventos
+218;Lembrancinhas;Entretenimento, Festas e Eventos
+219;Local para Festas;Entretenimento, Festas e Eventos
+220;Papai Noel;Entretenimento, Festas e Eventos
+221;Sonorização;Entretenimento, Festas e Eventos
+222;Telemensagens;Entretenimento, Festas e Eventos
+224;Academias;Esporte e Lazer
+225;Academia, Pilates e Yoga;Esporte e Lazer
+226;Artigos Esportivos;Esporte e Lazer
+227;Aulas de Dança;Esporte e Lazer
+228;Bicicletarias;Esporte e Lazer
+229;Clubes;Esporte e Lazer
+230;Equitação;Esporte e Lazer
+231;Futebol;Esporte e Lazer
+232;Locação de Quadras;Esporte e Lazer
+233;Náutica;Esporte e Lazer
+234;Personal Trainner;Esporte e Lazer
+235;Pesqueiros;Esporte e Lazer
+236;Uniformes Esportivos;Esporte e Lazer
+237;Assistência Técnica em Informática;Informática e Papelaria
+238;Embalagens / Presentes;Informática e Papelaria
+239;Equipamentos de Informática;Informática e Papelaria
+240;Lan House;Informática e Papelaria
+241;Papelarias;Informática e Papelaria
+242;Sistemas e Programação;Informática e Papelaria
+243;Suprimentos de Informática;Informática e Papelaria
+244;Tintas p/ Impressoras;Informática e Papelaria
+245;Antenas Parabólicas;Produtos e Variedades
+246;Carimbos;Produtos e Variedades
+247;CDs e DVDs;Produtos e Variedades
+248;Celulares;Produtos e Variedades
+249;Colchões - Produtos;Produtos e Variedades
+250;Eletrodomésticos;Produtos e Variedades
+251;Embalagens Descartáveis;Produtos e Variedades
+252;Extintores;Produtos e Variedades
+253;Gás;Produtos e Variedades
+254;Instrumentos Musicais;Produtos e Variedades
+255;Lenha;Produtos e Variedades
+256;Limpeza / Produtos;Produtos e Variedades
+257;Locação;Produtos e Variedades
+258;Mangueiras e Conexões;Produtos e Variedades
+259;Máquinas de Costura;Produtos e Variedades
+260;Plásticos;Produtos e Variedades
+261;Sabão em Pó;Produtos e Variedades
+262;Sex Shop;Produtos e Variedades
+263;Soldas e Gases;Produtos e Variedades
+264;Tabacarias;Produtos e Variedades
+265;Variedades;Produtos e Variedades
+266;Aluguel de Trajes;Roupas e Acessórios
+267;Armarinhos;Roupas e Acessórios
+268;Bolsas;Roupas e Acessórios
+269;Boutique;Roupas e Acessórios
+270;Calçados;Roupas e Acessórios
+271;Camisetas;Roupas e Acessórios
+272;Conserto de Roupas;Roupas e Acessórios
+273;Costureiras;Roupas e Acessórios
+274;Jeans;Roupas e Acessórios
+275;Jóias, Semi Jóias e Bijuterias;Roupas e Acessórios
+277;Lingeries;Roupas e Acessórios
+278;Magazines;Roupas e Acessórios
+279;Moda Branca Masculina e Feminina;Roupas e Acessórios
+280;Moda Country;Roupas e Acessórios
+281;Moda Fitness;Roupas e Acessórios
+282;Moda Infantil;Roupas e Acessórios
+283;Moda Jovem;Roupas e Acessórios
+284;Moda Feminina;Roupas e Acessórios
+285;Relojoarias;Roupas e Acessórios
+286;Roupas Novas e Usadas;Roupas e Acessórios
+287;Sapatarias;Roupas e Acessórios
+288;Uniformes;Roupas e Acessórios
+289;Acupuntura;Saúde, Estética e Beleza
+290;Cabeleireiros;Saúde, Estética e Beleza
+291;Clínicas de Estética;Saúde, Estética e Beleza
+292;Clínico Geral;Saúde, Estética e Beleza
+293;Convênios, Clínicas e Laboratórios;Saúde, Estética e Beleza
+294;Cosmético e Perfumaria;Saúde, Estética e Beleza
+295;Dentistas;Saúde, Estética e Beleza
+296;Depilação;Saúde, Estética e Beleza
+297;Enfermeiros;Saúde, Estética e Beleza
+298;Equoterapia;Saúde, Estética e Beleza
+299;Farmácias e Drogarias;Saúde, Estética e Beleza
+300;Fisioterapia;Saúde, Estética e Beleza
+301;Fonoaudiologia;Saúde, Estética e Beleza
+302;Manicure e Pedicure;Saúde, Estética e Beleza
+303;Massagens Terapêuticas;Saúde, Estética e Beleza
+304;Nutricionista;Saúde, Estética e Beleza
+305;Oftalmologia;Saúde, Estética e Beleza
+306;Óticas;Saúde, Estética e Beleza
+307;Otorrinolaringologistas;Saúde, Estética e Beleza
+308;Piercing;Saúde, Estética e Beleza
+309;Planos de Saúde;Saúde, Estética e Beleza
+310;Podologia;Saúde, Estética e Beleza
+311;Psicólogos e Psicanalistas;Saúde, Estética e Beleza
+312;Psicopedagogia;Saúde, Estética e Beleza
+313;Tatuagens;Saúde, Estética e Beleza
+314;Terapia Ocupacional;Saúde, Estética e Beleza
+315;Vibroterapia;Saúde, Estética e Beleza
+316;Administração de Imóveis;Serviços
+317;Advogados;Serviços
+318;Afiação;Serviços
+319;Agência de Empregos;Serviços
+320;Ar Condicionado;Serviços
+321;Assessoria Previdenciária;Serviços
+322;Chaveiros;Serviços
+323;Contadores e Escritórios de Contabilidade;Serviços
+324;Crédito Pessoal;Serviços
+325;Dedetização;Serviços
+326;Empilhadeiras;Serviços
+327;Hotelaria;Serviços
+328;Imobiliárias;Serviços
+329;Laboratórios / Análise de Água;Serviços
+330;Limpeza / Serviços;Serviços
+331;Marcas e Patentes;Serviços
+332;Monitoramento;Serviços
+333;Motores Elétricos;Serviços
+334;Funerárias;Serviços
+335;Projetos / Execução;Serviços
+336;Reciclagem;Serviços
+337;Refrigeração;Serviços
+338;Segurança;Serviços
+339;Seguros;Serviços
+340;Telefonia;Serviços
+341;Tornearias;Serviços
+342;Viagens e Turismo;Serviços
+343;TV por Assinatura;Serviços
+344;TV/Áudio/Vídeo;Serviços
+345;Usinagem;Serviços
+351;Estacionamentos;Automóveis, Veículos e Serviços
+352;Desmanches;Automóveis, Veículos e Serviços
+353;Despachantes;Automóveis, Veículos e Serviços
+357;Alfaiates;Roupas e Acessórios
+360;Marketing Esportivo;Esporte e Lazer
+361;Rastreador Veicular;Automóveis, Veículos e Serviços
+362;Cilindro GNV;Automóveis, Veículos e Serviços
+363;Fraldas;Saúde, Estética e Beleza
+364;Agronomia;Animais e Plantas
+365;Segurança do Trabalho;Serviços
+366;Presentes;Produtos e Variedades
+367;Hortaliças;Bebidas e Alimentos
+368;Skate e Surf;Esporte e Lazer
+369;Oportunidade de Negócio;Serviços
+370;Banheiras;Construção, Reforma e Serviços
+371;Pães e Bolos Caseiros;Bebidas e Alimentos
+372;Quiosques;Construção, Reforma e Serviços
+373;Brinquedos;Produtos e Variedades
+374;Pipas;Produtos e Variedades
+375;Balanças;Produtos e Variedades
+376;Ventiladores Industriais;Produtos e Variedades
+377;Bordados / Tapetes;Artesanato
+378;Cestas de Vime;Artesanato
+379;Remoção;Construção, Reforma e Serviços
+380;Agricultura;Animais e Plantas
+381;Detetives;Serviços
+382;Administrativo;Serviços
+383;Bolos e Doces Artísticos;Entretenimento, Festas e Eventos
+384;Coquetel;Entretenimento, Festas e Eventos
+385;Pão de Queijo;Bebidas e Alimentos
+386;Doces Mineiros;Bebidas e Alimentos
+387;Chocolaterias;Bebidas e Alimentos
+388;Massas;Bebidas e Alimentos
+389;Acessórios Femininos;Roupas e Acessórios
+390;Treinamento para Empresas;Serviços
+391;Kart In Door;Esporte e Lazer
+392;Investigação Paranormal;Serviços
+393;Locutores;Comunicação e Publicidade
+394;Moda Praia;Roupas e Acessórios
+395;Micropigmentação;Saúde, Estética e Beleza
+396;Produtos Naturais;Bebidas e Alimentos
+398;Produtos de Panificação;Bebidas e Alimentos
+399;Meio Ambiente;Construção, Reforma e Serviços
+400;Bar Country;Bebidas e Alimentos
+401;Portaria e Limpeza;Serviços
+402;Terapia Auricular;Saúde, Estética e Beleza
+403;Bolos e Doces;Bebidas e Alimentos
+404;Produção de Eventos;Entretenimento, Festas e Eventos
+405;Sorvetes Caseiros;Bebidas e Alimentos
+406;Instalações Comerciais;Construção, Reforma e Serviços
+407;Esportes Radicais;Esporte e Lazer
+408;Materiais Usados e Demolição;Construção, Reforma e Serviços
+409;Vídeo 3D;Entretenimento, Festas e Eventos
+410;Transporte Universitário;Automóveis, Veículos e Serviços
+411;Pisos Laminados;Construção, Reforma e Serviços
+412;Perícias Judiciais;Serviços
+413;Empório Gastronômico;Bebidas e Alimentos
+414;Peixes Congelados;Bebidas e Alimentos
+415;Caldeirarias;Construção, Reforma e Serviços
+416;Documentação;Serviços
+417;Casa de Tintas;Construção, Reforma e Serviços
+418;Comida Árabe;Bebidas e Alimentos
+419;Consultoria de Recursos Humanos;Serviços
+420;Marido de Aluguel;Construção, Reforma e Serviços
+421;Moda Dança;Roupas e Acessórios
+422;Empréstimos;Serviços
+423;Agências de Propaganda;Comunicação e Publicidade
+424;Pescado;Bebidas e Alimentos
+425;Pintura de Aviões e Helicopteros;Automóveis, Veículos e Serviços
+426;Cursos;Educação e Cultura
+427;Tecidos;Roupas e Acessórios
+428;Pijamas e Presentes;Roupas e Acessórios
+429;Cimento;Construção, Reforma e Serviços
+430;Motorista Particular;Automóveis, Veículos e Serviços
+431;Móveis Usados;Casa e Decoração
+432;Estúdio Fotográfico;Entretenimento, Festas e Eventos
+433;Brinquedos Educativos;Artesanato
+434;Produtos Nordestinos;Bebidas e Alimentos
+435;Descontos e Benefícios;Serviços
+436;Moda Infanto Juvenil;Roupas e Acessórios
+437;Jornalismo;Comunicação e Publicidade
+438;Aulas e Treinamento para Habilitados;Automóveis, Veículos e Serviços
+439;Velas Artesanais;Artesanato
+440;Portas de Aço;Construção, Reforma e Serviços
+441;Caminhão Munck;Automóveis, Veículos e Serviços
+442;Fundações e Estacas;Construção, Reforma e Serviços
+443;Doces e Bolos;Entretenimento, Festas e Eventos
+444;Estruturas Metálicas;Construção, Reforma e Serviços
+445;Embalagens / Presentes;Artesanato
+446;Mecânica de Caminhões;Automóveis, Veículos e Serviços
+447;Conserto de Fogão;Serviços
+448;Financiamentos;Serviços
+449;Iogurte;Bebidas e Alimentos
+450;Energização de Ambientes;Serviços
+451;Haras;Animais e Plantas
+452;Moto Táxi e Motoboy;Automóveis, Veículos e Serviços
+453;Muros de Pedras;Construção, Reforma e Serviços
+454;Pesca;Esporte e Lazer
+455;Moda Plus Size;Roupas e Acessórios
+456;Maratonista;Esporte e Lazer
+457;Corrida;Esporte e Lazer
+458;Palestra Esportiva;Esporte e Lazer
+459;Churrascarias;Bebidas e Alimentos
+461;Orquídeas Raras;Animais e Plantas
+462;Fogos de Artifício;Entretenimento, Festas e Eventos
+463;Soldas;Serviços
+464;Estúdio de Gravação;Serviços
+465;Rodas e Pneus;Automóveis, Veículos e Serviços
+466;Esquadrias;Construção, Reforma e Serviços
+467;Plus Size;Roupas e Acessórios
+468;Consultoria;Serviços
+469;Lava e Passa;Serviços
+470;Consultora de Beleza;Saúde, Estética e Beleza
+471;Montagem e Desmontagem de Móveis;Serviços
+472;Bolos Caseiros;Bebidas e Alimentos
+473;Ergonomista;Construção, Reforma e Serviços
+474;Ergonomista;Serviços
+475;Paintball;Esporte e Lazer
+476;Dentistas / Equipamentos;Saúde, Estética e Beleza
+477;Casa Rústica;Construção, Reforma e Serviços
+478;Motos;Automóveis, Veículos e Serviços
+479;Churros;Bebidas e Alimentos
+480;Blocos;Construção, Reforma e Serviços
+481;Pré-Moldados;Construção, Reforma e Serviços
+482;Pamonha;Bebidas e Alimentos
+483;Certificação Digital;Serviços
+484;Importação e Exportação;Produtos e Variedades
+485;Creperia e Lanchonete;Entretenimento, Festas e Eventos
+486;Avícolas;Bebidas e Alimentos
+487;Bordados;Roupas e Acessórios
+488;Estilista;Roupas e Acessórios
+489;Cardiologistas;Saúde, Estética e Beleza
+490;Cuidador de Idosos;Saúde, Estética e Beleza
+491;Papel de Parede;Casa e Decoração
+492;Vistoria Veicular;Automóveis, Veículos e Serviços
+493;Prestadora de Serviços;Serviços
+494;Ar Condicionado Automotivo;Automóveis, Veículos e Serviços
+495;Vedação Industrial;Produtos e Variedades
+496;Segurança Patrimonial;Serviços
+497;Temakerias;Bebidas e Alimentos
+498;Fraldas;Roupas e Acessórios
+499;Assessoria Jurídica;Serviços
+500;Transporte Executivo;Automóveis, Veículos e Serviços
+501;Gatil;Animais e Plantas
+502;Ginecologistas;Saúde, Estética e Beleza
+508;Telhados;Construção, Reforma e Serviços
+509;Equipamentos de Proteção Individual;Roupas e Acessórios
+510;Terapias Holísticas;Saúde, Estética e Beleza
+511;Yoga;Esporte e Lazer
+512;Pilates;Esporte e Lazer
+513;Investimentos;Serviços
+514;Estética Automotiva;Automóveis, Veículos e Serviços
+515;Ovos;Bebidas e Alimentos
+516;Desenvolvimento de Sites;Comunicação e Publicidade
+517;Barbearias;Saúde, Estética e Beleza
+518;Bombeiros;Serviços
+519;Decupagem / Tecidos;Artesanato
+520;Pintura / Decupagem;Artesanato
+521;Feltro;Artesanato
+522;Biscuit;Artesanato
+523;Azulejistas;Construção, Reforma e Serviços
+524;Moda Feminina e Masculina;Roupas e Acessórios
+525;Auto Vácuo;Construção, Reforma e Serviços
+526;Esgoto;Construção, Reforma e Serviços
+527;Redes Esportivas;Esporte e Lazer
+528;Lavanderias;Serviços
+529;Escoras Metálicas;Construção, Reforma e Serviços
+530;Consórcios;Serviços
+531;Sabonetes Artesanais;Artesanato
+532;Consultoria Nutricional;Bebidas e Alimentos
+533;Reservatório de Água;Construção, Reforma e Serviços
+534;Caixa d´água;Construção, Reforma e Serviços
+535;Agência de Viagens;Serviços
+536;Bar Man;Entretenimento, Festas e Eventos
+537;Máquinas para Limpeza de Peças;Produtos e Variedades
+538;Manutenção de Equipamentos;Serviços
+539;Compressores de Ar;Produtos e Variedades
+540;Artigos para Pesca;Esporte e Lazer
+541;Rádio Web;Comunicação e Publicidade
+542;Vedação;Produtos e Variedades
+543;Fixação;Produtos e Variedades
+544;Higienização;Automóveis, Veículos e Serviços
+545;Nutrição;Esporte e Lazer
+546;Decoração;Construção, Reforma e Serviços
+547;Venda de Persianas;Casa e Decoração
+548;Limpeza de Persianas;Casa e Decoração
+549;Limpeza de Estofados;Automóveis, Veículos e Serviços
+550;Impermeabilização de Estofados;Casa e Decoração
+551;Tapetes;Casa e Decoração
+552;Lavagem de Tapetes;Casa e Decoração
+553;Artigos para Customização;Roupas e Acessórios
+554;Representação Esportiva;Esporte e Lazer
+555;Vagas de Emprego;Serviços
+556;Aulas Particulares;Educação e Cultura
+557;Administração de Condomínios;Serviços
+558;Energia Solar;Construção, Reforma e Serviços
+561;Networking Estratégico Empresarial;Serviços
+567;Portais e Sites;Comunicação e Publicidade
+568;Notícias;Educação e Cultura
+569;Marketing Digital;Comunicação e Publicidade
+589;Moda Masculina;Roupas e Acessórios
+594;Comida Fitness;Esporte e Lazer
+595;Comidas para Alérgicos;Bebidas e Alimentos
+608;Marmita Saudável;Bebidas e Alimentos
+610;Pilates;Saúde, Estética e Beleza
+616;Pizzas para Eventos;Entretenimento, Festas e Eventos
+648;Lustres;Casa e Decoração
+657;Refrigeração;Produtos e Variedades
+661;Berçário;Educação e Cultura
+664;Parafusos;Produtos e Variedades
+676;Gesso;Construção, Reforma e Serviços
+681;Drogarias;Saúde, Estética e Beleza
+683;Costelarias;Bebidas e Alimentos
+688;Assistência Técnica;Serviços
+690;Pães Doces e Salgados;Bebidas e Alimentos
+691;Pães Doces e Salgados;Entretenimento, Festas e Eventos
+694;Vídeo Games;Produtos e Variedades
+698;Materiais Cirúrgicos e Ortopédicos;Saúde, Estética e Beleza
+706;Toldos;Casa e Decoração
+717;Exame de Vista;Saúde, Estética e Beleza
+718;Iridologia;Saúde, Estética e Beleza
+739;Aulas de Dança;Educação e Cultura
+740;Design de Interiores;Construção, Reforma e Serviços
+742;Lanches e Salgados;Bebidas e Alimentos
+743;Parafusos e Ferragens;Construção, Reforma e Serviços
+744;Materiais e Acessórios para Serralheria;Construção, Reforma e Serviços
+745;Medicina Ocupacional;Saúde, Estética e Beleza
+746;E-social;Serviços
+747;Cartórios e Tabeliões;Serviços
+748;Mediação e Arbitragem;Serviços
+749;Treinamentos;Saúde, Estética e Beleza
+750;Manutenção em Armas;Serviços
+751;Hamburgueria;Bebidas e Alimentos
+752;Escola de Dança;Educação e Cultura
+753;Escola de Dança;Esporte e Lazer
+754;Maquiadoras;Saúde, Estética e Beleza
+755;Centro de Estética;Saúde, Estética e Beleza
+756;Tupperware;Casa e Decoração
+762;Cafeterias;Bebidas e Alimentos
+763;Terapia Corporal;Saúde, Estética e Beleza
+764;Espaço para Recreação Infantil;Educação e Cultura
+765;Pequenos Reparos;Automóveis, Veículos e Serviços
+766;Infláveis e Balões Promocionais;Comunicação e Publicidade
+767;Bolos, Pães e Salgados;Bebidas e Alimentos
+768;Quiropraxia;Saúde, Estética e Beleza
+769;Studio de Pilates;Esporte e Lazer
+770;Carvão;Produtos e Variedades
+771;Eventos e Cobranças;Serviços
+772;Cobranças;Serviços
+773;Eventos;Entretenimento, Festas e Eventos
+774;Brinquedos;Entretenimento, Festas e Eventos
+775;Água Potável;Construção, Reforma e Serviços
+776;Água Potável;Entretenimento, Festas e Eventos
+777;Persianas;Casa e Decoração
+778;Advogados;Automóveis, Veículos e Serviços
+779;Advogados;Saúde, Estética e Beleza
+780;Ozonioterapia;Saúde, Estética e Beleza
+781;RPG;Saúde, Estética e Beleza
+782;Drenagem Linfática;Saúde, Estética e Beleza

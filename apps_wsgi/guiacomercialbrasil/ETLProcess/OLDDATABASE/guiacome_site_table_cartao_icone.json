@@ -1,0 +1,609 @@
+,{
+    "type": "table",
+    "name": "cartao_icone",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_cartao_icone": "48",
+    "cod_categoria_cartao": "185",
+    "arquivo": "6a8bc2c4bd823e746e0e3e1286cf6932.png"
+},
+{
+    "cod_cartao_icone": "49",
+    "cod_categoria_cartao": "185",
+    "arquivo": "721f1032ae50f05d452ab3f6fe8c82d5.png"
+},
+{
+    "cod_cartao_icone": "50",
+    "cod_categoria_cartao": "185",
+    "arquivo": "de321a550f215b6736ae2969026c287d.png"
+},
+{
+    "cod_cartao_icone": "51",
+    "cod_categoria_cartao": "185",
+    "arquivo": "89ba5062c0ba1a5a84ac86c94efed96b.png"
+},
+{
+    "cod_cartao_icone": "52",
+    "cod_categoria_cartao": "185",
+    "arquivo": "ed1eac3641b2f577ce1ff235351752d1.png"
+},
+{
+    "cod_cartao_icone": "53",
+    "cod_categoria_cartao": "185",
+    "arquivo": "507ff903a4ee5244a6d313d82af62aff.png"
+},
+{
+    "cod_cartao_icone": "54",
+    "cod_categoria_cartao": "185",
+    "arquivo": "094c2065be9b9def3f3c2e84c978574a.png"
+},
+{
+    "cod_cartao_icone": "55",
+    "cod_categoria_cartao": "185",
+    "arquivo": "ba39052607180b6bd7fc8dc29d2dc5db.png"
+},
+{
+    "cod_cartao_icone": "56",
+    "cod_categoria_cartao": "185",
+    "arquivo": "e9a396af7984154695d55b96716e14e2.png"
+},
+{
+    "cod_cartao_icone": "57",
+    "cod_categoria_cartao": "185",
+    "arquivo": "2f1971d35901b76a515c3ea6a276fcc2.png"
+},
+{
+    "cod_cartao_icone": "58",
+    "cod_categoria_cartao": "185",
+    "arquivo": "2bdb6138c5f334159fc14fdb26a45fc9.png"
+},
+{
+    "cod_cartao_icone": "59",
+    "cod_categoria_cartao": "185",
+    "arquivo": "95d826a31bfad236e3cdd1053f6bc2c4.png"
+},
+{
+    "cod_cartao_icone": "60",
+    "cod_categoria_cartao": "185",
+    "arquivo": "d331774b9838165a69a8100d185bb305.png"
+},
+{
+    "cod_cartao_icone": "61",
+    "cod_categoria_cartao": "185",
+    "arquivo": "d62cfb70171614b7cd793119a9d73cad.png"
+},
+{
+    "cod_cartao_icone": "62",
+    "cod_categoria_cartao": "186",
+    "arquivo": "e782cb6d8848a9eadd273b0f59c4579b.png"
+},
+{
+    "cod_cartao_icone": "63",
+    "cod_categoria_cartao": "186",
+    "arquivo": "cb0e81b067b5a23d9262923e03297ed0.png"
+},
+{
+    "cod_cartao_icone": "64",
+    "cod_categoria_cartao": "186",
+    "arquivo": "e2f4dc5618136b0a320a0a1dbe877042.png"
+},
+{
+    "cod_cartao_icone": "65",
+    "cod_categoria_cartao": "186",
+    "arquivo": "98b981b53b4d1c4577338346c739ef09.png"
+},
+{
+    "cod_cartao_icone": "66",
+    "cod_categoria_cartao": "186",
+    "arquivo": "e7d573ee228df9945c7a42414f59e87c.png"
+},
+{
+    "cod_cartao_icone": "67",
+    "cod_categoria_cartao": "186",
+    "arquivo": "aa38fa70eabf6842b586a71aa4c2c721.png"
+},
+{
+    "cod_cartao_icone": "68",
+    "cod_categoria_cartao": "186",
+    "arquivo": "bf9a5421f3b76853617834a5fddb59bb.png"
+},
+{
+    "cod_cartao_icone": "69",
+    "cod_categoria_cartao": "186",
+    "arquivo": "fb0b9d0d421b64d4271e463c1d0d1acd.png"
+},
+{
+    "cod_cartao_icone": "70",
+    "cod_categoria_cartao": "187",
+    "arquivo": "6ded1d6e44164c35be7b125e4354fdba.png"
+},
+{
+    "cod_cartao_icone": "71",
+    "cod_categoria_cartao": "187",
+    "arquivo": "ac6b113bc3b6ab9ca8e73286cb35b4b2.png"
+},
+{
+    "cod_cartao_icone": "72",
+    "cod_categoria_cartao": "187",
+    "arquivo": "c5429f2c74bc1ac2690ce4011413e704.png"
+},
+{
+    "cod_cartao_icone": "73",
+    "cod_categoria_cartao": "187",
+    "arquivo": "1322cdeda1c311356e7bbb7b96ab22e5.png"
+},
+{
+    "cod_cartao_icone": "74",
+    "cod_categoria_cartao": "187",
+    "arquivo": "77aea6cbc9fafd0d7bccf6d0d76ba7e6.png"
+},
+{
+    "cod_cartao_icone": "75",
+    "cod_categoria_cartao": "187",
+    "arquivo": "62711d300ba24c2b4020093839f9b3a6.png"
+},
+{
+    "cod_cartao_icone": "76",
+    "cod_categoria_cartao": "187",
+    "arquivo": "083110044afd26dabeb5b4d6272ccb49.png"
+},
+{
+    "cod_cartao_icone": "77",
+    "cod_categoria_cartao": "187",
+    "arquivo": "c0df9c09a21d204d71e51e8e3664e62a.png"
+},
+{
+    "cod_cartao_icone": "78",
+    "cod_categoria_cartao": "187",
+    "arquivo": "9edd920c68390e4714608d6bb7c080be.png"
+},
+{
+    "cod_cartao_icone": "79",
+    "cod_categoria_cartao": "187",
+    "arquivo": "cdb569f804c767861f6537e281eb9715.png"
+},
+{
+    "cod_cartao_icone": "80",
+    "cod_categoria_cartao": "187",
+    "arquivo": "dbf342db66f3d7b5263bb49e4d15db0e.png"
+},
+{
+    "cod_cartao_icone": "81",
+    "cod_categoria_cartao": "187",
+    "arquivo": "fa14f0ac1d67587b49f9e8d125a52fe6.png"
+},
+{
+    "cod_cartao_icone": "82",
+    "cod_categoria_cartao": "187",
+    "arquivo": "22fba5d5ee3f0f6c5cd317e0e710dc84.png"
+},
+{
+    "cod_cartao_icone": "83",
+    "cod_categoria_cartao": "187",
+    "arquivo": "c1d449497edfec11db848d9e5d1a767d.png"
+},
+{
+    "cod_cartao_icone": "84",
+    "cod_categoria_cartao": "187",
+    "arquivo": "b75984c27ee5538dc78f2ab8b076859c.png"
+},
+{
+    "cod_cartao_icone": "85",
+    "cod_categoria_cartao": "187",
+    "arquivo": "783d6e5ff69d1d932e67d7c591c3b55c.png"
+},
+{
+    "cod_cartao_icone": "86",
+    "cod_categoria_cartao": "189",
+    "arquivo": "02d2c8253d00a75121eab3b01e936371.png"
+},
+{
+    "cod_cartao_icone": "87",
+    "cod_categoria_cartao": "189",
+    "arquivo": "789e61fe6d2cae02fd5cfc485eaadce8.png"
+},
+{
+    "cod_cartao_icone": "88",
+    "cod_categoria_cartao": "189",
+    "arquivo": "97c2a6331d429b6332dfbecf8e64826f.png"
+},
+{
+    "cod_cartao_icone": "89",
+    "cod_categoria_cartao": "189",
+    "arquivo": "6d78f3276ced14e82a7eb1caaf64b146.png"
+},
+{
+    "cod_cartao_icone": "90",
+    "cod_categoria_cartao": "189",
+    "arquivo": "37932e68dd8bafbcb68d71f38c7ab684.png"
+},
+{
+    "cod_cartao_icone": "91",
+    "cod_categoria_cartao": "189",
+    "arquivo": "130f3c6867c0cfa51980156fe6a029b1.png"
+},
+{
+    "cod_cartao_icone": "92",
+    "cod_categoria_cartao": "189",
+    "arquivo": "02fa47d0aea48e1871747d940754168b.png"
+},
+{
+    "cod_cartao_icone": "93",
+    "cod_categoria_cartao": "190",
+    "arquivo": "9be47f626eb4f95571c9d5a3b3f5af0d.png"
+},
+{
+    "cod_cartao_icone": "94",
+    "cod_categoria_cartao": "190",
+    "arquivo": "fc3e6024082ff8e683645c13450c98fc.png"
+},
+{
+    "cod_cartao_icone": "95",
+    "cod_categoria_cartao": "190",
+    "arquivo": "4003e00e8b2888a69eae0a99eef4ae06.png"
+},
+{
+    "cod_cartao_icone": "96",
+    "cod_categoria_cartao": "190",
+    "arquivo": "6515600ee7e4ab787049824929a859a2.png"
+},
+{
+    "cod_cartao_icone": "97",
+    "cod_categoria_cartao": "190",
+    "arquivo": "1e4c486cab2af6589f26a81c27be6fcb.png"
+},
+{
+    "cod_cartao_icone": "98",
+    "cod_categoria_cartao": "190",
+    "arquivo": "5f487c0e766fc63577640703b4f4a330.png"
+},
+{
+    "cod_cartao_icone": "99",
+    "cod_categoria_cartao": "190",
+    "arquivo": "e80160b1d54ccdfaf566a5b471e58ebb.png"
+},
+{
+    "cod_cartao_icone": "100",
+    "cod_categoria_cartao": "190",
+    "arquivo": "94efd5982512773611ee1e4b37a4308a.png"
+},
+{
+    "cod_cartao_icone": "101",
+    "cod_categoria_cartao": "190",
+    "arquivo": "4223adf65973d5ab1b8247c933849434.png"
+},
+{
+    "cod_cartao_icone": "102",
+    "cod_categoria_cartao": "190",
+    "arquivo": "acb05c7b41a0fbcc2df3edea957c2490.png"
+},
+{
+    "cod_cartao_icone": "103",
+    "cod_categoria_cartao": "190",
+    "arquivo": "f0bb60318e8b2932a1c17ff82d70f2ed.png"
+},
+{
+    "cod_cartao_icone": "104",
+    "cod_categoria_cartao": "190",
+    "arquivo": "3d1814717a2f38053cf7c3828158f8df.png"
+},
+{
+    "cod_cartao_icone": "105",
+    "cod_categoria_cartao": "190",
+    "arquivo": "db4e9163feb7061bba44adaecadb40b1.png"
+},
+{
+    "cod_cartao_icone": "106",
+    "cod_categoria_cartao": "190",
+    "arquivo": "8f98989812378c1ca1780ccabb782139.png"
+},
+{
+    "cod_cartao_icone": "107",
+    "cod_categoria_cartao": "190",
+    "arquivo": "9364b7c1d8a2b85e218f1f802deaad2d.png"
+},
+{
+    "cod_cartao_icone": "108",
+    "cod_categoria_cartao": "188",
+    "arquivo": "005f4c3bae36893a2cc14c4456783f32.png"
+},
+{
+    "cod_cartao_icone": "109",
+    "cod_categoria_cartao": "188",
+    "arquivo": "ca53e972e4f86ce6d63d88941a2af2a5.png"
+},
+{
+    "cod_cartao_icone": "110",
+    "cod_categoria_cartao": "188",
+    "arquivo": "3e0a3ea7b3d26d976d138288e76a7996.png"
+},
+{
+    "cod_cartao_icone": "111",
+    "cod_categoria_cartao": "188",
+    "arquivo": "d63fb4b8509c658144e1b7102383a083.png"
+},
+{
+    "cod_cartao_icone": "112",
+    "cod_categoria_cartao": "188",
+    "arquivo": "0a630796c8a272d09d0379754a05e20e.png"
+},
+{
+    "cod_cartao_icone": "113",
+    "cod_categoria_cartao": "188",
+    "arquivo": "88856ec097e8a147dde3719aaa8665f0.png"
+},
+{
+    "cod_cartao_icone": "114",
+    "cod_categoria_cartao": "188",
+    "arquivo": "31da3ede124b7234ac98b7265ce07481.png"
+},
+{
+    "cod_cartao_icone": "115",
+    "cod_categoria_cartao": "188",
+    "arquivo": "93306b9aef01e993ea141353cb329fdf.png"
+},
+{
+    "cod_cartao_icone": "116",
+    "cod_categoria_cartao": "188",
+    "arquivo": "140cae7ec4871d235e578f63f1b8003f.png"
+},
+{
+    "cod_cartao_icone": "117",
+    "cod_categoria_cartao": "188",
+    "arquivo": "828e380d8e9ae09de133c4990393a156.png"
+},
+{
+    "cod_cartao_icone": "118",
+    "cod_categoria_cartao": "188",
+    "arquivo": "0b5dfc3ae76a2e26cae473b70f1808c1.png"
+},
+{
+    "cod_cartao_icone": "119",
+    "cod_categoria_cartao": "188",
+    "arquivo": "9f1cdf70cedb8213094daf636427ac7d.png"
+},
+{
+    "cod_cartao_icone": "120",
+    "cod_categoria_cartao": "188",
+    "arquivo": "3de063bbdf6919a152f932929dae6d4b.png"
+},
+{
+    "cod_cartao_icone": "121",
+    "cod_categoria_cartao": "188",
+    "arquivo": "7ae6c9a756b82f5ffa60ce34a1827a4d.png"
+},
+{
+    "cod_cartao_icone": "122",
+    "cod_categoria_cartao": "188",
+    "arquivo": "33b6855bd99c52558dc92ebbd178cb60.png"
+},
+{
+    "cod_cartao_icone": "123",
+    "cod_categoria_cartao": "188",
+    "arquivo": "6bd40b2c9290f5a2f74b3d223c209283.png"
+},
+{
+    "cod_cartao_icone": "124",
+    "cod_categoria_cartao": "188",
+    "arquivo": "315f731818dc2dd84a004dd3060ff302.png"
+},
+{
+    "cod_cartao_icone": "125",
+    "cod_categoria_cartao": "188",
+    "arquivo": "4a7134bc9a399986f094d555064e814b.png"
+},
+{
+    "cod_cartao_icone": "126",
+    "cod_categoria_cartao": "188",
+    "arquivo": "56b1663c307f0a827a54fe213d3ea86f.png"
+},
+{
+    "cod_cartao_icone": "127",
+    "cod_categoria_cartao": "188",
+    "arquivo": "4826203d9f8a6f9f89752abdd2e3d7f6.png"
+},
+{
+    "cod_cartao_icone": "128",
+    "cod_categoria_cartao": "99",
+    "arquivo": "81d4d60b07691a619a48441f3af535ad.png"
+},
+{
+    "cod_cartao_icone": "129",
+    "cod_categoria_cartao": "99",
+    "arquivo": "28402820177d642837fbfbb3ddf5929f.png"
+},
+{
+    "cod_cartao_icone": "130",
+    "cod_categoria_cartao": "99",
+    "arquivo": "6d2648e044a2d414c90361e64fef9833.png"
+},
+{
+    "cod_cartao_icone": "131",
+    "cod_categoria_cartao": "99",
+    "arquivo": "56b7022ba96660ea0d7a3dc7f0f7d57e.png"
+},
+{
+    "cod_cartao_icone": "132",
+    "cod_categoria_cartao": "99",
+    "arquivo": "de7db2ff84d5848446ebbb3775f7d817.png"
+},
+{
+    "cod_cartao_icone": "133",
+    "cod_categoria_cartao": "99",
+    "arquivo": "6d51955ee6ef623b83a660d9e49ca0be.png"
+},
+{
+    "cod_cartao_icone": "134",
+    "cod_categoria_cartao": "99",
+    "arquivo": "5336d805b653b18220422ee3a05e29b2.png"
+},
+{
+    "cod_cartao_icone": "135",
+    "cod_categoria_cartao": "99",
+    "arquivo": "a0bdbcf1dde3a4fb69ae19c43b7968b9.png"
+},
+{
+    "cod_cartao_icone": "136",
+    "cod_categoria_cartao": "99",
+    "arquivo": "19c466d9c7c6cd17e993368e46b78bd6.png"
+},
+{
+    "cod_cartao_icone": "137",
+    "cod_categoria_cartao": "99",
+    "arquivo": "843fbb71bddb7481503d880da8828080.png"
+},
+{
+    "cod_cartao_icone": "138",
+    "cod_categoria_cartao": "192",
+    "arquivo": "73556f6f7e6b6abe3dedb0e262ba59d0.png"
+},
+{
+    "cod_cartao_icone": "139",
+    "cod_categoria_cartao": "192",
+    "arquivo": "029555f6104b84db65a2c4a70ca193d0.png"
+},
+{
+    "cod_cartao_icone": "140",
+    "cod_categoria_cartao": "192",
+    "arquivo": "ec59e0291594b04b2c6d8cc6198dc84b.png"
+},
+{
+    "cod_cartao_icone": "141",
+    "cod_categoria_cartao": "192",
+    "arquivo": "373945cca7de0f5928a0a9a60981c5d5.png"
+},
+{
+    "cod_cartao_icone": "142",
+    "cod_categoria_cartao": "192",
+    "arquivo": "5fcd541f9cd01594ac11cfe406078193.png"
+},
+{
+    "cod_cartao_icone": "143",
+    "cod_categoria_cartao": "192",
+    "arquivo": "123e685e364fecd587fef68f4fafb183.png"
+},
+{
+    "cod_cartao_icone": "144",
+    "cod_categoria_cartao": "192",
+    "arquivo": "6219035e5617d42a808c437b9c0a4ebe.png"
+},
+{
+    "cod_cartao_icone": "145",
+    "cod_categoria_cartao": "192",
+    "arquivo": "a8ad3642758d75ae8b584f9113437fbc.png"
+},
+{
+    "cod_cartao_icone": "146",
+    "cod_categoria_cartao": "192",
+    "arquivo": "b50a785f24cea7489e507cd07e41848b.png"
+},
+{
+    "cod_cartao_icone": "147",
+    "cod_categoria_cartao": "192",
+    "arquivo": "a3f8619a9bcea1a829202d27148880e4.png"
+},
+{
+    "cod_cartao_icone": "148",
+    "cod_categoria_cartao": "192",
+    "arquivo": "abc024af34634cff1517184f30042840.png"
+},
+{
+    "cod_cartao_icone": "149",
+    "cod_categoria_cartao": "192",
+    "arquivo": "a682135d33d59868cbe962de078f25b3.png"
+},
+{
+    "cod_cartao_icone": "150",
+    "cod_categoria_cartao": "192",
+    "arquivo": "a59dcda909110e57c1d4235b3a603bc4.png"
+},
+{
+    "cod_cartao_icone": "151",
+    "cod_categoria_cartao": "192",
+    "arquivo": "1f63d67d8784ad0d14becddd394873b9.png"
+},
+{
+    "cod_cartao_icone": "152",
+    "cod_categoria_cartao": "192",
+    "arquivo": "13a0a2ae31905d29042e65e02a2545b1.png"
+},
+{
+    "cod_cartao_icone": "153",
+    "cod_categoria_cartao": "192",
+    "arquivo": "ed986cd5b4569e6c6a6b10cb880da3a2.png"
+},
+{
+    "cod_cartao_icone": "154",
+    "cod_categoria_cartao": "192",
+    "arquivo": "1377f9096feeab02c9938dd16801c401.png"
+},
+{
+    "cod_cartao_icone": "155",
+    "cod_categoria_cartao": "192",
+    "arquivo": "8546ace25b7a4228671bca4f16d8d615.png"
+},
+{
+    "cod_cartao_icone": "156",
+    "cod_categoria_cartao": "192",
+    "arquivo": "843f3937a5fedcf820c4d484fe92128b.png"
+},
+{
+    "cod_cartao_icone": "157",
+    "cod_categoria_cartao": "192",
+    "arquivo": "53b740bf5a9d85e5e4382fe40159489b.png"
+},
+{
+    "cod_cartao_icone": "158",
+    "cod_categoria_cartao": "192",
+    "arquivo": "5aadd2d4c78c72b3be9b647c92983344.png"
+},
+{
+    "cod_cartao_icone": "159",
+    "cod_categoria_cartao": "192",
+    "arquivo": "03820b10b7769343c7baa1ff01fa8532.png"
+},
+{
+    "cod_cartao_icone": "160",
+    "cod_categoria_cartao": "192",
+    "arquivo": "be35befc4470d42b03d5f47714c1174c.png"
+},
+{
+    "cod_cartao_icone": "161",
+    "cod_categoria_cartao": "192",
+    "arquivo": "7572601fd72ba4f4db4f38d2c2318669.png"
+},
+{
+    "cod_cartao_icone": "162",
+    "cod_categoria_cartao": "192",
+    "arquivo": "faca7c389c5e09598ff5920effcdd365.png"
+},
+{
+    "cod_cartao_icone": "163",
+    "cod_categoria_cartao": "192",
+    "arquivo": "2a42ae19337368ca6250ce5a5cda51a5.png"
+},
+{
+    "cod_cartao_icone": "164",
+    "cod_categoria_cartao": "192",
+    "arquivo": "d2786f7d521a3a0be203144e7cc1f20f.png"
+},
+{
+    "cod_cartao_icone": "165",
+    "cod_categoria_cartao": "192",
+    "arquivo": "6b9f356f1e4b5789b50e6233ce64c9b3.png"
+},
+{
+    "cod_cartao_icone": "166",
+    "cod_categoria_cartao": "192",
+    "arquivo": "8c5bd44e5758c8fbeb3dde44cf3cac91.png"
+},
+{
+    "cod_cartao_icone": "167",
+    "cod_categoria_cartao": "192",
+    "arquivo": "af2459fdbf3fe18462d787737e721b9b.png"
+}
+]
+
+}

@@ -1,0 +1,14 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block title %}Painel Administrativo | GCB{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <img src="{% static 'images/header/guiacomercial-brasil.png' %}" width="55px" height="55px" ></img>
+
+    <a href="{% url 'admin:index' %}">
+        Guia Comercial Brasil - Painel Administrativo
+    </a>
+</h1>
+{% endblock branding %}

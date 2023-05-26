@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block title %}Guia Comercial Brasil - Contato{% endblock title %}
+{% block content %}
+
+<style>
+h1.titulo{
+    color: #66a592;
+	font-size: 18px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 5px;
+	margin: 25px auto;
+}
+</style>
+
+<div class="wrapper">
+
+    <div>
+        <h1 class="titulo">Contato</h1>
+
+        <p>Entre em contato agora mesmo e tire suas dúvidas, mande sugestões, etc...</p>
+
+        <p>Seu contato será enviado para <strong>Guia Comercial Brasil</strong><br />
+        Responsável: Eduardo de Araújo Crispim<br />
+        Telefone: <a target="_blank" href="https://api.whatsapp.com/send?phone=5511946117795">11 94611-7795</a></p>
+    </div>
+
+    <form action="{% url 'contact' %}" method="POST">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        {% buttons %}
+        <button class="btn btn-primary" type="submit">Enviar Email</button>
+        {% endbuttons %}
+    </form>
+
+</div><!-- .wrapper -->
+{% endblock content %}

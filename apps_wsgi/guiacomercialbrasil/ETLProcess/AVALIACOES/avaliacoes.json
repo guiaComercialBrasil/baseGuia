@@ -1,0 +1,4514 @@
+[
+    {
+        "estabelecimento": 12,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 14,
+        "media": 3.44,
+        "num_avaliacoes": 8355,
+        "total_avaliacoes": 22645
+    },
+    {
+        "estabelecimento": 15,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1435
+    },
+    {
+        "estabelecimento": 21,
+        "media": 3.5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 57
+    },
+    {
+        "estabelecimento": 25,
+        "media": 2.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 24
+    },
+    {
+        "estabelecimento": 35,
+        "media": 0,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 39,
+        "media": 4.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 76
+    },
+    {
+        "estabelecimento": 46,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 49,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 79
+    },
+    {
+        "estabelecimento": 50,
+        "media": 3.16,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 173
+    },
+    {
+        "estabelecimento": 60,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 75,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 106
+    },
+    {
+        "estabelecimento": 104,
+        "media": 4.86,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 128
+    },
+    {
+        "estabelecimento": 122,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 125,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 136,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 24
+    },
+    {
+        "estabelecimento": 138,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 65
+    },
+    {
+        "estabelecimento": 139,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 98
+    },
+    {
+        "estabelecimento": 143,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 152,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 155,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 157,
+        "media": 3,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 78
+    },
+    {
+        "estabelecimento": 162,
+        "media": 4.07,
+        "num_avaliacoes": 233,
+        "total_avaliacoes": 1951
+    },
+    {
+        "estabelecimento": 163,
+        "media": 4.52,
+        "num_avaliacoes": 108,
+        "total_avaliacoes": 968
+    },
+    {
+        "estabelecimento": 164,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 117
+    },
+    {
+        "estabelecimento": 181,
+        "media": 0,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 188,
+        "media": 4.94,
+        "num_avaliacoes": 68,
+        "total_avaliacoes": 124
+    },
+    {
+        "estabelecimento": 189,
+        "media": 4.77,
+        "num_avaliacoes": 82,
+        "total_avaliacoes": 470
+    },
+    {
+        "estabelecimento": 196,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 101
+    },
+    {
+        "estabelecimento": 198,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 102
+    },
+    {
+        "estabelecimento": 203,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 204,
+        "media": 0,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 254,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 258,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 128
+    },
+    {
+        "estabelecimento": 259,
+        "media": 3.57,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 96
+    },
+    {
+        "estabelecimento": 261,
+        "media": 0.07,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 266,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 268,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 124
+    },
+    {
+        "estabelecimento": 269,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 282,
+        "media": 4.07,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 91
+    },
+    {
+        "estabelecimento": 286,
+        "media": 0,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 289,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 290,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 22
+    },
+    {
+        "estabelecimento": 294,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 297,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 305,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 306,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 307,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 25
+    },
+    {
+        "estabelecimento": 310,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 311,
+        "media": 4.8,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 196
+    },
+    {
+        "estabelecimento": 312,
+        "media": 4.33,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 2427
+    },
+    {
+        "estabelecimento": 313,
+        "media": 3,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 69
+    },
+    {
+        "estabelecimento": 314,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 315,
+        "media": 1.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 316,
+        "media": 5,
+        "num_avaliacoes": 57,
+        "total_avaliacoes": 928
+    },
+    {
+        "estabelecimento": 317,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 325,
+        "media": 3.64,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 3361
+    },
+    {
+        "estabelecimento": 330,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 38
+    },
+    {
+        "estabelecimento": 334,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 344,
+        "media": 3.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 224
+    },
+    {
+        "estabelecimento": 348,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 385
+    },
+    {
+        "estabelecimento": 349,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 354,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 371,
+        "media": 1.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 79
+    },
+    {
+        "estabelecimento": 377,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 391,
+        "media": 4.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 38
+    },
+    {
+        "estabelecimento": 408,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 38
+    },
+    {
+        "estabelecimento": 411,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 49
+    },
+    {
+        "estabelecimento": 413,
+        "media": 5,
+        "num_avaliacoes": 42,
+        "total_avaliacoes": 692
+    },
+    {
+        "estabelecimento": 419,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 433,
+        "media": 0.17,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 436,
+        "media": 4.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 1300
+    },
+    {
+        "estabelecimento": 438,
+        "media": 1.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 58
+    },
+    {
+        "estabelecimento": 441,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 448,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 452,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 456,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 36
+    },
+    {
+        "estabelecimento": 464,
+        "media": 2.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 55
+    },
+    {
+        "estabelecimento": 466,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 467,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 121
+    },
+    {
+        "estabelecimento": 471,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 60
+    },
+    {
+        "estabelecimento": 474,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 228
+    },
+    {
+        "estabelecimento": 477,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 478,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 480,
+        "media": 4.35,
+        "num_avaliacoes": 37,
+        "total_avaliacoes": 339
+    },
+    {
+        "estabelecimento": 482,
+        "media": 5,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 64
+    },
+    {
+        "estabelecimento": 483,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 92
+    },
+    {
+        "estabelecimento": 484,
+        "media": 2,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 85
+    },
+    {
+        "estabelecimento": 497,
+        "media": 1.5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 87
+    },
+    {
+        "estabelecimento": 500,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 77
+    },
+    {
+        "estabelecimento": 501,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 502,
+        "media": 1.6,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 48
+    },
+    {
+        "estabelecimento": 505,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 506,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 507,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 510,
+        "media": 0.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 76
+    },
+    {
+        "estabelecimento": 518,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 29
+    },
+    {
+        "estabelecimento": 527,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 547,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 551,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 559,
+        "media": 2.4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 26
+    },
+    {
+        "estabelecimento": 576,
+        "media": 4.91,
+        "num_avaliacoes": 196,
+        "total_avaliacoes": 2153
+    },
+    {
+        "estabelecimento": 578,
+        "media": 4.89,
+        "num_avaliacoes": 82,
+        "total_avaliacoes": 444
+    },
+    {
+        "estabelecimento": 585,
+        "media": 3,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 595,
+        "media": 4.14,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 58
+    },
+    {
+        "estabelecimento": 599,
+        "media": 0.12,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 612,
+        "media": 2,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 617,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 39
+    },
+    {
+        "estabelecimento": 620,
+        "media": 4.15,
+        "num_avaliacoes": 97,
+        "total_avaliacoes": 385
+    },
+    {
+        "estabelecimento": 633,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 641,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 652,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 35
+    },
+    {
+        "estabelecimento": 657,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 661,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 202
+    },
+    {
+        "estabelecimento": 670,
+        "media": 6,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 675,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 676,
+        "media": 4.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 204
+    },
+    {
+        "estabelecimento": 677,
+        "media": 4.25,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 1223
+    },
+    {
+        "estabelecimento": 694,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 713,
+        "media": 4.48,
+        "num_avaliacoes": 6557,
+        "total_avaliacoes": 17018
+    },
+    {
+        "estabelecimento": 714,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 721,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 724,
+        "media": 1.86,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 725,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 726,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 731,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 734,
+        "media": 0.29,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 736,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 103
+    },
+    {
+        "estabelecimento": 738,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 91
+    },
+    {
+        "estabelecimento": 741,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 747,
+        "media": 4.95,
+        "num_avaliacoes": 66,
+        "total_avaliacoes": 418
+    },
+    {
+        "estabelecimento": 752,
+        "media": 4.94,
+        "num_avaliacoes": 50,
+        "total_avaliacoes": 546
+    },
+    {
+        "estabelecimento": 755,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 118
+    },
+    {
+        "estabelecimento": 757,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 759,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 657
+    },
+    {
+        "estabelecimento": 765,
+        "media": 4.75,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 70
+    },
+    {
+        "estabelecimento": 767,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 50
+    },
+    {
+        "estabelecimento": 772,
+        "media": 1,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 775,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 777,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 785,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 787,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 789,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 798,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 92
+    },
+    {
+        "estabelecimento": 799,
+        "media": 4.95,
+        "num_avaliacoes": 457,
+        "total_avaliacoes": 1597
+    },
+    {
+        "estabelecimento": 800,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 802,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 22
+    },
+    {
+        "estabelecimento": 805,
+        "media": 4,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 808,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 811,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 814,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 57
+    },
+    {
+        "estabelecimento": 819,
+        "media": 2.69,
+        "num_avaliacoes": 29,
+        "total_avaliacoes": 82
+    },
+    {
+        "estabelecimento": 825,
+        "media": 5,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 891
+    },
+    {
+        "estabelecimento": 831,
+        "media": 0.5,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 29
+    },
+    {
+        "estabelecimento": 832,
+        "media": 2.49,
+        "num_avaliacoes": 96,
+        "total_avaliacoes": 132
+    },
+    {
+        "estabelecimento": 838,
+        "media": 4.99,
+        "num_avaliacoes": 72,
+        "total_avaliacoes": 187
+    },
+    {
+        "estabelecimento": 845,
+        "media": 4.32,
+        "num_avaliacoes": 827,
+        "total_avaliacoes": 1425
+    },
+    {
+        "estabelecimento": 847,
+        "media": 3.8,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 852,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 856,
+        "media": 4.06,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 240
+    },
+    {
+        "estabelecimento": 860,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 871,
+        "media": 3.14,
+        "num_avaliacoes": 113,
+        "total_avaliacoes": 2324
+    },
+    {
+        "estabelecimento": 874,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 50
+    },
+    {
+        "estabelecimento": 875,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 881,
+        "media": 2.43,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 199
+    },
+    {
+        "estabelecimento": 882,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 22
+    },
+    {
+        "estabelecimento": 887,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 250
+    },
+    {
+        "estabelecimento": 894,
+        "media": 4.67,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 93
+    },
+    {
+        "estabelecimento": 901,
+        "media": 4.91,
+        "num_avaliacoes": 11,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 902,
+        "media": 5,
+        "num_avaliacoes": 21,
+        "total_avaliacoes": 85
+    },
+    {
+        "estabelecimento": 906,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 58
+    },
+    {
+        "estabelecimento": 909,
+        "media": 4,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 921,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 927,
+        "media": 3.86,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 47
+    },
+    {
+        "estabelecimento": 929,
+        "media": 3.68,
+        "num_avaliacoes": 114,
+        "total_avaliacoes": 671
+    },
+    {
+        "estabelecimento": 934,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1010
+    },
+    {
+        "estabelecimento": 938,
+        "media": 3.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 28
+    },
+    {
+        "estabelecimento": 939,
+        "media": 5,
+        "num_avaliacoes": 29,
+        "total_avaliacoes": 378
+    },
+    {
+        "estabelecimento": 941,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 942,
+        "media": 1.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 63
+    },
+    {
+        "estabelecimento": 943,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 945,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 952,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 964,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 965,
+        "media": 4.86,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 277
+    },
+    {
+        "estabelecimento": 969,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 97
+    },
+    {
+        "estabelecimento": 970,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 972,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 174
+    },
+    {
+        "estabelecimento": 974,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 979,
+        "media": 4.9,
+        "num_avaliacoes": 71,
+        "total_avaliacoes": 196
+    },
+    {
+        "estabelecimento": 982,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 986,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 995,
+        "media": 1.19,
+        "num_avaliacoes": 110,
+        "total_avaliacoes": 7450
+    },
+    {
+        "estabelecimento": 997,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 101
+    },
+    {
+        "estabelecimento": 1001,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 1011,
+        "media": 4.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 1020,
+        "media": 2.14,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 98
+    },
+    {
+        "estabelecimento": 1023,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 788
+    },
+    {
+        "estabelecimento": 1024,
+        "media": 3.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 1028,
+        "media": 3,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 60
+    },
+    {
+        "estabelecimento": 1029,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 2125
+    },
+    {
+        "estabelecimento": 1035,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 43
+    },
+    {
+        "estabelecimento": 1048,
+        "media": 4,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 1051,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 354
+    },
+    {
+        "estabelecimento": 1060,
+        "media": 4.4,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 156
+    },
+    {
+        "estabelecimento": 1061,
+        "media": 1.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 344
+    },
+    {
+        "estabelecimento": 1078,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 81
+    },
+    {
+        "estabelecimento": 1083,
+        "media": 3.9,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 89
+    },
+    {
+        "estabelecimento": 1088,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 1094,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 1095,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 35
+    },
+    {
+        "estabelecimento": 1104,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 1107,
+        "media": 4.14,
+        "num_avaliacoes": 1031,
+        "total_avaliacoes": 1860
+    },
+    {
+        "estabelecimento": 1108,
+        "media": 4.1,
+        "num_avaliacoes": 1107,
+        "total_avaliacoes": 1853
+    },
+    {
+        "estabelecimento": 1109,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 1114,
+        "media": 4.33,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 130
+    },
+    {
+        "estabelecimento": 1116,
+        "media": 0.56,
+        "num_avaliacoes": 25,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 1117,
+        "media": 3.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 1118,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 1130,
+        "media": 4.97,
+        "num_avaliacoes": 40,
+        "total_avaliacoes": 985
+    },
+    {
+        "estabelecimento": 1149,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 1152,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 1158,
+        "media": 4.93,
+        "num_avaliacoes": 983,
+        "total_avaliacoes": 7217
+    },
+    {
+        "estabelecimento": 1166,
+        "media": 2.23,
+        "num_avaliacoes": 26,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 1167,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 1175,
+        "media": 2,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 25
+    },
+    {
+        "estabelecimento": 1176,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 69
+    },
+    {
+        "estabelecimento": 1178,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 1191,
+        "media": 3,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 93
+    },
+    {
+        "estabelecimento": 1193,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 124
+    },
+    {
+        "estabelecimento": 1206,
+        "media": 4.95,
+        "num_avaliacoes": 37,
+        "total_avaliacoes": 630
+    },
+    {
+        "estabelecimento": 1208,
+        "media": 4.86,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 521
+    },
+    {
+        "estabelecimento": 1236,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 1238,
+        "media": 4,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 28
+    },
+    {
+        "estabelecimento": 1249,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 36
+    },
+    {
+        "estabelecimento": 1253,
+        "media": 4.65,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 186
+    },
+    {
+        "estabelecimento": 1257,
+        "media": 4,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 21
+    },
+    {
+        "estabelecimento": 1258,
+        "media": 5,
+        "num_avaliacoes": 24,
+        "total_avaliacoes": 792
+    },
+    {
+        "estabelecimento": 1259,
+        "media": 4.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 221
+    },
+    {
+        "estabelecimento": 1261,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 1265,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 1268,
+        "media": 4.53,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 61
+    },
+    {
+        "estabelecimento": 1276,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 53
+    },
+    {
+        "estabelecimento": 1292,
+        "media": 4.31,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 131
+    },
+    {
+        "estabelecimento": 1299,
+        "media": 3.1,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 1300,
+        "media": 4,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 183
+    },
+    {
+        "estabelecimento": 1315,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 28
+    },
+    {
+        "estabelecimento": 1316,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 1325,
+        "media": 4.89,
+        "num_avaliacoes": 80,
+        "total_avaliacoes": 199
+    },
+    {
+        "estabelecimento": 1330,
+        "media": 2,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 29
+    },
+    {
+        "estabelecimento": 1331,
+        "media": 3.83,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 1348,
+        "media": 3,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 1350,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 40
+    },
+    {
+        "estabelecimento": 1354,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 1358,
+        "media": 4.31,
+        "num_avaliacoes": 963,
+        "total_avaliacoes": 1976
+    },
+    {
+        "estabelecimento": 1360,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 1364,
+        "media": 4.02,
+        "num_avaliacoes": 51,
+        "total_avaliacoes": 202
+    },
+    {
+        "estabelecimento": 1366,
+        "media": 3.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 1372,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 1378,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 475
+    },
+    {
+        "estabelecimento": 1383,
+        "media": 2.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 230
+    },
+    {
+        "estabelecimento": 1394,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 1396,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 1398,
+        "media": 2.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 21
+    },
+    {
+        "estabelecimento": 1399,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 28
+    },
+    {
+        "estabelecimento": 1401,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 26
+    },
+    {
+        "estabelecimento": 1402,
+        "media": 4.53,
+        "num_avaliacoes": 17,
+        "total_avaliacoes": 1024
+    },
+    {
+        "estabelecimento": 1403,
+        "media": 2,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 379
+    },
+    {
+        "estabelecimento": 1430,
+        "media": 4.78,
+        "num_avaliacoes": 40,
+        "total_avaliacoes": 616
+    },
+    {
+        "estabelecimento": 1435,
+        "media": 4.69,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 1841
+    },
+    {
+        "estabelecimento": 1443,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 46
+    },
+    {
+        "estabelecimento": 1454,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 49
+    },
+    {
+        "estabelecimento": 1455,
+        "media": 4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 39
+    },
+    {
+        "estabelecimento": 1464,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 48
+    },
+    {
+        "estabelecimento": 1471,
+        "media": 2,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 48
+    },
+    {
+        "estabelecimento": 1473,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 1475,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 1480,
+        "media": 2.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 1502
+    },
+    {
+        "estabelecimento": 1482,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 1496,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 1508,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 35
+    },
+    {
+        "estabelecimento": 1509,
+        "media": 3.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 1525,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 248
+    },
+    {
+        "estabelecimento": 1526,
+        "media": 2.27,
+        "num_avaliacoes": 249,
+        "total_avaliacoes": 1132
+    },
+    {
+        "estabelecimento": 1544,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 1545,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 249
+    },
+    {
+        "estabelecimento": 1549,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 38
+    },
+    {
+        "estabelecimento": 1550,
+        "media": 3.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 158
+    },
+    {
+        "estabelecimento": 1551,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 125
+    },
+    {
+        "estabelecimento": 1555,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1079
+    },
+    {
+        "estabelecimento": 1556,
+        "media": 1.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 83
+    },
+    {
+        "estabelecimento": 1558,
+        "media": 2.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 358
+    },
+    {
+        "estabelecimento": 1560,
+        "media": 4.8,
+        "num_avaliacoes": 15,
+        "total_avaliacoes": 227
+    },
+    {
+        "estabelecimento": 1561,
+        "media": 4.86,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 378
+    },
+    {
+        "estabelecimento": 1564,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 75
+    },
+    {
+        "estabelecimento": 1571,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 122
+    },
+    {
+        "estabelecimento": 1578,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 1583,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 1585,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 1587,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 4081
+    },
+    {
+        "estabelecimento": 1588,
+        "media": 4.78,
+        "num_avaliacoes": 63,
+        "total_avaliacoes": 1261
+    },
+    {
+        "estabelecimento": 1591,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 1596,
+        "media": 4.21,
+        "num_avaliacoes": 125,
+        "total_avaliacoes": 407
+    },
+    {
+        "estabelecimento": 1605,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 1615,
+        "media": 4.73,
+        "num_avaliacoes": 37,
+        "total_avaliacoes": 109
+    },
+    {
+        "estabelecimento": 1628,
+        "media": 3.1,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 2392
+    },
+    {
+        "estabelecimento": 1633,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 1638,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 21
+    },
+    {
+        "estabelecimento": 1640,
+        "media": 4.34,
+        "num_avaliacoes": 197,
+        "total_avaliacoes": 574
+    },
+    {
+        "estabelecimento": 1712,
+        "media": 3.25,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 81
+    },
+    {
+        "estabelecimento": 1714,
+        "media": 0.6,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 247
+    },
+    {
+        "estabelecimento": 1717,
+        "media": 4,
+        "num_avaliacoes": 124,
+        "total_avaliacoes": 405
+    },
+    {
+        "estabelecimento": 1733,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 1137
+    },
+    {
+        "estabelecimento": 1741,
+        "media": 2,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 1745,
+        "media": 3.65,
+        "num_avaliacoes": 387,
+        "total_avaliacoes": 2169
+    },
+    {
+        "estabelecimento": 1756,
+        "media": 4.83,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 1761,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 152
+    },
+    {
+        "estabelecimento": 1763,
+        "media": 4.21,
+        "num_avaliacoes": 29,
+        "total_avaliacoes": 872
+    },
+    {
+        "estabelecimento": 1764,
+        "media": 4.86,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 687
+    },
+    {
+        "estabelecimento": 1765,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 866
+    },
+    {
+        "estabelecimento": 1793,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 146
+    },
+    {
+        "estabelecimento": 1799,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 1815,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 1826,
+        "media": 3.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 1846,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 254
+    },
+    {
+        "estabelecimento": 1847,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 1861,
+        "media": 4.16,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 711
+    },
+    {
+        "estabelecimento": 1864,
+        "media": 4.82,
+        "num_avaliacoes": 808,
+        "total_avaliacoes": 2350
+    },
+    {
+        "estabelecimento": 1872,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 1888,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 81
+    },
+    {
+        "estabelecimento": 1889,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 1893,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 39
+    },
+    {
+        "estabelecimento": 1896,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 46
+    },
+    {
+        "estabelecimento": 1932,
+        "media": 4.98,
+        "num_avaliacoes": 101,
+        "total_avaliacoes": 1497
+    },
+    {
+        "estabelecimento": 1938,
+        "media": 1.57,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 1940,
+        "media": 4.4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 1432
+    },
+    {
+        "estabelecimento": 1967,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 46
+    },
+    {
+        "estabelecimento": 1970,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 1971,
+        "media": 4.44,
+        "num_avaliacoes": 25,
+        "total_avaliacoes": 51
+    },
+    {
+        "estabelecimento": 1983,
+        "media": 3.17,
+        "num_avaliacoes": 18,
+        "total_avaliacoes": 236
+    },
+    {
+        "estabelecimento": 2028,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 2041,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 54
+    },
+    {
+        "estabelecimento": 2042,
+        "media": 2.43,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 2043,
+        "media": 3.4,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 74
+    },
+    {
+        "estabelecimento": 2054,
+        "media": 3.67,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 58
+    },
+    {
+        "estabelecimento": 2082,
+        "media": 2.3,
+        "num_avaliacoes": 23,
+        "total_avaliacoes": 35
+    },
+    {
+        "estabelecimento": 2125,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 2131,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 2171,
+        "media": 1,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 293
+    },
+    {
+        "estabelecimento": 2194,
+        "media": 4.95,
+        "num_avaliacoes": 42,
+        "total_avaliacoes": 748
+    },
+    {
+        "estabelecimento": 2213,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 2217,
+        "media": 5,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 31
+    },
+    {
+        "estabelecimento": 2230,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 2255,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 50
+    },
+    {
+        "estabelecimento": 2260,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 2286,
+        "media": 1.12,
+        "num_avaliacoes": 16,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 2320,
+        "media": 4.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 344
+    },
+    {
+        "estabelecimento": 2347,
+        "media": 0.05,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 2350,
+        "media": 4.42,
+        "num_avaliacoes": 158,
+        "total_avaliacoes": 292
+    },
+    {
+        "estabelecimento": 2366,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 556
+    },
+    {
+        "estabelecimento": 2368,
+        "media": 4.07,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 746
+    },
+    {
+        "estabelecimento": 2375,
+        "media": 4.57,
+        "num_avaliacoes": 30,
+        "total_avaliacoes": 63
+    },
+    {
+        "estabelecimento": 2406,
+        "media": 5,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 112
+    },
+    {
+        "estabelecimento": 2410,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 38
+    },
+    {
+        "estabelecimento": 2434,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 69
+    },
+    {
+        "estabelecimento": 2448,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 505
+    },
+    {
+        "estabelecimento": 2449,
+        "media": 4.92,
+        "num_avaliacoes": 164,
+        "total_avaliacoes": 442
+    },
+    {
+        "estabelecimento": 2451,
+        "media": 4.99,
+        "num_avaliacoes": 113,
+        "total_avaliacoes": 778
+    },
+    {
+        "estabelecimento": 2452,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 55
+    },
+    {
+        "estabelecimento": 2466,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 1173
+    },
+    {
+        "estabelecimento": 2484,
+        "media": 3.16,
+        "num_avaliacoes": 57,
+        "total_avaliacoes": 123
+    },
+    {
+        "estabelecimento": 2497,
+        "media": 0.35,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 50
+    },
+    {
+        "estabelecimento": 2498,
+        "media": 4.56,
+        "num_avaliacoes": 18,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 2520,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 46
+    },
+    {
+        "estabelecimento": 2527,
+        "media": 4.5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 32
+    },
+    {
+        "estabelecimento": 2529,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 24
+    },
+    {
+        "estabelecimento": 2536,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 47
+    },
+    {
+        "estabelecimento": 2538,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 2547,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 2565,
+        "media": 2.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 109
+    },
+    {
+        "estabelecimento": 2570,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 95
+    },
+    {
+        "estabelecimento": 2581,
+        "media": 0.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 102
+    },
+    {
+        "estabelecimento": 2584,
+        "media": 0.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 112
+    },
+    {
+        "estabelecimento": 2585,
+        "media": 0.55,
+        "num_avaliacoes": 22,
+        "total_avaliacoes": 56
+    },
+    {
+        "estabelecimento": 2590,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 50
+    },
+    {
+        "estabelecimento": 2595,
+        "media": 4.91,
+        "num_avaliacoes": 11,
+        "total_avaliacoes": 82
+    },
+    {
+        "estabelecimento": 2601,
+        "media": 4.74,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 647
+    },
+    {
+        "estabelecimento": 2613,
+        "media": 3.61,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 804
+    },
+    {
+        "estabelecimento": 2614,
+        "media": 3.98,
+        "num_avaliacoes": 1147,
+        "total_avaliacoes": 6835
+    },
+    {
+        "estabelecimento": 2621,
+        "media": 1.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 95
+    },
+    {
+        "estabelecimento": 2632,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 49
+    },
+    {
+        "estabelecimento": 2634,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 29
+    },
+    {
+        "estabelecimento": 2666,
+        "media": 2.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 2668,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 53
+    },
+    {
+        "estabelecimento": 2695,
+        "media": 5,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 340
+    },
+    {
+        "estabelecimento": 2700,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 99
+    },
+    {
+        "estabelecimento": 2710,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 225
+    },
+    {
+        "estabelecimento": 2733,
+        "media": 1,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 56
+    },
+    {
+        "estabelecimento": 2765,
+        "media": 4.88,
+        "num_avaliacoes": 56,
+        "total_avaliacoes": 534
+    },
+    {
+        "estabelecimento": 2777,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 2791,
+        "media": 4.87,
+        "num_avaliacoes": 30,
+        "total_avaliacoes": 903
+    },
+    {
+        "estabelecimento": 2801,
+        "media": 4.88,
+        "num_avaliacoes": 933,
+        "total_avaliacoes": 50559
+    },
+    {
+        "estabelecimento": 2806,
+        "media": 5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 2808,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 2841,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 104
+    },
+    {
+        "estabelecimento": 2845,
+        "media": 4.53,
+        "num_avaliacoes": 186,
+        "total_avaliacoes": 695
+    },
+    {
+        "estabelecimento": 2852,
+        "media": 4.83,
+        "num_avaliacoes": 89,
+        "total_avaliacoes": 184
+    },
+    {
+        "estabelecimento": 2853,
+        "media": 4.46,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 2066
+    },
+    {
+        "estabelecimento": 2855,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 2857,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 2860,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 25
+    },
+    {
+        "estabelecimento": 2863,
+        "media": 1.5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 292
+    },
+    {
+        "estabelecimento": 2865,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 2868,
+        "media": 4.5,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 100
+    },
+    {
+        "estabelecimento": 2891,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 142
+    },
+    {
+        "estabelecimento": 2896,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 3128,
+        "media": 3,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 46
+    },
+    {
+        "estabelecimento": 3154,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 3164,
+        "media": 4.69,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 1287
+    },
+    {
+        "estabelecimento": 3172,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 136
+    },
+    {
+        "estabelecimento": 3175,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 40
+    },
+    {
+        "estabelecimento": 3191,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 17
+    },
+    {
+        "estabelecimento": 3198,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 3205,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 180
+    },
+    {
+        "estabelecimento": 3221,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 28
+    },
+    {
+        "estabelecimento": 3226,
+        "media": 4.62,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 120
+    },
+    {
+        "estabelecimento": 3232,
+        "media": 3.41,
+        "num_avaliacoes": 49,
+        "total_avaliacoes": 52
+    },
+    {
+        "estabelecimento": 3241,
+        "media": 3.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 30
+    },
+    {
+        "estabelecimento": 3250,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 41
+    },
+    {
+        "estabelecimento": 3256,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 3285,
+        "media": 1.7,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 93
+    },
+    {
+        "estabelecimento": 3341,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 3356,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 25
+    },
+    {
+        "estabelecimento": 3362,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 3376,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 3379,
+        "media": 4.86,
+        "num_avaliacoes": 111,
+        "total_avaliacoes": 574
+    },
+    {
+        "estabelecimento": 3382,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 3389,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 51
+    },
+    {
+        "estabelecimento": 3390,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 127
+    },
+    {
+        "estabelecimento": 3399,
+        "media": 4.8,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 227
+    },
+    {
+        "estabelecimento": 3405,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 66
+    },
+    {
+        "estabelecimento": 3415,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 3438,
+        "media": 4.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 82
+    },
+    {
+        "estabelecimento": 3468,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 3487,
+        "media": 4.67,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 366
+    },
+    {
+        "estabelecimento": 3502,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 117
+    },
+    {
+        "estabelecimento": 3504,
+        "media": 3.32,
+        "num_avaliacoes": 25,
+        "total_avaliacoes": 159
+    },
+    {
+        "estabelecimento": 3509,
+        "media": 0.29,
+        "num_avaliacoes": 17,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 3514,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 633
+    },
+    {
+        "estabelecimento": 3566,
+        "media": 4.17,
+        "num_avaliacoes": 23,
+        "total_avaliacoes": 87
+    },
+    {
+        "estabelecimento": 3572,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 3591,
+        "media": 4.7,
+        "num_avaliacoes": 40,
+        "total_avaliacoes": 1578
+    },
+    {
+        "estabelecimento": 3603,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 3636,
+        "media": 4.38,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 105
+    },
+    {
+        "estabelecimento": 3645,
+        "media": 4.36,
+        "num_avaliacoes": 11,
+        "total_avaliacoes": 143
+    },
+    {
+        "estabelecimento": 3650,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 66
+    },
+    {
+        "estabelecimento": 3653,
+        "media": 4.36,
+        "num_avaliacoes": 22,
+        "total_avaliacoes": 2516
+    },
+    {
+        "estabelecimento": 3657,
+        "media": 2,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 72
+    },
+    {
+        "estabelecimento": 3658,
+        "media": 5,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 1313
+    },
+    {
+        "estabelecimento": 3663,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 3669,
+        "media": 4.94,
+        "num_avaliacoes": 454,
+        "total_avaliacoes": 754
+    },
+    {
+        "estabelecimento": 3686,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 79
+    },
+    {
+        "estabelecimento": 3687,
+        "media": 4.89,
+        "num_avaliacoes": 47,
+        "total_avaliacoes": 139
+    },
+    {
+        "estabelecimento": 3689,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 103
+    },
+    {
+        "estabelecimento": 3698,
+        "media": 2.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 3702,
+        "media": 4.8,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 61
+    },
+    {
+        "estabelecimento": 3711,
+        "media": 5,
+        "num_avaliacoes": 68,
+        "total_avaliacoes": 522
+    },
+    {
+        "estabelecimento": 3725,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 3730,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 238
+    },
+    {
+        "estabelecimento": 3742,
+        "media": 4.09,
+        "num_avaliacoes": 33,
+        "total_avaliacoes": 238
+    },
+    {
+        "estabelecimento": 3744,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 3763,
+        "media": 4.9,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 2701
+    },
+    {
+        "estabelecimento": 3764,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 93
+    },
+    {
+        "estabelecimento": 3770,
+        "media": 4.96,
+        "num_avaliacoes": 255,
+        "total_avaliacoes": 505
+    },
+    {
+        "estabelecimento": 3771,
+        "media": 4.26,
+        "num_avaliacoes": 47,
+        "total_avaliacoes": 68634
+    },
+    {
+        "estabelecimento": 3782,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 62
+    },
+    {
+        "estabelecimento": 3787,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 31
+    },
+    {
+        "estabelecimento": 3800,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 18
+    },
+    {
+        "estabelecimento": 3820,
+        "media": 4.34,
+        "num_avaliacoes": 29,
+        "total_avaliacoes": 286
+    },
+    {
+        "estabelecimento": 3821,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 79
+    },
+    {
+        "estabelecimento": 3823,
+        "media": 5,
+        "num_avaliacoes": 66,
+        "total_avaliacoes": 849
+    },
+    {
+        "estabelecimento": 3836,
+        "media": 4.74,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 139
+    },
+    {
+        "estabelecimento": 3845,
+        "media": 4.55,
+        "num_avaliacoes": 11,
+        "total_avaliacoes": 3943
+    },
+    {
+        "estabelecimento": 3850,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 65
+    },
+    {
+        "estabelecimento": 3862,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 3868,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1427
+    },
+    {
+        "estabelecimento": 3870,
+        "media": 3.81,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 2451
+    },
+    {
+        "estabelecimento": 3872,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 3880,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 312
+    },
+    {
+        "estabelecimento": 3884,
+        "media": 5,
+        "num_avaliacoes": 63,
+        "total_avaliacoes": 107
+    },
+    {
+        "estabelecimento": 3886,
+        "media": 4.9,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 134
+    },
+    {
+        "estabelecimento": 3890,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 85
+    },
+    {
+        "estabelecimento": 3894,
+        "media": 5,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 39
+    },
+    {
+        "estabelecimento": 3909,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 3910,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 525
+    },
+    {
+        "estabelecimento": 3917,
+        "media": 5,
+        "num_avaliacoes": 127,
+        "total_avaliacoes": 880
+    },
+    {
+        "estabelecimento": 3918,
+        "media": 2.43,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 358
+    },
+    {
+        "estabelecimento": 3919,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 3922,
+        "media": 4.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 161
+    },
+    {
+        "estabelecimento": 3928,
+        "media": 4,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 598
+    },
+    {
+        "estabelecimento": 3931,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 3935,
+        "media": 2,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 3937,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 86
+    },
+    {
+        "estabelecimento": 3939,
+        "media": 4.68,
+        "num_avaliacoes": 25,
+        "total_avaliacoes": 90
+    },
+    {
+        "estabelecimento": 3944,
+        "media": 5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 53
+    },
+    {
+        "estabelecimento": 3952,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 651
+    },
+    {
+        "estabelecimento": 3956,
+        "media": 3.4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 3957,
+        "media": 5,
+        "num_avaliacoes": 30,
+        "total_avaliacoes": 723
+    },
+    {
+        "estabelecimento": 3960,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 3963,
+        "media": 4.53,
+        "num_avaliacoes": 34,
+        "total_avaliacoes": 186
+    },
+    {
+        "estabelecimento": 3965,
+        "media": 4.33,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 3967,
+        "media": 5,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 293
+    },
+    {
+        "estabelecimento": 3968,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 52
+    },
+    {
+        "estabelecimento": 3969,
+        "media": 0.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 3971,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 3972,
+        "media": 3.8,
+        "num_avaliacoes": 147,
+        "total_avaliacoes": 254
+    },
+    {
+        "estabelecimento": 3975,
+        "media": 4.96,
+        "num_avaliacoes": 50,
+        "total_avaliacoes": 380
+    },
+    {
+        "estabelecimento": 3976,
+        "media": 3.9,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 3978,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 3979,
+        "media": 4.92,
+        "num_avaliacoes": 84,
+        "total_avaliacoes": 1064
+    },
+    {
+        "estabelecimento": 3980,
+        "media": 3.46,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 40
+    },
+    {
+        "estabelecimento": 3981,
+        "media": 3,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 108
+    },
+    {
+        "estabelecimento": 3983,
+        "media": 4.64,
+        "num_avaliacoes": 22,
+        "total_avaliacoes": 167
+    },
+    {
+        "estabelecimento": 3988,
+        "media": 4.87,
+        "num_avaliacoes": 46,
+        "total_avaliacoes": 228
+    },
+    {
+        "estabelecimento": 3990,
+        "media": 3.11,
+        "num_avaliacoes": 61,
+        "total_avaliacoes": 109
+    },
+    {
+        "estabelecimento": 3991,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 360
+    },
+    {
+        "estabelecimento": 3994,
+        "media": 4.99,
+        "num_avaliacoes": 92,
+        "total_avaliacoes": 455
+    },
+    {
+        "estabelecimento": 4003,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4007,
+        "media": 5,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 134
+    },
+    {
+        "estabelecimento": 4008,
+        "media": 4.38,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 970
+    },
+    {
+        "estabelecimento": 4013,
+        "media": 4,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 4014,
+        "media": 4.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 54
+    },
+    {
+        "estabelecimento": 4015,
+        "media": 5,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 31
+    },
+    {
+        "estabelecimento": 4017,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 31
+    },
+    {
+        "estabelecimento": 4018,
+        "media": 1.57,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 157
+    },
+    {
+        "estabelecimento": 4019,
+        "media": 4.17,
+        "num_avaliacoes": 24,
+        "total_avaliacoes": 604
+    },
+    {
+        "estabelecimento": 4020,
+        "media": 2.6,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 4024,
+        "media": 4.65,
+        "num_avaliacoes": 17,
+        "total_avaliacoes": 59
+    },
+    {
+        "estabelecimento": 4025,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 4026,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4027,
+        "media": 2.43,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 57
+    },
+    {
+        "estabelecimento": 4028,
+        "media": 4.38,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 2399
+    },
+    {
+        "estabelecimento": 4030,
+        "media": 0.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4031,
+        "media": 5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 41
+    },
+    {
+        "estabelecimento": 4032,
+        "media": 4.95,
+        "num_avaliacoes": 146,
+        "total_avaliacoes": 804
+    },
+    {
+        "estabelecimento": 4034,
+        "media": 4.33,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 66
+    },
+    {
+        "estabelecimento": 4035,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 4037,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4038,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 4044,
+        "media": 3.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 4048,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4049,
+        "media": 0.72,
+        "num_avaliacoes": 80,
+        "total_avaliacoes": 135
+    },
+    {
+        "estabelecimento": 4050,
+        "media": 4,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 4051,
+        "media": 3.98,
+        "num_avaliacoes": 50,
+        "total_avaliacoes": 82
+    },
+    {
+        "estabelecimento": 4052,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 4053,
+        "media": 4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 65
+    },
+    {
+        "estabelecimento": 4062,
+        "media": 4.63,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 51
+    },
+    {
+        "estabelecimento": 4066,
+        "media": 1.2,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 303
+    },
+    {
+        "estabelecimento": 4067,
+        "media": 4.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 80
+    },
+    {
+        "estabelecimento": 4068,
+        "media": 3.79,
+        "num_avaliacoes": 14,
+        "total_avaliacoes": 1775
+    },
+    {
+        "estabelecimento": 4070,
+        "media": 3,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 70
+    },
+    {
+        "estabelecimento": 4071,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4072,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 4074,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4075,
+        "media": 0.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 4076,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4077,
+        "media": 4,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 4078,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4079,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 29
+    },
+    {
+        "estabelecimento": 4080,
+        "media": 4.82,
+        "num_avaliacoes": 238,
+        "total_avaliacoes": 588
+    },
+    {
+        "estabelecimento": 4081,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 386
+    },
+    {
+        "estabelecimento": 4082,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4083,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4084,
+        "media": 3.8,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 37
+    },
+    {
+        "estabelecimento": 4085,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4086,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4087,
+        "media": 3,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4088,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4089,
+        "media": 2.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 4090,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4091,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 4092,
+        "media": 4.5,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 97
+    },
+    {
+        "estabelecimento": 4093,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4094,
+        "media": 4.99,
+        "num_avaliacoes": 194,
+        "total_avaliacoes": 488
+    },
+    {
+        "estabelecimento": 4095,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 4096,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4097,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4099,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4100,
+        "media": 4.66,
+        "num_avaliacoes": 56,
+        "total_avaliacoes": 88
+    },
+    {
+        "estabelecimento": 4101,
+        "media": 4,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 116
+    },
+    {
+        "estabelecimento": 4102,
+        "media": 3.84,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 264
+    },
+    {
+        "estabelecimento": 4104,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4108,
+        "media": 3,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 11
+    },
+    {
+        "estabelecimento": 4109,
+        "media": 3.3,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 4110,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4111,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4113,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 4114,
+        "media": 4.71,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 4116,
+        "media": 5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 56
+    },
+    {
+        "estabelecimento": 4119,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4120,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4122,
+        "media": 4.44,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 22
+    },
+    {
+        "estabelecimento": 4123,
+        "media": 1.33,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4124,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4125,
+        "media": 2.6,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 254
+    },
+    {
+        "estabelecimento": 4127,
+        "media": 4,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4128,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4129,
+        "media": 4,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 23
+    },
+    {
+        "estabelecimento": 4130,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4131,
+        "media": 3.69,
+        "num_avaliacoes": 113,
+        "total_avaliacoes": 121
+    },
+    {
+        "estabelecimento": 4132,
+        "media": 4.4,
+        "num_avaliacoes": 10,
+        "total_avaliacoes": 275
+    },
+    {
+        "estabelecimento": 4133,
+        "media": 4.67,
+        "num_avaliacoes": 15,
+        "total_avaliacoes": 217
+    },
+    {
+        "estabelecimento": 4134,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4135,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4136,
+        "media": 2.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 34
+    },
+    {
+        "estabelecimento": 4137,
+        "media": 4.6,
+        "num_avaliacoes": 42,
+        "total_avaliacoes": 128
+    },
+    {
+        "estabelecimento": 4138,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 24
+    },
+    {
+        "estabelecimento": 4139,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 282
+    },
+    {
+        "estabelecimento": 4140,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4141,
+        "media": 2.4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 73
+    },
+    {
+        "estabelecimento": 4142,
+        "media": 4.83,
+        "num_avaliacoes": 284,
+        "total_avaliacoes": 622
+    },
+    {
+        "estabelecimento": 4143,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4145,
+        "media": 3.77,
+        "num_avaliacoes": 13,
+        "total_avaliacoes": 107
+    },
+    {
+        "estabelecimento": 4146,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 4147,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4148,
+        "media": 2.42,
+        "num_avaliacoes": 43,
+        "total_avaliacoes": 80
+    },
+    {
+        "estabelecimento": 4149,
+        "media": 2.17,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 4150,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 4151,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 4152,
+        "media": 4.33,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 41
+    },
+    {
+        "estabelecimento": 4153,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 289
+    },
+    {
+        "estabelecimento": 4155,
+        "media": 5,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 4156,
+        "media": 3.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 41
+    },
+    {
+        "estabelecimento": 4157,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4158,
+        "media": 3.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 4159,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4160,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4161,
+        "media": 2.5,
+        "num_avaliacoes": 18,
+        "total_avaliacoes": 237
+    },
+    {
+        "estabelecimento": 4162,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4163,
+        "media": 4.89,
+        "num_avaliacoes": 54,
+        "total_avaliacoes": 456
+    },
+    {
+        "estabelecimento": 4164,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4165,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4167,
+        "media": 0.64,
+        "num_avaliacoes": 22,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4168,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4169,
+        "media": 3.6,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 32
+    },
+    {
+        "estabelecimento": 4170,
+        "media": 4.78,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 4171,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4173,
+        "media": 5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 4175,
+        "media": 4.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4176,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 61
+    },
+    {
+        "estabelecimento": 4177,
+        "media": 3,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 5
+    },
+    {
+        "estabelecimento": 4178,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4179,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4183,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4184,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4185,
+        "media": 4,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 4186,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4188,
+        "media": 3.75,
+        "num_avaliacoes": 12,
+        "total_avaliacoes": 42
+    },
+    {
+        "estabelecimento": 4190,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 19
+    },
+    {
+        "estabelecimento": 4191,
+        "media": 4.76,
+        "num_avaliacoes": 76,
+        "total_avaliacoes": 376
+    },
+    {
+        "estabelecimento": 4192,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4193,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 27
+    },
+    {
+        "estabelecimento": 4194,
+        "media": 4.87,
+        "num_avaliacoes": 1234,
+        "total_avaliacoes": 1388
+    },
+    {
+        "estabelecimento": 4196,
+        "media": 4.4,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 55
+    },
+    {
+        "estabelecimento": 4197,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4199,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4200,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 13
+    },
+    {
+        "estabelecimento": 4201,
+        "media": 1.78,
+        "num_avaliacoes": 9,
+        "total_avaliacoes": 589
+    },
+    {
+        "estabelecimento": 4203,
+        "media": 3.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 75
+    },
+    {
+        "estabelecimento": 4205,
+        "media": 2.37,
+        "num_avaliacoes": 38,
+        "total_avaliacoes": 15
+    },
+    {
+        "estabelecimento": 4206,
+        "media": 5,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 16
+    },
+    {
+        "estabelecimento": 4207,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4209,
+        "media": 3.97,
+        "num_avaliacoes": 104,
+        "total_avaliacoes": 145
+    },
+    {
+        "estabelecimento": 4212,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4214,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4215,
+        "media": 3.64,
+        "num_avaliacoes": 42,
+        "total_avaliacoes": 44
+    },
+    {
+        "estabelecimento": 4216,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 56
+    },
+    {
+        "estabelecimento": 4218,
+        "media": 0,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4219,
+        "media": 2.57,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 253
+    },
+    {
+        "estabelecimento": 4220,
+        "media": 4.25,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4221,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 10
+    },
+    {
+        "estabelecimento": 4222,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4223,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4224,
+        "media": 4.12,
+        "num_avaliacoes": 33,
+        "total_avaliacoes": 117
+    },
+    {
+        "estabelecimento": 4225,
+        "media": 4.04,
+        "num_avaliacoes": 27,
+        "total_avaliacoes": 372
+    },
+    {
+        "estabelecimento": 4226,
+        "media": 3.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 4227,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 14
+    },
+    {
+        "estabelecimento": 4228,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4229,
+        "media": 4.67,
+        "num_avaliacoes": 117,
+        "total_avaliacoes": 622
+    },
+    {
+        "estabelecimento": 4230,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4231,
+        "media": 4.29,
+        "num_avaliacoes": 7,
+        "total_avaliacoes": 61
+    },
+    {
+        "estabelecimento": 4234,
+        "media": 4.5,
+        "num_avaliacoes": 8,
+        "total_avaliacoes": 62
+    },
+    {
+        "estabelecimento": 4235,
+        "media": 4.39,
+        "num_avaliacoes": 23,
+        "total_avaliacoes": 75
+    },
+    {
+        "estabelecimento": 4236,
+        "media": 3.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 8
+    },
+    {
+        "estabelecimento": 4237,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4239,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 20
+    },
+    {
+        "estabelecimento": 4242,
+        "media": 4.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4243,
+        "media": 2.6,
+        "num_avaliacoes": 5,
+        "total_avaliacoes": 26
+    },
+    {
+        "estabelecimento": 4250,
+        "media": 4,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 93
+    },
+    {
+        "estabelecimento": 4251,
+        "media": 4.54,
+        "num_avaliacoes": 37,
+        "total_avaliacoes": 135
+    },
+    {
+        "estabelecimento": 4253,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4256,
+        "media": 2.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4257,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4258,
+        "media": 4.78,
+        "num_avaliacoes": 246,
+        "total_avaliacoes": 1830
+    },
+    {
+        "estabelecimento": 4259,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4261,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4262,
+        "media": 3.5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 4264,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 45
+    },
+    {
+        "estabelecimento": 4266,
+        "media": 3.42,
+        "num_avaliacoes": 19,
+        "total_avaliacoes": 165
+    },
+    {
+        "estabelecimento": 4267,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4268,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4269,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4270,
+        "media": 1.75,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4271,
+        "media": 4.33,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4272,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4273,
+        "media": 4.89,
+        "num_avaliacoes": 27,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4274,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 3
+    },
+    {
+        "estabelecimento": 4275,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4276,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4277,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4278,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4279,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4280,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    },
+    {
+        "estabelecimento": 4281,
+        "media": 5,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4284,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4285,
+        "media": 4.67,
+        "num_avaliacoes": 3,
+        "total_avaliacoes": 114
+    },
+    {
+        "estabelecimento": 4286,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 0
+    },
+    {
+        "estabelecimento": 4287,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4288,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4289,
+        "media": 4.57,
+        "num_avaliacoes": 95,
+        "total_avaliacoes": 251
+    },
+    {
+        "estabelecimento": 4290,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 12
+    },
+    {
+        "estabelecimento": 4291,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 6
+    },
+    {
+        "estabelecimento": 4292,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 33
+    },
+    {
+        "estabelecimento": 4294,
+        "media": 4,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4295,
+        "media": 3,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 218
+    },
+    {
+        "estabelecimento": 4296,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 57
+    },
+    {
+        "estabelecimento": 4297,
+        "media": 4.89,
+        "num_avaliacoes": 87,
+        "total_avaliacoes": 196
+    },
+    {
+        "estabelecimento": 4299,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 7
+    },
+    {
+        "estabelecimento": 4300,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 2
+    },
+    {
+        "estabelecimento": 4301,
+        "media": 4.33,
+        "num_avaliacoes": 6,
+        "total_avaliacoes": 26
+    },
+    {
+        "estabelecimento": 4302,
+        "media": 3.25,
+        "num_avaliacoes": 20,
+        "total_avaliacoes": 109
+    },
+    {
+        "estabelecimento": 4303,
+        "media": 5,
+        "num_avaliacoes": 2,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4304,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 9
+    },
+    {
+        "estabelecimento": 4305,
+        "media": 4.17,
+        "num_avaliacoes": 29,
+        "total_avaliacoes": 182
+    },
+    {
+        "estabelecimento": 4306,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 55
+    },
+    {
+        "estabelecimento": 4307,
+        "media": 4.42,
+        "num_avaliacoes": 31,
+        "total_avaliacoes": 174
+    },
+    {
+        "estabelecimento": 4308,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4309,
+        "media": 4.75,
+        "num_avaliacoes": 24,
+        "total_avaliacoes": 161
+    },
+    {
+        "estabelecimento": 4310,
+        "media": 4.67,
+        "num_avaliacoes": 21,
+        "total_avaliacoes": 151
+    },
+    {
+        "estabelecimento": 4311,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 4
+    },
+    {
+        "estabelecimento": 4313,
+        "media": 2.5,
+        "num_avaliacoes": 4,
+        "total_avaliacoes": 184
+    },
+    {
+        "estabelecimento": 4316,
+        "media": 5,
+        "num_avaliacoes": 1,
+        "total_avaliacoes": 1
+    }
+]

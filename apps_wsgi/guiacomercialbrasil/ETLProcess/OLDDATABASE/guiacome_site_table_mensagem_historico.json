@@ -1,0 +1,54 @@
+,{
+    "type": "table",
+    "name": "mensagem_historico",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_historico": "1",
+    "cod_mensagem": "4",
+    "titulo": "RE: Mensagem teste",
+    "mensagem": "teste parceiro",
+    "data": "2015-01-13",
+    "parceiro": "5",
+    "admin": "0"
+},
+{
+    "cod_historico": "2",
+    "cod_mensagem": "4",
+    "titulo": "RE: Mensagem teste",
+    "mensagem": "admin",
+    "data": "2015-01-13",
+    "parceiro": "5",
+    "admin": "1"
+},
+{
+    "cod_historico": "3",
+    "cod_mensagem": "2",
+    "titulo": "RE: acrescentar classe",
+    "mensagem": "hsadvasagahdahvhf",
+    "data": "2016-03-03",
+    "parceiro": "5",
+    "admin": "1"
+},
+{
+    "cod_historico": "4",
+    "cod_mensagem": "6",
+    "titulo": "RE: José",
+    "mensagem": "ok...continue assim.",
+    "data": "2016-06-10",
+    "parceiro": "53",
+    "admin": "1"
+},
+{
+    "cod_historico": "5",
+    "cod_mensagem": "7",
+    "titulo": "RE: Pagamento de Mensalidade - Parceiro",
+    "mensagem": "Ok... sem problema.\nPode ser também para\nBradesco\nAgencia 1262-9\nConta Poupança 0002121-0\nJOSE CARLOS CRISPIM\n\nObrigado",
+    "data": "2016-06-11",
+    "parceiro": "15",
+    "admin": "1"
+}
+]
+
+}

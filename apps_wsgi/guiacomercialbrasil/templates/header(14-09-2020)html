@@ -1,0 +1,72 @@
+{% load static %}
+
+<header>
+    <div id="topo">
+        <div class="wrapper relative">
+            <ul id="menu_01">
+                <li>
+                    <a href="http://www.agendadecartoes.com.br/quem-somos/" class="quem_somos" title="Quem somos">
+                        Quem somos
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.agendadecartoes.com.br/contato/" class="contato" title="Contato">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+            <a href="http://www.agendadecartoes.com.br/contato/" class="divulgue" title="Divulgue seu negócio!">
+                Divulgue seu negócio!
+            </a>
+            <ul id="menu_social">
+                <li>
+                    <a href="https://web.whatsapp.com/send?phone=5511946117793&amp;text=Olá.%20Te%20encontrei%20no%20Guia%20Comercial%20Brasil.%20Gostaria%20de%20saber%20mais%20informações%20sobre%20sua%20empresa.%20Obrigado" title="whatsapp" target="_blank">
+                        <img src="{% static 'images/header/ico-whatsapp.png' %}" alt="" title="whatsapp" height="" width="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/guiacomercialbrasil/" title="facebook" target="_blank">
+                        <img src="{% static 'images/header/ico-facebook.png' %}" alt="" title="facebook" height="" width="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrapper header">
+        <div class="relative">
+            <div id="guiacomercialbrasil" class="relative">
+                <a href="http://www.agendadecartoes.com.br/" title="" rel="home">
+                    <img src="{% static 'images/header/guiacomercial-brasil.png' %}" alt="Guia Comercial Brasil"
+                         title="Guia Comercial Brasil" height="95" width="95">
+                </a>
+                <div id="saudacao">
+                    <span id="saudacao1">Bem-vindo ao</span>
+                    <span id="saudacao2">Guia Comercial Brasil</span>
+                    <span id="nome_guia">{{request.session.cidade_nome}}</span>
+                </div><!-- #saudacao -->
+            </div>
+            <div id="busca_cidade">
+                <p>Precisa fazer uma busca em outra cidade?</p>
+
+                {% include 'select_city.html' %}
+
+				</form>
+            </div>
+        </div>
+    </div>
+
+
+    {% if request.path != '/' %}
+        <div id="faixa">
+        	<div class="faixa wrapper">
+        		<div class="explore">
+                    <p>
+                    	<strong>Explore</strong> {{cidade}}:
+                    </p>
+                    {% include 'busca.html' %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+</header>

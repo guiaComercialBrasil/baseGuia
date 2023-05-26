@@ -1,0 +1,89 @@
+,{
+    "type": "table",
+    "name": "anuncio_pdf",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "cod_anuncio": "46",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "bc3b4e157eac177b73a9fa8e3d945699.jpg",
+    "local": "0",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "47",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "2d02b378fe932390848f5e6be73d5da4.jpg",
+    "local": "0",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "48",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "512213fda4f30d4601b034c51361e478.jpg",
+    "local": "1",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "49",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "12b9aeef48ff5b8b36161300de830db7.jpg",
+    "local": "1",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "50",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "8f15614b258d400254517010461f3a19.jpg",
+    "local": "2",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "51",
+    "cod_pdf": "25",
+    "descricao": "",
+    "imagem": "1e54ebbc6fe5efc57c77b40163d6b801.jpg",
+    "local": "2",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "53",
+    "cod_pdf": "27",
+    "descricao": "",
+    "imagem": "e2011a2085dffada283f36c9a7df8a96.jpg",
+    "local": "1",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "54",
+    "cod_pdf": "27",
+    "descricao": "",
+    "imagem": "578d032d17febffc911f7b31b5699412.jpg",
+    "local": "1",
+    "formato": "0"
+},
+{
+    "cod_anuncio": "55",
+    "cod_pdf": "27",
+    "descricao": "",
+    "imagem": "c823e3fb72b70718e6d1e55cf0167631.jpg",
+    "local": "2",
+    "formato": "1"
+},
+{
+    "cod_anuncio": "56",
+    "cod_pdf": "27",
+    "descricao": "gramas rampim",
+    "imagem": "b2b881de57f61f41074a0d94023dd133.jpg",
+    "local": "0",
+    "formato": "1"
+}
+]
+
+}

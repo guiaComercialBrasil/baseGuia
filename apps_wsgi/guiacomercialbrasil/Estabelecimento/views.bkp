@@ -1,0 +1,390 @@
+from django.shortcuts import render, redirect
+from django.http import HttpResponse, JsonResponse, Http404, HttpResponseRedirect
+from django.views import View
+from django.views.generic import FormView, DetailView
+from django.conf import settings
+from django.db.models import Count, Q
+from django.utils import timezone
+from django.utils.text import slugify
+from django.contrib import messages
+from django.contrib.auth.models import User
+from django.core.mail import send_mail, EmailMessage
+from smtplib import SMTPException
+import requests
+import datetime
+import math
+import json
+# Third Party Imports
+import ipinfo
+from bs4 import BeautifulSoup as BS
+# Model Imports
+from Estabelecimento import models as Estabelecimento
+from Customizacao import models as Customizacao
+# Form Imports
+from Estabelecimento import forms as EstabelecimentoForms
+
+import logging
+
+# 404
+def handler404(request, *args, **kwargs):
+    return redirect('home')
+
+# 500
+def handler500(request, *args, **kwargs):
+    return redirect('home')
+
+
+# Utility Functions
+def getCity(request, *args, **kwargs):
+
+    cidade = request.session.get('cidade', False)
+
+    if cidade:
+        logger = logging.getLogger(__name__)
+        logger.error(request.session.get_expire_at_browser_close())
+        try:
+            return Estabelecimento.Cidade.objects.get(id = cidade)
+        except:
+
+            cidade = Estabelecimento.Cidade.objects.get(cidade = "Mairiporã")
+            request.session['cidade'] = cidade.id
+            request.session['cidade_nome'] = str(cidade)
+
+            return cidade
+
+
+    try:
+        IPDetails = getIPDetails(IP = getIPAddress(request = request))
+        if IPDetails:
+            try:
+                cidade = Estabelecimento.Cidade.objects.get(cidade = IPDetails.city)
+            except:
+                cidade = Estabelecimento.Cidade.objects.get(cidade = "Mairiporã")
+
+            request.session['cidade'] = cidade.id
+            request.session['cidade_nome'] = str(cidade)
+            return cidade
+
+    except:
+
+        cidade = Estabelecimento.Cidade.objects.get(cidade = "Mairiporã")
+        request.session['cidade'] = cidade.id
+        request.session['cidade_nome'] = str(cidade)
+
+        return cidade
+
+
+
+def getIPAddress(request, *args, **kwargs):
+
+    XFF = request.META.get('HTTP_X_FORWARDED_FOR', False)
+
+    if XFF:
+        IP = XFF.split(',')[0].strip()
+    else:
+        IP = request.META.get('REMOTE_ADDR', False)
+    return IP
+
+def getIPDetails(IP, *args, **kwargs):
+
+    if IP:
+        handler = ipinfo.getHandler(settings.IPINFO_KEY)
+        details = handler.getDetails(IP)
+        return details
+    else:
+        return False
+
+
+# Utility Views
+def changeCity(request, city_id = False, city = False, *args, **kwargs):
+    if city:
+        cidades = Estabelecimento.Cidade.objects.all()
+        for cidade in cidades:
+            if slugify(cidade.cidade) == city:
+                city_id = cidade.id
+                break
+
+    try:
+        request.session['cidade'] = city_id
+        request.session['cidade_nome'] = str(Estabelecimento.Cidade.objects.get(id = city_id))
+        return HttpResponseRedirect(request.META.get('HTTP_REFERER', '/'))
+        #return redirect("home")
+    except Exception as e:
+        return HttpResponse(e, status = 500)
+
+
+##### AJAX
+def boost(request, *args, **kwargs):
+    if request.is_ajax():
+        estab_slug = request.GET.get("estabelecimento", False)
+        usuario = request.user if request.user.is_authenticated else None
+        if estab_slug:
+            try:
+                estabelecimento = Estabelecimento.FatoEstabelecimento.objects.get(slug = estab_slug)
+                IP = getIPAddress(request)
+                prev_boost = Estabelecimento.Impulsionamento.objects.filter(estabelecimento = estabelecimento).filter(IP = IP).order_by("-timestamp").first()
+                if prev_boost:
+                    if (timezone.now() - prev_boost.timestamp).total_seconds() <= prev_boost.DURACAO:
+                        ETA = datetime.timedelta(seconds = prev_boost.DURACAO - math.ceil((timezone.now() - prev_boost.timestamp).total_seconds()))
+                        messages.warning(request, "Você Já Impulsionou Este Estabelecimento Recentemente. Tente novamente em {} hrs".format(ETA))
+                        return HttpResponse(status = 405)
+                Estabelecimento.Impulsionamento.objects.create(estabelecimento = estabelecimento, usuario = usuario, IP = IP)
+                messages.success(request, "Impulsionado com Sucesso.")
+                return HttpResponse(status = 200)
+            except Exception:
+                return HttpResponse(status = 500)
+    else:
+        return HttpResponse(status = 404)
+
+def rate(request, *args, **kwargs):
+    if request.is_ajax():
+        estab_slug = request.GET.get("estabelecimento", False)
+        nota = request.GET.get("nota", False)
+        usuario = request.user if request.user.is_authenticated else None
+        IP = getIPAddress(request)
+        if estab_slug:
+            try:
+                estabelecimento = Estabelecimento.FatoEstabelecimento.objects.get(slug = estab_slug)
+                Estabelecimento.Nota.objects.create(estabelecimento = estabelecimento, usuario = usuario, nota = int(nota), IP = IP)
+                count = estabelecimento.nota_estabelecimento.count()
+                return HttpResponse(json.dumps({'media': str(estabelecimento.nota), 'nota': str(nota), 'count': str(count)}), status = 200)
+            except Exception as e:
+                print(e)
+                return HttpResponse(e, status = 500)
+    else:
+        return HttpResponse(status = 404)
+
+def autocompleteCity(request, *args, **kwargs):
+    if request.is_ajax():
+        estado = request.GET.get("estado", False)
+        term = request.GET.get("term", False)
+
+        cidades = Estabelecimento.Cidade.objects.filter(estado = estado, cidade__istartswith = term).values_list("cidade", flat = True)
+
+        return JsonResponse(list(cidades), safe = False)
+
+
+
+
+# Create your views here.
+class HomeView(View):
+    template_name = 'home.html'
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+
+    def get(self, request, *args, **kwargs):
+        print('got home')
+        cidade = getCity(request)
+        if not cidade:
+            print("CITY NOT FOUND")
+            messages.error(request, "Desculpe, mas não encontramos a cidade selecionada.")
+            raise Http404("Cidade não encontrada")
+        
+        # QUERY OBJECTS
+        nacional_Q = Q(alcance_nacional = True)
+        cidade_Q = Q(endereco_comercial__cidade = cidade)
+        local_Q = nacional_Q | cidade_Q 
+        destaque_Q = Q(status_destaque = True)
+        ativo_Q = Q(ativo = True)
+        impulsionamento_local = Q(estabelecimento__endereco_comercial__cidade = cidade) | Q(estabelecimento__alcance_nacional = True)
+        impulsionamento_ativo = Q(estabelecimento__ativo = True)	
+
+        # QUERIES
+        categorias = Estabelecimento.Categoria.objects.filter(categoria_pai = None)
+        destaques = Estabelecimento.FatoEstabelecimento.objects.filter(ativo_Q, destaque_Q, local_Q).order_by("?")[:6]
+        top_10_i = Estabelecimento.FatoEstabelecimento.objects.filter(ativo_Q, local_Q).order_by("-impulsionamento")[:10]
+        top_10_r = Estabelecimento.FatoEstabelecimento.objects.filter(ativo_Q, local_Q).order_by("-data_cadastro")[:10]
+        top_dia_i = Estabelecimento.Impulsionamento.objects.filter(impulsionamento_local, impulsionamento_ativo).filter(data = timezone.localdate()).values("estabelecimento").annotate(
+            total = Count("estabelecimento")
+        ).order_by("-total").first()
+        top_cidades = Estabelecimento.Cidade.objects.filter(cidade__in = ["Mairiporã", "Guarulhos", "Franco da Rocha", "Santos", "São Paulo"])
+
+
+        try:
+            top_dia_i["estabelecimento"] = Estabelecimento.FatoEstabelecimento.objects.get(id = top_dia_i.get("estabelecimento"))
+        except AttributeError:
+            pass
+        self.context.update({
+            "customizacao" : Customizacao.Customizacao.objects.get(pagina = "home"),
+            "categorias" : categorias,
+            "cidade" : cidade,
+            "destaques" : destaques,
+            "top_impulsionamentos" : top_10_i,
+            "top_recente" : top_10_r,
+            "top_impulsionamentos_dia" : top_dia_i,
+            "top_cidades" : top_cidades
+        })
+
+        return render(request, self.template_name, self.context)
+
+class SelectCity(FormView):
+    form_class = EstabelecimentoForms.CityForm
+    template_name = 'select_city.html'
+
+    def form_valid(self, form):
+        cidade = form.cleaned_data.get("cidade").id
+        self.request.session["cidade"] = cidade
+        return redirect("/")
+
+class CategoryView(View):
+    template_name = "estab_categoria.html"
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+
+    def get(self, request, *args, **kwargs):
+
+        if kwargs.get('cidade', False):
+            cidade = Estabelecimento.Cidade.objects.get(id = kwargs.get('cidade_id'))
+        else:
+            cidade = getCity(request)
+
+        if not cidade:
+            if request.session.get("cidade", False):
+                cidade = Estabelecimento.Cidade.objects.get(id = request.session.get("cidade_id", False))
+            else:
+                return redirect("selectCity")
+
+        categoria = Estabelecimento.Categoria.objects.filter(slug = kwargs.get("categoria")).first()
+        categorias = Estabelecimento.Categoria.objects.filter(categoria_pai = None)
+        if not categoria:
+            messages.add_message(request, messages.WARNING, "Categoria Não Encontrada")
+            return redirect(request.META.get('HTTP_REFERER', '/'))
+
+        nacional_Q = Q(alcance_nacional = True)
+        cidade_Q = Q(endereco_comercial__cidade = cidade)
+        local_Q = nacional_Q | cidade_Q
+
+        estabelecimentos = Estabelecimento.FatoEstabelecimento.objects.filter(local_Q).filter(ativo = True, categoria = categoria).order_by("-impulsionamento")
+        self.context.update({
+            "categorias" : categorias,
+            "categoria" : categoria,
+            "estabelecimentos" : estabelecimentos
+        })
+
+        return render(request, self.template_name, self.context)
+
+class EstabelecimentoView(DetailView):
+    model = Estabelecimento.FatoEstabelecimento
+    template_name = "estabelecimento.html"
+    slug_url_kwarg = 'slug'
+    queryset = Estabelecimento.FatoEstabelecimento.objects.filter(ativo = True)
+
+
+    def get_context_data(self, **kwargs):
+        context = super(EstabelecimentoView, self).get_context_data(**kwargs)
+
+        context.update({
+            "cidade_form" : EstabelecimentoForms.CityForm,
+            "categorias" : Estabelecimento.Categoria.objects.filter(categoria_pai = None)
+            })
+
+        try:
+            context['nota_anterior'] = Estabelecimento.Nota.objects.filter(estabelecimento = self.object).get(IP = getIPAddress(self.request))
+        except Exception:
+            context['nota_anterior'] = False
+
+
+        return context
+
+class ContactView(View):
+
+    template_name = "contact.html"
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+    mailing = [user.email for user in User.objects.filter(is_staff = True) if user.email]
+
+
+    def get(self, request, *args, **kwargs):
+        self.context.update({
+            "form" : EstabelecimentoForms.ContactMail(),
+            })
+        return render(request, self.template_name, self.context)
+
+    def post(self, request, *args, **kwargs):
+
+        try:
+            mail = EmailMessage(
+                subject = request.POST.get("nome") + " <" + request.POST.get("email") + "> - [ " + request.POST.get("assunto", "Contato GCB") + " ]",
+                body = request.POST.get("mensagem"),
+                to = self.mailing
+                )
+            mail.send(fail_silently = False)
+
+            messages.success(request, "Email enviado com sucesso !")
+
+            #send_mail(
+            #    request.POST.get("assunto", "Contato GCB"),
+            #    request.POST.get("mensagem"),
+            #    request.POST.get("email"),
+            #    self.mailing,
+            #    fail_silently=False,
+            #)
+
+        except SMTPException:
+            messages.error(request, "Erro no envio do E-mail. Por Favor, tente novamente mais tarde.")
+
+        self.context.update({
+            "form" : EstabelecimentoForms.ContactMail(),
+            })
+
+        return render(request, self.template_name, self.context)
+
+class SearchView(View):
+    template_name = "resultado_busca.html"
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+
+    def get(self, request, *args, **kwargs):
+        term = request.GET.get("palavra")
+        cidade = getCity(request)
+        if not cidade:
+            return redirect("change_city")
+
+        # MONTANDO QUERIES
+        #CATEGORIAS
+        categoria_nome = Q(nome__icontains = term)
+        categoria_keyword = Q(palavras_chave__icontains = term)
+        categorias = Estabelecimento.Categoria.objects.filter(categoria_nome | categoria_keyword)
+
+        # ESTABELECIMENTOS
+        estabelecimento_cidade = Q(endereco_fiscal__cidade = cidade) | Q(endereco_comercial__cidade = cidade) | Q(alcance_nacional = True)
+        estabelecimento_nome = Q(nome__icontains = term)
+        estabelecimento_keyword = Q(keywords__icontains = term)
+        estabelecimento_categoria_keyword = Q(categoria__palavras_chave__icontains = term)
+        estabelecimento_query = estabelecimento_nome | estabelecimento_keyword | estabelecimento_categoria_keyword
+        estabelecimentos = Estabelecimento.FatoEstabelecimento.objects.filter(ativo = True).filter(estabelecimento_cidade & estabelecimento_query).distinct().order_by("-impulsionamento")
+
+        # CATEGORIAS DOS ESTABELECIMENTOS ENCONTRADOS
+        categoria_estabelecimento = Q(estabelecimentos_categorias__in = estabelecimentos)
+        categorias_extra = Estabelecimento.Categoria.objects.filter(categoria_estabelecimento)
+
+
+        # ESTABLECIMENTOS EXTRA COM MESMAS CATEGORIAS
+#        estabelecimento_categoria = Q(categoria__in = categorias) | Q(categoria__in = categorias_extra)
+#        estabelecimentos_extra = Estabelecimento.FatoEstabelecimento.objects.filter(ativo = True).filter(estabelecimento_categoria & estabelecimento_cidade)
+
+        # ASSEMBLE
+        categorias = categorias.union(categorias_extra)
+#        estabelecimentos = estabelecimentos.union(estabelecimentos_extra).order_by("-impulsionamento")
+
+        # ATUALIZANDO CONTEXTO
+        self.context.update({
+            "estabelecimentos" : estabelecimentos,
+            "categorias" : categorias,
+            "categorias_total" : Estabelecimento.Categoria.objects.filter(categoria_pai = None)
+            })
+
+        return render(request, self.template_name, self.context)
+
+class WhoAreWeView(View):
+    template_name = "quem_somos.html"
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, self.context)
+
+class ContactNumbersView(View):
+    template_name = "telefones_uteis.html"
+    context = {"cidade_form" : EstabelecimentoForms.CityForm}
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, self.context)
+
+
+

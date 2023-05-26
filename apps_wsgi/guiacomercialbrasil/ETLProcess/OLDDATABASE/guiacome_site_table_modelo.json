@@ -1,0 +1,225 @@
+,{
+    "type": "table",
+    "name": "modelo",
+    "database": "guiacome_site",
+    "data": 
+[
+{
+    "id": "1",
+    "modelo": "a2",
+    "item": "menu_categorias",
+    "color": "#fbe9d1"
+},
+{
+    "id": "2",
+    "modelo": "a2",
+    "item": "destaque_home",
+    "color": "#fbe9d1"
+},
+{
+    "id": "3",
+    "modelo": "a2",
+    "item": "category_selecionada",
+    "color": "#ee9215"
+},
+{
+    "id": "4",
+    "modelo": "a2",
+    "item": "faixa_header",
+    "color": "#ee9215"
+},
+{
+    "id": "5",
+    "modelo": "a3",
+    "item": "menu_categorias",
+    "color": "#f3e4e7"
+},
+{
+    "id": "6",
+    "modelo": "a3",
+    "item": "destaque_home",
+    "color": "#f3e4e7"
+},
+{
+    "id": "7",
+    "modelo": "a3",
+    "item": "categoria_selecionad",
+    "color": "#ad5065"
+},
+{
+    "id": "8",
+    "modelo": "a3",
+    "item": "faixa_header",
+    "color": "#ad5065"
+},
+{
+    "id": "9",
+    "modelo": "a4",
+    "item": "menu_categorias",
+    "color": "#fae2e2"
+},
+{
+    "id": "10",
+    "modelo": "a4",
+    "item": "destaque_home",
+    "color": "#fae2e2"
+},
+{
+    "id": "11",
+    "modelo": "a4",
+    "item": "categoria_selecionad",
+    "color": "#e96b6c"
+},
+{
+    "id": "12",
+    "modelo": "a4",
+    "item": "faixa_header",
+    "color": "#e96b6c"
+},
+{
+    "id": "13",
+    "modelo": "a5",
+    "item": "menu_categorias",
+    "color": "#e1ede9"
+},
+{
+    "id": "14",
+    "modelo": "a5",
+    "item": "destaque_home",
+    "color": "#e1ede9"
+},
+{
+    "id": "15",
+    "modelo": "a5",
+    "item": "categoria_selecionad",
+    "color": "#66a592"
+},
+{
+    "id": "16",
+    "modelo": "a5",
+    "item": "faixa_header",
+    "color": "#66a592"
+},
+{
+    "id": "17",
+    "modelo": "a6",
+    "item": "menu_categorias",
+    "color": "#ffe6e1"
+},
+{
+    "id": "18",
+    "modelo": "a6",
+    "item": "destaque_home",
+    "color": "#ffe6e1"
+},
+{
+    "id": "19",
+    "modelo": "a6",
+    "item": "categoria_selecionad",
+    "color": "#f98166"
+},
+{
+    "id": "20",
+    "modelo": "a6",
+    "item": "faixa_header",
+    "color": "#f98166"
+},
+{
+    "id": "21",
+    "modelo": "a7",
+    "item": "menu_categorias",
+    "color": "#fcf1d3"
+},
+{
+    "id": "22",
+    "modelo": "a7",
+    "item": "destaque_home",
+    "color": "#ecba25"
+},
+{
+    "id": "23",
+    "modelo": "a7",
+    "item": "categoria_selecionad",
+    "color": "#ecba25"
+},
+{
+    "id": "24",
+    "modelo": "a7",
+    "item": "faixa_header",
+    "color": "#ecba25"
+},
+{
+    "id": "25",
+    "modelo": "a8",
+    "item": "menu_categorias",
+    "color": "#dbf2e2"
+},
+{
+    "id": "26",
+    "modelo": "a8",
+    "item": "destaque_home",
+    "color": "#dbf2e2"
+},
+{
+    "id": "27",
+    "modelo": "a8",
+    "item": "categoria_selecionad",
+    "color": "#4cb968"
+},
+{
+    "id": "28",
+    "modelo": "a8",
+    "item": "faixa_header",
+    "color": "#4cb968"
+},
+{
+    "id": "29",
+    "modelo": "a9",
+    "item": "menu_categorias",
+    "color": "#ddf6fd"
+},
+{
+    "id": "30",
+    "modelo": "a9",
+    "item": "destaque_home",
+    "color": "#ddf6fd"
+},
+{
+    "id": "31",
+    "modelo": "a9",
+    "item": "categoria_selecionad",
+    "color": "#50d1f8"
+},
+{
+    "id": "32",
+    "modelo": "a9",
+    "item": "faixa_header",
+    "color": "#50d1f8"
+},
+{
+    "id": "33",
+    "modelo": "a10",
+    "item": "menu_categorias",
+    "color": "#f2f2da"
+},
+{
+    "id": "34",
+    "modelo": "a10",
+    "item": "destaque_home",
+    "color": "#f2f2da"
+},
+{
+    "id": "35",
+    "modelo": "a10",
+    "item": "categoria_selecionad",
+    "color": "#c1bf46"
+},
+{
+    "id": "36",
+    "modelo": "a10",
+    "item": "faixa_header",
+    "color": "#c1bf46"
+}
+]
+
+}
